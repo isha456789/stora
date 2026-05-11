@@ -1,0 +1,37 @@
+.header-main{
+    ul{
+        list-style: none !important;
+    }
+    .header-top{
+    font-size: 16px;
+    line-height: 25px;
+}
+.header-bottom{
+    .header-logo{
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .list-item{
+        &:first-child{
+            margin-left: 0px !important;
+        }
+    }
+    .list-text{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .current{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .header-icons{
+        .header-icon{
+            height: 20px !important;
+            &:first-child{
+                margin-left: 0px !important;
+            }
+        }
+    }
+}
+
+}

@@ -1,0 +1,130 @@
+.bg-D61E2A {
+  background-color: #D61E2A;
+}
+
+.bg-FFF8F4 {
+  background-color: #FFF8F4;
+}
+
+.bg-141414 {
+  background-color: #141414;
+}
+
+.text-FAFAFA {
+  color: #FAFAFA;
+}
+
+.text-141414 {
+  color: #141414;
+}
+
+.btnA {
+  height: 55px;
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: 0.3s ease;
+}
+.btnA.bg-141414-btn {
+  background-color: #141414;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+}
+.btnA.bg-141414-btn:hover {
+  background-color: #FFF8F4;
+  color: #141414;
+}
+.btnA.bg-141414-btn .dote-btn {
+  height: 40px;
+}
+
+.header-main ul {
+  list-style: none !important;
+}
+.header-main .header-top {
+  font-size: 16px;
+  line-height: 25px;
+}
+.header-main .header-bottom .header-logo {
+  font-size: 38px;
+  line-height: 38px;
+}
+.header-main .header-bottom .list-item:first-child {
+  margin-left: 0px !important;
+}
+.header-main .header-bottom .list-text {
+  font-size: 16px;
+  line-height: 25px;
+}
+.header-main .header-bottom .current {
+  font-size: 16px;
+  line-height: 25px;
+}
+.header-main .header-bottom .header-icons .header-icon {
+  height: 20px !important;
+}
+.header-main .header-bottom .header-icons .header-icon:first-child {
+  margin-left: 0px !important;
+}
+
+.hero-section {
+  height: 750px;
+}
+.hero-section .dote-btn {
+  height: 50px;
+}
+
+@font-face {
+  font-family: "dmsans-regular";
+  src: url("../fonts/dmsans-regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins-Medium.ttf");
+}
+.DM-Sans {
+  font-family: "dmsans-regular";
+}
+
+.Poppins-Regular {
+  font-family: "Poppins-Regular";
+}
+
+.Poppins-Medium {
+  font-family: "Poppins-Medium";
+}
+
+.header-main ul {
+  list-style: none !important;
+}
+.header-main .header-top {
+  font-size: 16px;
+  line-height: 25px;
+}
+.header-main .header-bottom .header-logo {
+  font-size: 38px;
+  line-height: 38px;
+}
+.header-main .header-bottom .list-item:first-child {
+  margin-left: 0px !important;
+}
+.header-main .header-bottom .list-text {
+  font-size: 16px;
+  line-height: 25px;
+}
+.header-main .header-bottom .current {
+  font-size: 16px;
+  line-height: 25px;
+}
+.header-main .header-bottom .header-icons .header-icon {
+  height: 20px !important;
+}
+.header-main .header-bottom .header-icons .header-icon:first-child {
+  margin-left: 0px !important;
+}
+
+/*# sourceMappingURL=main.css.map */

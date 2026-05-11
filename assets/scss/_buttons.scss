@@ -1,0 +1,19 @@
+.btnA {
+  height: 55px;
+  padding-left: 40px;
+  padding-right: 40px;
+  transition: 0.3s ease;
+  &.bg-141414-btn {
+    background-color: $color-141414;
+    color: $white;
+    font-size: 18px;
+    line-height: 27px;
+    &:hover {
+      background-color: $color-FFF8F4;
+      color: $text-141414;
+    }
+    .dote-btn {
+      height: 40px;
+    }
+  }
+}

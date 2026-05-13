@@ -13,12 +13,19 @@
       background-color: $color-FFF8F4;
       color: $text-141414;
 
-      .btn-icon{
+      .btn-icon ,
+      .cart-icon{
         filter: invert(1);
       }
     }
     .btn-icon {
       height: 40px;
+    }
+    .red-btn{
+      height: 30px;
+    }
+    .cart-icon {
+      height: 26px !important;
     }
   }
 }

@@ -21,6 +21,15 @@
     padding-right: 24px;
   }
 }
+.row5 {
+  margin-left: -5px;
+  margin-right: -5px;
+
+  & > * {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
 
 .bg-D61E2A{
     background-color: $color-D61E2A;
@@ -39,4 +48,14 @@
 }
 .text-D61E2A{
     color: $text-D61E2A;
+}
+.text-818181{
+    color: $text-818181;
+}
+.text-f7f7f7{
+    color: $text-F7F7F7;
+}
+
+.opacity50{
+  opacity: $opacity50;
 }

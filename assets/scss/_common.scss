@@ -3,16 +3,15 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-.row {
-  margin-left: 0px;
-  margin-right: 0px;
+// .row {
+//   margin-left: -0px;
+//   margin-right: -0px;
 
-  & > * {
-    padding-left: 0px;
-    padding-right: 0px
-    ;
-  }
-}
+//   & > * {
+//     padding-left: 0px;
+//     padding-right: 0px;
+//   }
+// }
 .row24 {
   margin-left: -24px;
   margin-right: -24px;
@@ -87,6 +86,9 @@
   overflow: hidden;
   margin-bottom: 140px;
   background-color: $color-FFF8F4;
+   @media #{$md}{
+    margin-bottom: 80px;
+   }
 
   .marquee-track .slick-track {
     display: flex !important;
@@ -134,6 +136,10 @@
     line-height: 60px;
     margin-bottom: 84px;
     color: $text-141414;
+     @media #{$md}{
+      font-size: 30px;
+    line-height: 35px;
+     }
   }
 
   .testimonial-slider {
@@ -271,7 +277,7 @@
   .seller-sub-title {
     font-size: 18px;
     line-height: 28px;
-     color: $text-141414;
+    color: $text-141414;
   }
 
   .product-cards {
@@ -444,8 +450,7 @@
       .product-price {
         font-size: 16px;
         line-height: 22px;
-        color: $text-D61E2A;
-
+        color: color-D61E2A;
       }
     }
   }
@@ -511,42 +516,76 @@
         .news-read {
           font-size: 16px;
           line-height: 24px;
-          color: $text-D61E2A;
+          color: $color-D61E2A;
         }
       }
     }
   }
 }
 
-// .category-section {
-//   margin-bottom: 150px;
-//   .category-cards {
-//     .category-img {
-//       height: 205px;
-//       img {
-//         transition: 0.3s ease;
-//       }
+.left-right-image-section {
+  padding-top: 285px;
+    padding-bottom: 122px;
+     @media #{$md}{
+      padding-bottom: 80px;
+  padding-top: 100px;
 
-//       &:hover {
-//         img {
-//           transform: scale(1.05);
-//         }
-//       }
-//     }
-//     .category-title {
-//       font-size: 20px;
-//       line-height: 26px;
-//       color: $text-141414;
-//     }
-//     .card-price {
-//       font-size: 10px;
-//       line-height: 28px;
-//       color: $text-D61E2A;
-//     }
-//     .color-price {
-//       font-size: 18px;
-//       line-height: 28px;
-//       color: $text-D61E2A;
-//     }
-//   }
-// }
+     }
+
+  .left-right-content {
+    .ourstory-title {
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 29px;
+      color: $text-141414;
+      text-transform: uppercase;
+       @media #{$md}{
+        font-size: 16px;
+      line-height: 17px;
+      margin-bottom: 12px;
+      }
+    }
+    .aboutus-title {
+      font-size: 50px;
+      line-height: 50px;
+      margin-bottom: 29px;
+      color: $text-141414;
+      text-transform: uppercase;
+      @media #{$md}{
+        font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 19px;
+      }
+    }
+    .aboutus-content {
+      .abt-content-title{
+        font-size: 16px;
+        line-height: 25px;
+        color: $text-141414;
+        margin-bottom: 7px  ;
+      }
+      .aboutus-des {
+        font-size: 18px;
+        line-height: 28px;
+        color: $text-818181;
+         @media #{$md}{
+        font-size: 14px;
+      line-height: 22px;
+      margin-bottom: 19px;
+      }
+      }
+    }
+  }
+  .left-right-img {
+    height: 659px;
+    overflow: hidden;
+    border-radius: 10px;
+     @media #{$md}{
+      height: 305px;
+     }
+
+    &.left-img {
+      margin-right: auto;
+    }
+  }
+}

@@ -1,0 +1,204 @@
+.history-slider-section {
+  .history-slider-title {
+    font-size: 50px;
+    line-height: 50px;
+    color: $text-141414;
+    text-transform: uppercase;
+    margin-bottom: 52px;
+
+    @media #{$md} {
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 42px;
+    }
+  }
+
+  .history-slider {
+    .history-content {
+      .history-number {
+        background: #d61e2a;
+        min-width: 64px;
+        height: 30px;
+        border-radius: 30px;
+        border: 1px solid #fff8f4;
+        color: $text-FAFAFA;
+        font-size: 15px;
+         @media #{$md}{
+          font-size: 13px;
+         }
+      }
+
+      .history-line {
+        height: 3px;
+        width: 100%;
+        background: #d61e2a;
+      }
+
+      .our-history-card {
+        margin-top: 23px;
+        padding-right: 20px;
+
+        .our-history-title {
+          font-size: 18px;
+          line-height: 24px;
+          color: $text-141414;
+          margin-top: 22px;
+          margin-bottom: 16px;
+
+          @media #{$md} {
+            font-size: 14px;
+            line-height: 16px;
+            margin-bottom: 12px;
+          }
+        }
+
+        .our-history-img {
+          height: 358px;
+
+          @media #{$md} {
+            height: 200px;
+          }
+        }
+
+        .our-history-desc {
+          font-size: 14px;
+          line-height: 24px;
+          color: $text-818181;
+           @media #{$md}{
+            font-size: 13px;
+          line-height: 21px;
+           }
+        }
+      }
+    }
+  }
+}
+
+.team-section {
+  padding-bottom: 145px;
+   @media #{$md}{
+  padding-bottom: 80px;
+  
+
+   }
+
+  .team-top {
+    .team-heading {
+      .team-title {
+        font-size: 50px;
+        line-height: 50px;
+        color: $text-141414;
+         @media #{$md}{
+          font-size: 30px;
+          line-height: 30px;
+          margin-bottom: 7px;
+         }
+      }
+
+      .team-des {
+        font-size: 18px;
+        line-height: 28px;
+        color: $text-141414;
+         @media #{$md}{
+          font-size: 14px;
+          line-height: 20px;
+          margin-bottom: 10px;
+         }
+      }
+    }
+  }
+
+  .team-card {
+    .team-card-wrapper {
+       @media #{$md}{
+         
+          margin-bottom:30px;
+         }
+      .team-img {
+        height: 358px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        border-radius: 10px;
+         @media #{$md}{
+        height: 300px;
+          
+         }
+      }
+
+      .team-content {
+        .team-content-title {
+          font-size: 20px;
+          line-height: 26px;
+          color: $color-D61E2A;
+          margin-bottom: 14px;
+           @media #{$md}{
+            font-size: 20px;
+          line-height: 22px;
+          margin-bottom:8px;
+
+           }
+        }
+
+        .team-content-des {
+          font-size: 16px;
+          line-height: 25px;
+          color: $text-818181;
+        }
+      }
+    }
+  }
+}
+
+.faq-section {
+  padding-bottom: 170px;
+
+  .heading {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+.accordian-block {
+  .heading {
+    font-size: 25px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+
+  .closet-accordion {
+    &:last-child {
+      border-bottom: 1px solid #14141440;
+    }
+
+    .closet-item {
+      .closet-header {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        cursor: pointer;
+        border-top: 1px solid #14141440;
+
+        .closet-header-title {
+          font-size: 20px;
+          line-height: 24px;
+        }
+
+        .accordion-close {
+          img {
+            height: 24px;
+          }
+        }
+
+        &.active {
+          .accordion-close {
+            transform: rotate(180deg);
+          }
+        }
+      }
+
+      .closet-content {
+        display: none;
+        padding-bottom: 35px;
+      }
+    }
+  }
+}

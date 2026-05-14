@@ -1254,6 +1254,10 @@
   font-family: "Nunito-Light";
   src: url("../fonts/Nunito-Light.ttf");
 }
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../fonts/Poppins-Light.ttf");
+}
 .dmsans-regular {
   font-family: "dmsans-regular";
 }
@@ -1272,6 +1276,10 @@
 
 .Poppins-Bold {
   font-family: "Poppins-Bold";
+}
+
+.Poppins-Light {
+  font-family: "Poppins-Light";
 }
 
 .Nunito-Light {
@@ -1318,6 +1326,58 @@
 }
 .header-main .header-bottom .header-icons .header-icon:first-child {
   margin-left: 0px !important;
+}
+
+.shop-page {
+  padding: 80px 0;
+  background: #f8f5f2;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.product-card {
+  cursor: pointer;
+}
+
+.product-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-img img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.product-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.wishlist-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.product-content h4 {
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.product-price {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */

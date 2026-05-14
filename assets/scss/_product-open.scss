@@ -1,0 +1,177 @@
+.winter-product-section {
+  padding-top: 210px;
+  .winter-title {
+    color: $text-141414;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .winter-sub-title {
+    color: $text-818181;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .red-btn {
+    height: 32px;
+  }
+  .news-read {
+    font-size: 16px;
+    line-height: 24px;
+    color: $text-D61E2A;
+  }
+  .winter-cards {
+    padding-top: 62px;
+    .winter-products {
+      .winter-image {
+        height: 358px;
+        width: 345px;
+        overflow: hidden;
+        border-radius: 22px;
+      }
+    }
+    .right-content {
+      .right-tag {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 15px 20px;
+        background-color: $text-F7F7F7;
+        color: $text-141414;
+      }
+      .wishlist {
+        height: 22px;
+      }
+      .right-title {
+        font-size: 50px;
+        line-height: 65px;
+        color: $text-141414;
+      }
+      .red-tag {
+        font-size: 26px;
+        line-height: 39px;
+        color: $text-D61E2A;
+      }
+      .line-tag {
+        font-size: 18px;
+        line-height: 27px;
+        color: $text-818181;
+      }
+      .black-tag {
+        background-color: $text-141414;
+        color: $white;
+        font-size: 13px;
+        line-height: 13px;
+        padding: 08px 10px;
+        border-radius: 10px;
+      }
+
+      .right-desc {
+        font-size: 16px;
+        line-height: 28px;
+        color: $text-818181;
+      }
+      .colors-item {
+        .list-color {
+          font-size: 16px;
+          line-height: 25px;
+          color: $color-141414;
+        }
+        .bg-wrapper {
+          padding: 2px;
+          border: 1px solid #8c7972;
+          border-radius: 50px;
+
+          .brouwn-bg {
+            background-color: #8c7972;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+          }
+        }
+
+        .green-bg {
+          background-color: #1a5442;
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+        }
+
+        .blue-bg {
+          background-color: #153e76;
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+        }
+      }
+      .size-item {
+        .size-text {
+          font-size: 16px;
+          line-height: 25px;
+          color: $color-141414;
+        }
+        .size-list {
+          padding-bottom: 80px;
+          .size-wrapper {
+            border: 1px solid #707070;
+            border-radius: 20px;
+
+            &.active {
+              border: none;
+            }
+
+            .size-index {
+              font-size: 14px;
+              line-height: 14px;
+              color: $text-141414;
+              padding: 10px 20px;
+              border-radius: 20px;
+              background-color: transparent;
+              border: 0px;
+
+              &.active {
+                background-color: $text-D61E2A !important;
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+      .card-item {
+        padding-bottom: 85px;
+        .quantity-box {
+          width: 96px;
+          height: 40px;
+          border: 1px solid $text-141414;;
+          border-radius: 50px;
+          padding: 10px 12px;
+          background-color: #fff;
+
+          .qty-btn {
+            border: none;
+            background: transparent;
+            font-size: 16px;
+            color: $text-141414;
+            cursor: pointer;
+          }
+          .qty-number {
+            font-size: 14px;
+            color: $text-141414;
+          }
+        }
+        .cart-btn {
+          width: 240px;
+          height: 40px;
+          border: none;
+          border-radius: 50px;
+          background-color:$text-141414;;
+          color: $white;
+          gap: 8px;
+          font-size: 14px;
+          cursor: pointer;
+
+        .card-icon{
+            height: 20px;
+        }
+        }
+      }
+    }
+  }
+}

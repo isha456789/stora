@@ -1320,4 +1320,13 @@
   margin-left: 0px !important;
 }
 
-/*# sourceMappingURL=main.css.map */
+.story-left-right-section {
+  padding-top: 285px;
+}
+.story-left-right-section .left-section .ourstory-title {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 29px;
+  color: #141414;
+  text-transform: uppercase;
+}/*# sourceMappingURL=main.css.map */

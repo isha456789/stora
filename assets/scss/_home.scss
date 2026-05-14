@@ -25,6 +25,7 @@
 }
 
 .top-strip-section {
+  background-color: $color-FFF8F4;
   overflow: hidden;
   margin-bottom: 130px;
   .strip-item {
@@ -37,6 +38,7 @@
     .strip-text {
       font-size: 15px;
       line-height: 14px;
+      color: $text-141414;
     }
   }
 }
@@ -46,18 +48,30 @@
   .category-cards {
     .category-img {
       height: 205px;
+      img {
+        transition: 0.3s ease;
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.05);
+        }
+      }
     }
     .category-title {
       font-size: 20px;
       line-height: 26px;
+      color: $text-141414;
     }
     .card-price {
       font-size: 10px;
       line-height: 28px;
+      color: $text-D61E2A;
     }
     .color-price {
       font-size: 18px;
       line-height: 28px;
+      color: $text-D61E2A;
     }
   }
 }
@@ -110,7 +124,6 @@
           height: 25px;
         }
       }
-      
 
       .product-img {
         position: absolute;
@@ -154,6 +167,7 @@
         font-size: 10px;
         border-radius: 6px;
         z-index: 2;
+        color: $text-141414;
       }
       .wishlist {
         position: absolute;
@@ -179,19 +193,23 @@
       }
 
       .product-title {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 24px;
+        color: $text-141414;
       }
 
       .product-discount {
         font-size: 13px;
         line-height: 13px;
         border-radius: 6px;
+        background-color: $text-141414;        
       }
 
       .product-price {
         font-size: 16px;
         line-height: 22px;
+        color: $text-D61E2A;
+
       }
     }
   }
@@ -200,6 +218,7 @@
 .marquee-strip {
   overflow: hidden;
   margin-bottom: 140px;
+  background-color: $color-FFF8F4;
 
   .marquee-track .slick-track {
     display: flex !important;
@@ -242,10 +261,12 @@
   .seller-title {
     font-size: 50px;
     line-height: 50px;
+    color: $text-141414;
   }
   .seller-sub-title {
     font-size: 18px;
     line-height: 28px;
+     color: $text-141414;
   }
 
   .product-cards {
@@ -405,17 +426,21 @@
       .product-title {
         font-size: 18px;
         line-height: 24px;
+        color: $text-141414;
       }
 
       .product-discount {
         font-size: 13px;
         line-height: 13px;
         border-radius: 6px;
+        background-color: $text-141414;
       }
 
       .product-price {
         font-size: 16px;
         line-height: 22px;
+        color: $text-D61E2A;
+
       }
     }
   }
@@ -426,10 +451,12 @@
   .story-prefix {
     font-size: 18px;
     line-height: 27px;
+    color: $text-141414;
   }
   .stoty-title {
     font-size: 50px;
     line-height: 60px;
+    color: $text-141414;
   }
   .story-img {
     height: 660px;
@@ -451,10 +478,12 @@
     .story-first {
       font-size: 16px;
       line-height: 20px;
+      color: $text-141414;
     }
     .story-second {
       font-size: 14px;
       line-height: 18px;
+      color: $text-818181;
     }
   }
 }
@@ -468,6 +497,7 @@
     font-size: 50px;
     line-height: 60px;
     margin-bottom: 84px;
+    color: $text-141414;
   }
 
   .testimonial-slider {
@@ -523,11 +553,13 @@
     .user-name {
       font-size: 14px;
       line-height: 28px;
+      color: $text-141414;
     }
 
     .user-rating {
       font-size: 14px;
       line-height: 28px;
+      color: $text-141414;
     }
 
     .red-star {
@@ -537,6 +569,7 @@
     .review-text {
       font-size: 14px;
       line-height: 24px;
+      color: $text-141414;
     }
 
     .quote-icon {
@@ -575,10 +608,12 @@
   .news-title {
     font-size: 50px;
     line-height: 50px;
+    color: $text-141414;
   }
   .news-sub-title {
     font-size: 18px;
     line-height: 28px;
+    color: $text-141414;
   }
 
   .product-cards {
@@ -609,15 +644,18 @@
         font-size: 10px;
         border-radius: 6px;
         z-index: 2;
+        color: $text-141414;
       }
       .news-content {
         .news-text {
           font-size: 16px;
           line-height: 25px;
+          color: $text-141414;
         }
         .news-desc {
           font-size: 13px;
           line-height: 24px;
+          color: $text-818181;
         }
         .red-btn {
           height: 32px;
@@ -625,6 +663,7 @@
         .news-read {
           font-size: 16px;
           line-height: 24px;
+          color: $text-D61E2A;
         }
       }
     }
@@ -636,6 +675,7 @@
   .stroma-title {
     font-size: 40px;
     line-height: 50px;
+    color: $text-141414;
   }
   .storma-img {
     height: 360px;

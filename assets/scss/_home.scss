@@ -44,7 +44,12 @@
 }
 
 .category-section {
+  margin-top: 0px;
   margin-bottom: 150px;
+
+  &.product-section {
+    padding-top: 220px;
+  }
   .category-cards {
     .category-img {
       height: 205px;
@@ -202,14 +207,13 @@
         font-size: 13px;
         line-height: 13px;
         border-radius: 6px;
-        background-color: $text-141414;        
+        background-color: $text-141414;
       }
 
       .product-price {
         font-size: 16px;
         line-height: 22px;
         color: $text-D61E2A;
-
       }
     }
   }
@@ -266,7 +270,7 @@
   .seller-sub-title {
     font-size: 18px;
     line-height: 28px;
-     color: $text-141414;
+    color: $text-141414;
   }
 
   .product-cards {
@@ -440,7 +444,6 @@
         font-size: 16px;
         line-height: 22px;
         color: $text-D61E2A;
-
       }
     }
   }

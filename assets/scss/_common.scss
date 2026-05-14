@@ -509,35 +509,35 @@
   }
 }
 
-.category-section {
-  margin-bottom: 150px;
-  .category-cards {
-    .category-img {
-      height: 205px;
-      img {
-        transition: 0.3s ease;
-      }
+// .category-section {
+//   margin-bottom: 150px;
+//   .category-cards {
+//     .category-img {
+//       height: 205px;
+//       img {
+//         transition: 0.3s ease;
+//       }
 
-      &:hover {
-        img {
-          transform: scale(1.05);
-        }
-      }
-    }
-    .category-title {
-      font-size: 20px;
-      line-height: 26px;
-      color: $text-141414;
-    }
-    .card-price {
-      font-size: 10px;
-      line-height: 28px;
-      color: $text-D61E2A;
-    }
-    .color-price {
-      font-size: 18px;
-      line-height: 28px;
-      color: $text-D61E2A;
-    }
-  }
-}
+//       &:hover {
+//         img {
+//           transform: scale(1.05);
+//         }
+//       }
+//     }
+//     .category-title {
+//       font-size: 20px;
+//       line-height: 26px;
+//       color: $text-141414;
+//     }
+//     .card-price {
+//       font-size: 10px;
+//       line-height: 28px;
+//       color: $text-D61E2A;
+//     }
+//     .color-price {
+//       font-size: 18px;
+//       line-height: 28px;
+//       color: $text-D61E2A;
+//     }
+//   }
+// }

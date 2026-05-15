@@ -441,7 +441,7 @@
 }
 
 .left-right-image-section {
-  padding-top: 285px;
+  padding-top: 230px;
   padding-bottom: 122px;
 }
 @media (max-width: 991px) {
@@ -495,6 +495,10 @@
     line-height: 22px;
     margin-bottom: 19px;
   }
+}
+.left-right-image-section .left-right-content .aboutus-content .aboutus-foral {
+  font-size: 50px;
+  line-height: 65px;
 }
 .left-right-image-section .left-right-img {
   height: 659px;
@@ -1792,33 +1796,63 @@
   line-height: 28px;
   color: #818181;
 }
-.winter-product-section .winter-cards .right-content .colors-item .list-color {
+.winter-product-section .winter-cards .right-content .product-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 30px;
+  /* LEFT SIDE */
+}
+.winter-product-section .winter-cards .right-content .product-top .colors-item .list-color {
   font-size: 16px;
   line-height: 25px;
   color: #141414;
+  margin-bottom: 15px;
 }
-.winter-product-section .winter-cards .right-content .colors-item .bg-wrapper {
+.winter-product-section .winter-cards .right-content .product-top .color-list {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.winter-product-section .winter-cards .right-content .product-top .bg-wrapper {
   padding: 2px;
   border: 1px solid #8c7972;
-  border-radius: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.winter-product-section .winter-cards .right-content .colors-item .bg-wrapper .brouwn-bg {
+.winter-product-section .winter-cards .right-content .product-top .brouwn-bg {
   background-color: #8c7972;
   width: 50px;
   height: 50px;
-  border-radius: 50px;
+  border-radius: 50%;
 }
-.winter-product-section .winter-cards .right-content .colors-item .green-bg {
+.winter-product-section .winter-cards .right-content .product-top .green-bg {
   background-color: #1a5442;
   width: 50px;
   height: 50px;
-  border-radius: 50px;
+  border-radius: 50%;
 }
-.winter-product-section .winter-cards .right-content .colors-item .blue-bg {
+.winter-product-section .winter-cards .right-content .product-top .blue-bg {
   background-color: #153e76;
   width: 50px;
   height: 50px;
-  border-radius: 50px;
+  border-radius: 50%;
+}
+.winter-product-section .winter-cards .right-content .product-top {
+  /* RIGHT SIDE */
+}
+.winter-product-section .winter-cards .right-content .product-top .size-guide {
+  padding-top: 10px;
+}
+.winter-product-section .winter-cards .right-content .product-top .size-guide a {
+  font-size: 16px;
+  line-height: 25px;
+  color: #141414;
+  text-decoration: underline;
+  font-family: "Poppins-Regular";
 }
 .winter-product-section .winter-cards .right-content .size-item .size-text {
   font-size: 16px;

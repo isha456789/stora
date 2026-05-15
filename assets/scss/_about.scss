@@ -23,9 +23,9 @@
         border: 1px solid #fff8f4;
         color: $text-FAFAFA;
         font-size: 15px;
-         @media #{$md}{
+        @media #{$md} {
           font-size: 13px;
-         }
+        }
       }
 
       .history-line {
@@ -64,10 +64,10 @@
           font-size: 14px;
           line-height: 24px;
           color: $text-818181;
-           @media #{$md}{
+          @media #{$md} {
             font-size: 13px;
-          line-height: 21px;
-           }
+            line-height: 21px;
+          }
         }
       }
     }
@@ -76,11 +76,9 @@
 
 .team-section {
   padding-bottom: 145px;
-   @media #{$md}{
-  padding-bottom: 80px;
-  
-
-   }
+  @media #{$md} {
+    padding-bottom: 80px;
+  }
 
   .team-top {
     .team-heading {
@@ -88,41 +86,39 @@
         font-size: 50px;
         line-height: 50px;
         color: $text-141414;
-         @media #{$md}{
+        @media #{$md} {
           font-size: 30px;
           line-height: 30px;
           margin-bottom: 7px;
-         }
+        }
       }
 
       .team-des {
         font-size: 18px;
         line-height: 28px;
         color: $text-141414;
-         @media #{$md}{
+        @media #{$md} {
           font-size: 14px;
           line-height: 20px;
           margin-bottom: 10px;
-         }
+        }
       }
     }
   }
 
   .team-card {
     .team-card-wrapper {
-       @media #{$md}{
-         
-          margin-bottom:30px;
-         }
+      @media #{$md} {
+        margin-bottom: 30px;
+      }
       .team-img {
         height: 358px;
         margin-bottom: 20px;
         overflow: hidden;
         border-radius: 10px;
-         @media #{$md}{
-        height: 300px;
-          
-         }
+        @media #{$md} {
+          height: 300px;
+        }
       }
 
       .team-content {
@@ -131,12 +127,11 @@
           line-height: 26px;
           color: $color-D61E2A;
           margin-bottom: 14px;
-           @media #{$md}{
+          @media #{$md} {
             font-size: 20px;
-          line-height: 22px;
-          margin-bottom:8px;
-
-           }
+            line-height: 22px;
+            margin-bottom: 8px;
+          }
         }
 
         .team-content-des {
@@ -151,18 +146,17 @@
 
 .faq-section {
   padding-bottom: 170px;
-   @media #{$md}{
-  padding-bottom: 80px;
-
-   }
+  @media #{$md} {
+    padding-bottom: 80px;
+  }
 
   .heading {
     font-size: 50px;
     line-height: 60px;
-     @media #{$md}{
+    @media #{$md} {
       font-size: 30px;
-    line-height: 30px;
-     }
+      line-height: 30px;
+    }
   }
 }
 
@@ -188,9 +182,9 @@
         .closet-header-title {
           font-size: 20px;
           line-height: 24px;
-           @media #{$md}{
+          @media #{$md} {
             font-size: 17px;
-           }
+          }
         }
 
         .accordion-close {

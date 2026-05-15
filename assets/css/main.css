@@ -1,128 +1,19 @@
-@charset "UTF-8";
-.container {
-  max-width: 1440px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+/* Error: expected "{".
+ *    ,
+ * 17 | @import"blog-list";
+ *    |                   ^
+ *    '
+ *   assets/scss/main.scss 17:19  root stylesheet */
 
-.row24 {
-  margin-left: -24px;
-  margin-right: -24px;
-}
-.row24 > * {
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.row5 {
-  margin-left: -5px;
-  margin-right: -5px;
-}
-.row5 > * {
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.row10 {
-  margin-left: -10px;
-  margin-right: -10px;
-}
-.row10 > * {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.our-story-section {
-  margin-bottom: 190px;
-}
-@media (max-width: 991px) {
-  .our-story-section {
-    margin-bottom: 80px;
-  }
-}
-.our-story-section .story-prefix {
-  font-size: 18px;
-  line-height: 27px;
-  color: #141414;
-}
-.our-story-section .stoty-title {
-  font-size: 50px;
-  line-height: 60px;
-  color: #141414;
-}
-@media (max-width: 991px) {
-  .our-story-section .stoty-title {
-    font-size: 30px;
-    line-height: 30px;
-  }
-}
-.our-story-section .story-img {
-  height: 660px;
-}
-.our-story-section .story-img img {
-  transition: 0.4s ease;
-}
-.our-story-section .story-img:hover img {
-  transform: scale(1.05);
-}
-.our-story-section .story-content {
-  border-bottom: 1px solid rgba(129, 129, 129, 0.3);
-}
-.our-story-section .story-content .story-icon {
-  height: 43px;
-}
-.our-story-section .story-content .story-first {
-  font-size: 16px;
-  line-height: 20px;
-  color: #141414;
-}
-.our-story-section .story-content .story-second {
-  font-size: 14px;
-  line-height: 18px;
-  color: #818181;
-}
-
-.marquee-strip {
-  overflow: hidden;
-  margin-bottom: 140px;
-  background-color: #FFF8F4;
-}
-@media (max-width: 991px) {
-  .marquee-strip {
-    margin-bottom: 80px;
-  }
-}
-.marquee-strip .marquee-track .slick-track {
-  display: flex !important;
-  align-items: center !important;
-}
-.marquee-strip .marquee-track .slick-slide {
-  display: flex !important;
-  align-items: center !important;
-}
-.marquee-strip .marquee-track .slick-slide > div {
-  display: flex;
-  align-items: center;
-}
-.marquee-strip .marquee-item {
-  display: flex;
-  align-items: center;
-  font-size: 70px;
-  color: transparent;
-  -webkit-text-stroke: 2px #d61e2a;
-  margin-right: 45px;
-  white-space: nowrap;
-}
-.marquee-strip .marquee-star {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 40px;
-}
-.marquee-strip .marquee-star .marquee-star img {
-  height: 100%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 17 \2502  @import"blog-list";\a    \2502                    ^\a    \2575 \a   assets/scss/main.scss 17:19  root stylesheet';
 }
 
 .testimonial-section {

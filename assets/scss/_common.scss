@@ -42,10 +42,9 @@
 
 .our-story-section {
   margin-bottom: 190px;
-   @media #{$md}{
-  margin-bottom: 80px;
-
-   }
+  @media #{$md} {
+    margin-bottom: 80px;
+  }
   .story-prefix {
     font-size: 18px;
     line-height: 27px;
@@ -55,10 +54,10 @@
     font-size: 50px;
     line-height: 60px;
     color: $text-141414;
-     @media #{$md}{
-       font-size: 30px;
-    line-height: 30px;
-     }
+    @media #{$md} {
+      font-size: 30px;
+      line-height: 30px;
+    }
   }
   .story-img {
     height: 660px;
@@ -94,9 +93,9 @@
   overflow: hidden;
   margin-bottom: 140px;
   background-color: $color-FFF8F4;
-   @media #{$md}{
+  @media #{$md} {
     margin-bottom: 80px;
-   }
+  }
 
   .marquee-track .slick-track {
     display: flex !important;
@@ -137,10 +136,9 @@
 .testimonial-section {
   overflow: hidden;
   margin-bottom: 180px;
-   @media #{$md}{
-  margin-bottom: 80px;
-
-   }
+  @media #{$md} {
+    margin-bottom: 80px;
+  }
 
   .testimonial-heading {
     text-align: center;
@@ -148,13 +146,11 @@
     line-height: 60px;
     margin-bottom: 84px;
     color: $text-141414;
-     @media #{$md}{
-      font-size: 30px ;
-    line-height: 35px ;
-    margin-bottom: 40px ;
-
-     }
-    
+    @media #{$md} {
+      font-size: 30px;
+      line-height: 35px;
+      margin-bottom: 40px;
+    }
   }
 
   .testimonial-slider {
@@ -539,13 +535,12 @@
 }
 
 .left-right-image-section {
-  padding-top: 285px;
-    padding-bottom: 122px;
-     @media #{$md}{
-      padding-bottom: 80px;
-  padding-top: 100px;
-
-     }
+  padding-top: 230px;
+  padding-bottom: 122px;
+  @media #{$md} {
+    padding-bottom: 80px;
+    padding-top: 100px;
+  }
 
   .left-right-content {
     .ourstory-title {
@@ -554,10 +549,10 @@
       margin-bottom: 29px;
       color: $text-141414;
       text-transform: uppercase;
-       @media #{$md}{
+      @media #{$md} {
         font-size: 16px;
-      line-height: 17px;
-      margin-bottom: 12px;
+        line-height: 17px;
+        margin-bottom: 12px;
       }
     }
     .aboutus-title {
@@ -566,28 +561,32 @@
       margin-bottom: 29px;
       color: $text-141414;
       text-transform: uppercase;
-      @media #{$md}{
+      @media #{$md} {
         font-size: 30px;
-      line-height: 30px;
-      margin-bottom: 19px;
+        line-height: 30px;
+        margin-bottom: 19px;
       }
     }
     .aboutus-content {
-      .abt-content-title{
+      .abt-content-title {
         font-size: 16px;
         line-height: 25px;
         color: $text-141414;
-        margin-bottom: 7px  ;
+        margin-bottom: 7px;
       }
       .aboutus-des {
         font-size: 18px;
         line-height: 28px;
         color: $text-818181;
-         @media #{$md}{
-        font-size: 14px;
-      line-height: 22px;
-      margin-bottom: 19px;
+        @media #{$md} {
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 19px;
+        }
       }
+      .aboutus-foral {
+        font-size: 50px;
+        line-height: 65px;
       }
     }
   }
@@ -595,9 +594,9 @@
     height: 659px;
     overflow: hidden;
     border-radius: 10px;
-     @media #{$md}{
+    @media #{$md} {
       height: 305px;
-     }
+    }
 
     &.left-img {
       margin-right: auto;

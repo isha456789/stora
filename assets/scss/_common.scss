@@ -467,7 +467,8 @@
   }
 }
 
-.news_insights-section {
+.news_insights-section,
+.news-category-section {
   margin-bottom: 120px;
   .news-title {
     font-size: 50px;
@@ -481,8 +482,8 @@
   }
 
   .product-cards {
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
     .product-card {
       padding-inline: 14px;
 
@@ -601,5 +602,59 @@
     &.left-img {
       margin-right: auto;
     }
+  }
+}
+
+.pagination {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  a {
+    text-decoration: none;
+  }
+
+  /* Buttons */
+  .page-btn,
+  .page-number {
+    border: none;
+    background: $color-FFF8F4;
+    color: $text-141414;
+    height: 50px;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Poppins-Regular";
+    transition: 0.3s;
+  }
+
+  /* Number Circle */
+  .page-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  /* Active Page */
+  .page-number.active {
+    background: $color-D61E2A;
+    color: white;
+  }
+
+  /* Hover Effect */
+  .page-btn:hover,
+  .page-number:hover {
+    background: $text-818181;
+  }
+
+  .page-number.active:hover {
+    background: #c91024;
   }
 }

@@ -185,7 +185,90 @@
 
                             <!-- Right Side -->
                             <div class="size-guide">
-                                <a href="#">SIZE GUIDE</a>
+                                <a type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                    aria-controls="offcanvasRight">SIZE GUIDE</a>
+
+                                <div class="offcanvas size-guide-offcanvas offcanvas-end" tabindex="-1"
+                                    id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasRightLabel">SIZE GUIDE</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+
+                                        <div class="size-guide-content">
+                                            <div class="size-guide-img">
+                                                <img src="assets/images/product-o3.png"
+                                                    class="h-100 w-100 object-fit-cover" alt="">
+                                            </div>
+                                            <p class="size-guide-desc Poppins-Regular">
+                                                Find answers to common questions about our jewellery,
+                                                materials, and care to help you shop with confidence.
+                                            </p>
+
+                                            <div class="table-responsive">
+
+                                                <table class="size-guide-table">
+
+                                                    <thead>
+                                                        <tr>
+                                                            <th>SIZE IN (CM)</th>
+                                                            <th>XS</th>
+                                                            <th>S</th>
+                                                            <th>M</th>
+                                                            <th>L</th>
+                                                            <th>XL</th>
+                                                            <th>XXL</th>
+                                                            <th>3XL</th>
+                                                        </tr>
+                                                    </thead>
+
+                                                    <tbody>
+
+                                                        <tr>
+                                                            <td>Chest</td>
+                                                            <td>80</td>
+                                                            <td>86</td>
+                                                            <td>92</td>
+                                                            <td>98</td>
+                                                            <td>104</td>
+                                                            <td>112</td>
+                                                            <td>120</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td>Waist</td>
+                                                            <td>64</td>
+                                                            <td>70</td>
+                                                            <td>76</td>
+                                                            <td>82</td>
+                                                            <td>90</td>
+                                                            <td>98</td>
+                                                            <td>106</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td>Hip</td>
+                                                            <td>88</td>
+                                                            <td>94</td>
+                                                            <td>100</td>
+                                                            <td>106</td>
+                                                            <td>112</td>
+                                                            <td>118</td>
+                                                            <td>124</td>
+                                                        </tr>
+
+                                                    </tbody>
+
+                                                </table>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="size-item">
@@ -244,13 +327,101 @@
 
                             <!-- Add To Cart -->
                             <div class="ms-3 col-lg-9">
-                                <a
-                                    class="cart-btn d-flex align-items-center justify-content-center text-decoration-none text-nowrap">
+                                <a class="cart-btn d-flex align-items-center justify-content-center text-decoration-none text-nowrap "
+                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight-cart" type="button"
+                                    aria-controls="offcanvasRight">
                                     <div class="card-icon me-3">
                                         <img src="assets/images/bag.svg" alt="" class="h-100">
                                     </div>
                                     Add To Cart
                                 </a>
+                                <div class="offcanvas cart-offcanvas offcanvas-end" tabindex="-1"
+                                    id="offcanvasRight-cart" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasRightLabel dmsans-regular">YOUR BAG (2)</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="cart-offcanvas-wrapper">
+                                            <div class="cart-wrapper">
+                                                <div class="cart-iteam d-flex">
+                                                    <div class="cart-item-img">
+                                                        <img src="assets/images/product-o1.png"
+                                                            class="h-100 w-100 object-fit-cover" alt="">
+                                                    </div>
+                                                    <div class="cart-item-content flex-grow-1">
+
+                                                        <div class="d-flex justify-content-between">
+                                                            <div>
+                                                                <div class="canvas-product-title dmsans-medium">Wool
+                                                                    Touchscreen Gloves</div>
+                                                                <div class="canvas-product-des Poppins-Medium">Qty 1
+                                                                </div>
+                                                            </div>
+
+                                                            <button class="remove-btn">
+                                                                <img src="assets/images/close.svg"
+                                                                    class="h-100 w-100 object-fit-cover" alt="">
+                                                            </button>
+                                                        </div>
+
+                                                        <p class="canvas-product-price Poppins-Medium">€69.00</p>
+
+                                                    </div>
+                                                </div>
+                                                <div class="cart-iteam d-flex">
+                                                    <div class="cart-item-img">
+                                                        <img src="assets/images/product-o1.png"
+                                                            class="h-100 w-100 object-fit-cover" alt="">
+                                                    </div>
+                                                    <div class="cart-item-content flex-grow-1">
+
+                                                        <div class="d-flex justify-content-between">
+                                                            <div>
+                                                                <div class="canvas-product-title dmsans-medium">Wool
+                                                                    Classic Beanie</div>
+                                                                <div class="canvas-product-des Poppins-Medium">Qty 1
+                                                                </div>
+                                                            </div>
+
+                                                            <button class="remove-btn">
+                                                                <img src="assets/images/close.svg"
+                                                                    class="h-100 w-100 object-fit-cover" alt="">
+                                                            </button>
+                                                        </div>
+
+                                                        <p class="canvas-product-price Poppins-Medium">€ 49.00</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cart-footer">
+
+                                                <div
+                                                    class="subtotal-area d-flex justify-content-between align-items-center">
+                                                    <span class="dmsans-regular">SUBTOTAL</span>
+                                                    <h4 class="dmsans-regular">€ 248.00</h4>
+                                                </div>
+
+                                                <div class="shipping-note Poppins-Regular">
+                                                    Tax included and shipping calculated at checkout
+                                                </div>
+
+                                                <a href="#" class="checkout-btn Poppins-Regular">
+                                                    CHECKOUT
+                                                </a>
+
+                                                <a href="#" class="view-cart-btn Poppins-Regular">
+                                                    VIEW CART
+                                                </a>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
 
                             </div>
                         </div>

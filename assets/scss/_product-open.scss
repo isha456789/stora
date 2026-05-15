@@ -1,5 +1,6 @@
 .winter-product-section {
   padding-top: 210px;
+  padding-bottom: 135px;
   .winter-title {
     color: $text-141414;
     font-size: 18px;
@@ -164,18 +165,246 @@
           color: $white;
           font-size: 14px;
           cursor: pointer;
-          padding:  12px 220px;
+          padding: 12px 220px;
 
           .card-icon {
             height: 24px;
           }
-        //   &:hover{
-        //     color: $black;
-        //     background-color: transparent;
-        //     border: 1px solid $black;
-        //   }
+          //   &:hover{
+          //     color: $black;
+          //     background-color: transparent;
+          //     border: 1px solid $black;
+          //   }
+        }
+      }
+      .look-item {
+        .look-title {
+          color: $text-141414;
+          font-size: 25px;
+          line-height: 50px;
+        }
+        .look-list {
+          margin-bottom: 100px;
+          .look-img {
+            height: 80px;
+          }
+          .look-tag {
+            font-size: 10px;
+            line-height: 13px;
+            padding: 20px;
+            background-color: $text-F7F7F7;
+            color: $text-141414;
+          }
+          .look-text {
+            font-size: 16px;
+            line-height: 21px;
+            color: $text-141414;
+          }
+          .look-price {
+            font-size: 14px;
+            line-height: 18px;
+            color: $color-D61E2A;
+          }
+        }
+      }
+      .faq-list {
+        margin-bottom: 20px;
+        .faq-heading {
+          font-size: 25px;
+          text-transform: uppercase;
+          margin-bottom: 30px;
+        }
+
+        .faq-item {
+          border-top: 1px solid #bdbdbd;
+        }
+
+        .faq-item:last-child {
+          border-bottom: 1px solid #bdbdbd;
+        }
+
+        .faq-question {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 30px 0;
+          cursor: pointer;
+        }
+
+        .faq-question {
+          font-size: 20px;
+          line-height: 26px;
+          color: $text-141414;
+        }
+
+        .down-arrow {
+          height: 23px;
+          transition: 0.3s ease;
+        }
+
+        .faq-answer {
+          max-height: 0;
+          overflow: hidden;
+          transition: 0.4s ease;
+        }
+
+        .faq-answer {
+          font-size: 14px;
+          line-height: 30px;
+          color: $text-818181;
+        }
+
+        .faq-item.active .faq-answer {
+          max-height: 300px;
+        }
+
+        .faq-item.active .down-arrow {
+          transform: rotate(180deg);
         }
       }
     }
+  }
+}
+
+.fashion-arrival-section {
+  padding: 20px;
+  margin-bottom: 140px;
+
+  .fashion-arrival-wrapper {
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    min-height: 700px;
+
+    .fashion-banner-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      height: 960px;
+
+      &.fashion-small-banner {
+        height: 470px;
+        margin-bottom: 16px;
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    .fashion-banner-content {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      z-index: 2;
+    }
+    .fashion-small-title {
+      font-size: 18px;
+      line-height: 27px;
+    }
+    .fashion-banner-title {
+      font-size: 50px;
+      line-height: 50px;
+    }
+    .fashion-banner-text {
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 35px;
+
+      &.banner-padding {
+        padding-bottom: 600px;
+      }
+    }
+
+    .fashion-right-side {
+      display: flex;
+      flex-direction: column;
+
+      .fashion-content-right .fashion-banner-content {
+        left: auto;
+        right: 35px;
+      }
+    }
+
+    .fashion-small-banner .fashion-banner-title {
+      font-size: 52px;
+    }
+
+    .fashion-small-banner .fashion-banner-text {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
+
+.style-hub-section {
+  padding-bottom: 140px;
+  /* LEFT SIDE */
+  .style-hub-content {
+    padding-right: 40px;
+
+    .style-hub-subtitle {
+      font-size: 18px;
+      line-height: 27px;
+      color: $text-141414;
+    }
+
+    .style-hub-heading {
+      font-size: 50px;
+      line-height: 50px;
+      color: $text-141414;
+    }
+
+    .style-hub-description {
+      font-size: 16px;
+      line-height: 28px;
+      color: $text-141414;
+    }
+  }
+
+  /* RIGHT SIDE */
+  .style-hub-faq-card {
+    border-top: 1px solid #14141440;
+  }
+
+  .style-hub-faq-card:last-child {
+    border-bottom: 1px solid #14141440;
+  }
+
+  .style-hub-faq-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+    cursor: pointer;
+  }
+
+  .style-hub-faq-header {
+    font-size: 20px;
+    color: $text-141414;
+    margin-bottom: 0px;
+  }
+
+  .down-arrow {
+    height: 23px;
+    transition: 0.3s ease;
+  }
+
+  .style-hub-faq-body {
+    display: none;
+    .hub-ans {
+      padding-bottom: 30px;
+      font-size: 16px;
+      line-height: 27px;
+      color: $text-818181;
+      max-width: 700px;
+      margin-bottom: 0;
+    }
+  }
+
+  .style-hub-faq-card.active .down-arrow {
+    transform: rotate(180deg);
   }
 }

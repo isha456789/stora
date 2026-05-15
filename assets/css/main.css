@@ -1725,6 +1725,7 @@
 
 .winter-product-section {
   padding-top: 210px;
+  padding-bottom: 135px;
 }
 .winter-product-section .winter-title {
   color: #141414;
@@ -1881,6 +1882,205 @@
 }
 .winter-product-section .winter-cards .right-content .card-item .cart-btn .card-icon {
   height: 24px;
+}
+.winter-product-section .winter-cards .right-content .look-item .look-title {
+  color: #141414;
+  font-size: 25px;
+  line-height: 50px;
+}
+.winter-product-section .winter-cards .right-content .look-item .look-list {
+  margin-bottom: 100px;
+}
+.winter-product-section .winter-cards .right-content .look-item .look-list .look-img {
+  height: 80px;
+}
+.winter-product-section .winter-cards .right-content .look-item .look-list .look-tag {
+  font-size: 10px;
+  line-height: 13px;
+  padding: 20px;
+  background-color: #F7F7F7;
+  color: #141414;
+}
+.winter-product-section .winter-cards .right-content .look-item .look-list .look-text {
+  font-size: 16px;
+  line-height: 21px;
+  color: #141414;
+}
+.winter-product-section .winter-cards .right-content .look-item .look-list .look-price {
+  font-size: 14px;
+  line-height: 18px;
+  color: #D61E2A;
+}
+.winter-product-section .winter-cards .right-content .faq-list {
+  margin-bottom: 20px;
+}
+.winter-product-section .winter-cards .right-content .faq-list .faq-heading {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.winter-product-section .winter-cards .right-content .faq-list .faq-item {
+  border-top: 1px solid #bdbdbd;
+}
+.winter-product-section .winter-cards .right-content .faq-list .faq-item:last-child {
+  border-bottom: 1px solid #bdbdbd;
+}
+.winter-product-section .winter-cards .right-content .faq-list .faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  cursor: pointer;
+}
+.winter-product-section .winter-cards .right-content .faq-list .faq-question {
+  font-size: 20px;
+  line-height: 26px;
+  color: #141414;
+}
+.winter-product-section .winter-cards .right-content .faq-list .down-arrow {
+  height: 23px;
+  transition: 0.3s ease;
+}
+.winter-product-section .winter-cards .right-content .faq-list .faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s ease;
+}
+.winter-product-section .winter-cards .right-content .faq-list .faq-answer {
+  font-size: 14px;
+  line-height: 30px;
+  color: #818181;
+}
+.winter-product-section .winter-cards .right-content .faq-list .faq-item.active .faq-answer {
+  max-height: 300px;
+}
+.winter-product-section .winter-cards .right-content .faq-list .faq-item.active .down-arrow {
+  transform: rotate(180deg);
+}
+
+.fashion-arrival-section {
+  padding: 20px;
+  margin-bottom: 140px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper {
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  min-height: 700px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 960px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-card.fashion-small-banner {
+  height: 470px;
+  margin-bottom: 16px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-card.fashion-small-banner:last-child {
+  margin-bottom: 0px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-content {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 2;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-small-title {
+  font-size: 18px;
+  line-height: 27px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-title {
+  font-size: 50px;
+  line-height: 50px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-text {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-text.banner-padding {
+  padding-bottom: 600px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-right-side {
+  display: flex;
+  flex-direction: column;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-right-side .fashion-content-right .fashion-banner-content {
+  left: auto;
+  right: 35px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-small-banner .fashion-banner-title {
+  font-size: 52px;
+}
+.fashion-arrival-section .fashion-arrival-wrapper .fashion-small-banner .fashion-banner-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.style-hub-section {
+  padding-bottom: 140px;
+  /* LEFT SIDE */
+}
+.style-hub-section .style-hub-content {
+  padding-right: 40px;
+}
+.style-hub-section .style-hub-content .style-hub-subtitle {
+  font-size: 18px;
+  line-height: 27px;
+  color: #141414;
+}
+.style-hub-section .style-hub-content .style-hub-heading {
+  font-size: 50px;
+  line-height: 50px;
+  color: #141414;
+}
+.style-hub-section .style-hub-content .style-hub-description {
+  font-size: 16px;
+  line-height: 28px;
+  color: #141414;
+}
+.style-hub-section {
+  /* RIGHT SIDE */
+}
+.style-hub-section .style-hub-faq-card {
+  border-top: 1px solid rgba(20, 20, 20, 0.2509803922);
+}
+.style-hub-section .style-hub-faq-card:last-child {
+  border-bottom: 1px solid rgba(20, 20, 20, 0.2509803922);
+}
+.style-hub-section .style-hub-faq-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+  cursor: pointer;
+}
+.style-hub-section .style-hub-faq-header {
+  font-size: 20px;
+  color: #141414;
+  margin-bottom: 0px;
+}
+.style-hub-section .down-arrow {
+  height: 23px;
+  transition: 0.3s ease;
+}
+.style-hub-section .style-hub-faq-body {
+  display: none;
+}
+.style-hub-section .style-hub-faq-body .hub-ans {
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 27px;
+  color: #818181;
+  max-width: 700px;
+  margin-bottom: 0;
+}
+.style-hub-section .style-hub-faq-card.active .down-arrow {
+  transform: rotate(180deg);
 }
 
 .contact-section {

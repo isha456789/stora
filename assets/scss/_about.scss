@@ -151,10 +151,18 @@
 
 .faq-section {
   padding-bottom: 170px;
+   @media #{$md}{
+  padding-bottom: 80px;
+
+   }
 
   .heading {
     font-size: 50px;
     line-height: 60px;
+     @media #{$md}{
+      font-size: 30px;
+    line-height: 30px;
+     }
   }
 }
 
@@ -180,6 +188,9 @@
         .closet-header-title {
           font-size: 20px;
           line-height: 24px;
+           @media #{$md}{
+            font-size: 17px;
+           }
         }
 
         .accordion-close {

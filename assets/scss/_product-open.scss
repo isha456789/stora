@@ -1,26 +1,32 @@
 .winter-product-section {
   padding-top: 210px;
   padding-bottom: 135px;
+
   .winter-title {
     color: $text-141414;
     font-size: 18px;
     line-height: 27px;
   }
+
   .winter-sub-title {
     color: $text-818181;
     font-size: 18px;
     line-height: 27px;
   }
+
   .red-btn {
     height: 32px;
   }
+
   .news-read {
     font-size: 16px;
     line-height: 24px;
     color: $color-D61E2A;
   }
+
   .winter-cards {
     padding-top: 62px;
+
     .winter-products {
       .winter-image {
         height: 358px;
@@ -29,6 +35,7 @@
         border-radius: 22px;
       }
     }
+
     .right-content {
       .right-tag {
         font-size: 14px;
@@ -37,24 +44,29 @@
         background-color: $text-F7F7F7;
         color: $text-141414;
       }
+
       .wishlist {
         height: 22px;
       }
+
       .right-title {
         font-size: 50px;
         line-height: 65px;
         color: $text-141414;
       }
+
       .red-tag {
         font-size: 26px;
         line-height: 39px;
         color: $color-D61E2A;
       }
+
       .line-tag {
         font-size: 18px;
         line-height: 27px;
         color: $text-818181;
       }
+
       .black-tag {
         background-color: $text-141414;
         color: $white;
@@ -69,6 +81,7 @@
         line-height: 28px;
         color: $text-818181;
       }
+
       .product-top {
         display: flex;
         justify-content: space-between;
@@ -76,11 +89,92 @@
         width: 100%;
         margin-bottom: 30px;
 
+        .size-guide-offcanvas {
+          width: 640px !important;
+        }
+
+        .size-guide-content {
+
+          .size-guide-top {
+            margin-bottom: 30px;
+
+            h2 {
+              font-size: 18px;
+              line-height: 28px;
+            }
+
+            .btn-close-area {
+              border: 0;
+              background: transparent;
+              padding: 0;
+
+              img {
+                width: 28px;
+              }
+            }
+          }
+
+          .size-guide-img {
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            height: 400px;
+
+
+          }
+
+          .size-guide-desc {
+            font-size: 18px;
+            line-height: 28px;
+            color: $color-141414;
+            margin-bottom: 40px;
+          }
+
+          .size-guide-table {
+            width: 100%;
+            border-collapse: collapse;
+
+            thead {
+              border-bottom: 1px solid #d8d8d8;
+            }
+
+            tbody {
+
+              tr {
+                border-bottom: 1px solid #e3e3e3;
+
+                &:last-child {
+                  border-bottom: 0;
+                }
+              }
+            }
+
+            th,
+            td {
+              padding: 25px 0;
+              text-align: center;
+              color: $color-141414;
+              font-size: 16px;
+              font-weight: 400;
+              font-family: "Poppins-Light";
+            }
+
+            th:first-child,
+            td:first-child {
+              text-align: left;
+              width: 160px;
+            }
+          }
+        }
+
+
+
+
         /* LEFT SIDE */
         .colors-item .list-color {
           font-size: 16px;
           line-height: 25px;
-          color: #141414;
+          color: $color-141414;
           margin-bottom: 15px;
         }
 
@@ -130,7 +224,7 @@
           line-height: 25px;
           color: $text-141414;
           text-decoration: underline;
-      font-family: "Poppins-Regular";
+          font-family: "Poppins-Regular";
         }
       }
 
@@ -140,8 +234,10 @@
           line-height: 25px;
           color: $color-141414;
         }
+
         .size-list {
           padding-bottom: 80px;
+
           .size-wrapper {
             border: 1px solid #707070;
             border-radius: 20px;
@@ -167,8 +263,10 @@
           }
         }
       }
+
       .card-item {
         padding-bottom: 85px;
+
         .quantity-box {
           height: 50px;
           border: 1px solid $text-141414;
@@ -184,11 +282,13 @@
             color: $text-141414;
             cursor: pointer;
           }
+
           .qty-number {
             font-size: 14px;
             color: $text-141414;
           }
         }
+
         .cart-btn {
           height: 50px;
           border: none;
@@ -202,6 +302,7 @@
           .card-icon {
             height: 24px;
           }
+
           //   &:hover{
           //     color: $black;
           //     background-color: transparent;
@@ -209,17 +310,21 @@
           //   }
         }
       }
+
       .look-item {
         .look-title {
           color: $text-141414;
           font-size: 25px;
           line-height: 50px;
         }
+
         .look-list {
           margin-bottom: 100px;
+
           .look-img {
             height: 80px;
           }
+
           .look-tag {
             font-size: 10px;
             line-height: 13px;
@@ -227,11 +332,13 @@
             background-color: $text-F7F7F7;
             color: $text-141414;
           }
+
           .look-text {
             font-size: 16px;
             line-height: 21px;
             color: $text-141414;
           }
+
           .look-price {
             font-size: 14px;
             line-height: 18px;
@@ -239,8 +346,10 @@
           }
         }
       }
+
       .faq-list {
         margin-bottom: 20px;
+
         .faq-heading {
           font-size: 25px;
           text-transform: uppercase;
@@ -332,14 +441,17 @@
       left: 40px;
       z-index: 2;
     }
+
     .fashion-small-title {
       font-size: 18px;
       line-height: 27px;
     }
+
     .fashion-banner-title {
       font-size: 50px;
       line-height: 50px;
     }
+
     .fashion-banner-text {
       font-size: 18px;
       line-height: 28px;
@@ -373,6 +485,7 @@
 
 .style-hub-section {
   padding-bottom: 140px;
+
   /* LEFT SIDE */
   .style-hub-content {
     padding-right: 40px;
@@ -426,6 +539,7 @@
 
   .style-hub-faq-body {
     display: none;
+
     .hub-ans {
       padding-bottom: 30px;
       font-size: 16px;
@@ -438,5 +552,117 @@
 
   .style-hub-faq-card.active .down-arrow {
     transform: rotate(180deg);
+  }
+}
+
+.cart-offcanvas {
+  width: 500px !important;
+
+  .cart-offcanvas-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    .cart-wrapper {
+      .cart-iteam {
+        margin-bottom: 50px;
+
+        .cart-item-img {
+          height: 78px;
+          margin-right: 20px;
+        }
+
+        .remove-btn {
+          height: 15px;
+          filter: invert(1);
+          border: none;
+          background: transparent;
+        }
+
+        .canvas-product-title {
+          font-size: 16px;
+          line-height: 21px;
+          color: $color-141414;
+          margin-bottom: 8px;
+        }
+
+        .canvas-product-des {
+          font-size: 14px;
+          line-height: 21px;
+          color: $color-141414;
+          opacity: 80%;
+          margin-bottom: 6px;
+
+        }
+
+        .canvas-product-price {
+          font-size: 14px;
+          line-height: 21px;
+          color: $color-D61E2A;
+        }
+      }
+
+
+    }
+
+    .cart-footer {
+      .subtotal-area {
+        margin-bottom: 30px;
+        span {
+          font-size: 18px;
+          line-height: 24px;
+          color: $color-141414;
+        }
+
+        h4 {
+          font-size: 28px;
+          line-height: 37px;
+          color: $color-141414;
+
+        }
+      }
+
+      .shipping-note {
+        background-color: #F0F0F0;
+        font-size: 14px;
+        line-height: 28px;
+        color: $text-818181;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+       margin-bottom: 30px;
+      }
+
+      .checkout-btn {
+        width: 100%;
+        height: 60px;
+        border-radius: 50px;
+        background: $color-D61E2A;
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        transition: 0.3s ease;
+        margin-bottom: 30px;
+
+        &:hover {
+          background: #111;
+          color: #fff;
+        }
+      }
+
+      .view-cart-btn {
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        color:$color-141414;
+        text-decoration: underline;
+      }
+    }
   }
 }

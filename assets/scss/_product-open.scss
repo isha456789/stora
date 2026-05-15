@@ -16,7 +16,7 @@
   .news-read {
     font-size: 16px;
     line-height: 24px;
-    color: $text-D61E2A;
+    color: $color-D61E2A;
   }
   .winter-cards {
     padding-top: 62px;
@@ -47,7 +47,7 @@
       .red-tag {
         font-size: 26px;
         line-height: 39px;
-        color: $text-D61E2A;
+        color: $color-D61E2A;
       }
       .line-tag {
         font-size: 18px;
@@ -127,7 +127,7 @@
               border: 0px;
 
               &.active {
-                background-color: $text-D61E2A !important;
+                background-color: $color-D61E2A !important;
                 color: $white;
               }
             }
@@ -137,12 +137,12 @@
       .card-item {
         padding-bottom: 85px;
         .quantity-box {
-          width: 96px;
-          height: 40px;
-          border: 1px solid $text-141414;;
+          height: 50px;
+          border: 1px solid $text-141414;
           border-radius: 50px;
-          padding: 10px 12px;
+          padding: 10px 40px;
           background-color: #fff;
+          gap: 30px;
 
           .qty-btn {
             border: none;
@@ -157,19 +157,23 @@
           }
         }
         .cart-btn {
-          width: 240px;
-          height: 40px;
+          height: 50px;
           border: none;
           border-radius: 50px;
-          background-color:$text-141414;;
+          background-color: $text-141414;
           color: $white;
-          gap: 8px;
           font-size: 14px;
           cursor: pointer;
+          padding:  12px 220px;
 
-        .card-icon{
-            height: 20px;
-        }
+          .card-icon {
+            height: 24px;
+          }
+        //   &:hover{
+        //     color: $black;
+        //     background-color: transparent;
+        //     border: 1px solid $black;
+        //   }
         }
       }
     }

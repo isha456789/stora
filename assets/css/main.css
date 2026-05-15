@@ -35,6 +35,11 @@
 .our-story-section {
   margin-bottom: 190px;
 }
+@media (max-width: 991px) {
+  .our-story-section {
+    margin-bottom: 80px;
+  }
+}
 .our-story-section .story-prefix {
   font-size: 18px;
   line-height: 27px;
@@ -44,6 +49,12 @@
   font-size: 50px;
   line-height: 60px;
   color: #141414;
+}
+@media (max-width: 991px) {
+  .our-story-section .stoty-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 .our-story-section .story-img {
   height: 660px;
@@ -118,6 +129,11 @@
   overflow: hidden;
   margin-bottom: 180px;
 }
+@media (max-width: 991px) {
+  .testimonial-section {
+    margin-bottom: 80px;
+  }
+}
 .testimonial-section .testimonial-heading {
   text-align: center;
   font-size: 50px;
@@ -129,6 +145,7 @@
   .testimonial-section .testimonial-heading {
     font-size: 30px;
     line-height: 35px;
+    margin-bottom: 40px;
   }
 }
 .testimonial-section .testimonial-slider {
@@ -234,6 +251,7 @@
 }
 .storma-section .storma-img {
   height: 360px;
+  width: 280px;
 }
 .storma-section .storma-img img {
   transition: 0.4s ease;
@@ -1082,133 +1100,6 @@
   color: #D61E2A;
 }
 
-.our-story-section {
-  margin-bottom: 190px;
-}
-.our-story-section .story-prefix {
-  font-size: 18px;
-  line-height: 27px;
-  color: #141414;
-}
-.our-story-section .stoty-title {
-  font-size: 50px;
-  line-height: 60px;
-  color: #141414;
-}
-.our-story-section .story-img {
-  height: 660px;
-}
-.our-story-section .story-img img {
-  transition: 0.4s ease;
-}
-.our-story-section .story-img:hover img {
-  transform: scale(1.05);
-}
-.our-story-section .story-content {
-  border-bottom: 1px solid rgba(129, 129, 129, 0.3);
-}
-.our-story-section .story-content .story-icon {
-  height: 43px;
-}
-.our-story-section .story-content .story-first {
-  font-size: 16px;
-  line-height: 20px;
-  color: #141414;
-}
-.our-story-section .story-content .story-second {
-  font-size: 14px;
-  line-height: 18px;
-  color: #818181;
-}
-
-.testimonial-section {
-  overflow: hidden;
-  margin-bottom: 180px;
-}
-.testimonial-section .testimonial-heading {
-  text-align: center;
-  font-size: 50px;
-  line-height: 60px;
-  margin-bottom: 84px;
-  color: #141414;
-}
-.testimonial-section .testimonial-slider {
-  overflow: hidden;
-  width: 100%;
-}
-.testimonial-section .testimonial-track {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  width: max-content;
-  will-change: transform;
-}
-.testimonial-section {
-  /* RIGHT → LEFT (top slider) */
-}
-.testimonial-section .rtl .testimonial-track {
-  animation: moveRTL 35s linear infinite;
-}
-.testimonial-section {
-  /* LEFT → RIGHT (bottom slider) */
-}
-.testimonial-section .ltr .testimonial-track {
-  animation: moveLTR 35s linear infinite;
-}
-.testimonial-section .testimonial-card {
-  width: 470px;
-  min-width: 470px;
-  border-radius: 18px;
-  position: relative;
-  border: 1px solid #818181;
-  transition: 0.4s ease;
-  padding: 18px;
-  background: white;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.testimonial-section .testimonial-card .user-img {
-  height: 170px;
-  width: 120px;
-  border-radius: 12px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.testimonial-section .testimonial-card .user-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.testimonial-section .testimonial-card .user-name {
-  font-size: 14px;
-  line-height: 28px;
-  color: #141414;
-}
-.testimonial-section .testimonial-card .user-rating {
-  font-size: 14px;
-  line-height: 28px;
-  color: #141414;
-}
-.testimonial-section .testimonial-card .red-star {
-  height: 15px;
-}
-.testimonial-section .testimonial-card .review-text {
-  font-size: 14px;
-  line-height: 24px;
-  color: #141414;
-}
-.testimonial-section .testimonial-card .quote-icon {
-  position: absolute;
-  right: 17px;
-  bottom: -40px;
-  font-size: 110px;
-  line-height: 1;
-  color: rgba(214, 30, 42, 0.1019607843);
-  font-family: serif;
-  pointer-events: none;
-}
-
 @keyframes moveRTL {
   from {
     transform: translateX(0);
@@ -1543,9 +1434,20 @@
 .faq-section {
   padding-bottom: 170px;
 }
+@media (max-width: 991px) {
+  .faq-section {
+    padding-bottom: 80px;
+  }
+}
 .faq-section .heading {
   font-size: 50px;
   line-height: 60px;
+}
+@media (max-width: 991px) {
+  .faq-section .heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 .accordian-block .heading {
@@ -1565,6 +1467,11 @@
 .accordian-block .closet-accordion .closet-item .closet-header .closet-header-title {
   font-size: 20px;
   line-height: 24px;
+}
+@media (max-width: 991px) {
+  .accordian-block .closet-accordion .closet-item .closet-header .closet-header-title {
+    font-size: 17px;
+  }
 }
 .accordian-block .closet-accordion .closet-item .closet-header .accordion-close img {
   height: 24px;
@@ -1982,12 +1889,23 @@
 .contact-section .contact-info .contact-content {
   padding-bottom: 50px;
 }
+@media (max-width: 991px) {
+  .contact-section .contact-info .contact-content {
+    padding-bottom: 30px;
+  }
+}
 .contact-section .contact-info .contact-content .contact-title {
   font-size: 50px;
   line-height: 60px;
   text-transform: uppercase;
   color: #141414;
   margin-bottom: 8px;
+}
+@media (max-width: 991px) {
+  .contact-section .contact-info .contact-content .contact-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 .contact-section .contact-info .contact-content .contact-des {
   font-size: 18px;
@@ -1996,6 +1914,11 @@
 }
 .contact-section .contact-info .left-content {
   margin-bottom: 37px;
+}
+@media (max-width: 991px) {
+  .contact-section .contact-info .left-content {
+    margin-bottom: 20px;
+  }
 }
 .contact-section .contact-info .left-content .menu-title {
   font-size: 16px;
@@ -2014,8 +1937,21 @@
   color: #141414;
   margin-bottom: 50px;
 }
+@media (max-width: 991px) {
+  .contact-section .contact-form-wrapper .form-title {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
 .contact-section .contact-form-wrapper .form-group {
   margin-bottom: 30px;
+}
+@media (max-width: 991px) {
+  .contact-section .contact-form-wrapper .form-group {
+    margin-bottom: 20px;
+  }
 }
 .contact-section .contact-form-wrapper .form-group label {
   display: block;
@@ -2048,4 +1984,95 @@
   border: 1px solid rgba(129, 129, 129, 0.3019607843);
 }
 
-/*# sourceMappingURL=main.css.map */
+.policy-link-section {
+  background-color: #D61E2A;
+}
+.policy-link-section .sticky-content {
+  overflow: auto;
+}
+.policy-link-section .sticky-content::-webkit-scrollbar {
+  display: none;
+}
+.policy-link-section .sticky-content .policy-menu {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  overflow: visible;
+}
+.policy-link-section .sticky-content .policy-menu::-webkit-scrollbar {
+  display: none;
+}
+.policy-link-section .sticky-content .policy-menu li {
+  list-style-type: none;
+  margin-right: 20px;
+}
+.policy-link-section .sticky-content .policy-menu li a {
+  color: #FFF8F4;
+  opacity: 50%;
+  white-space: nowrap;
+}
+.policy-link-section .sticky-content .policy-menu li.active a {
+  color: #FFF8F4;
+  opacity: 100%;
+  text-decoration: underline !important;
+}
+
+.policy-section {
+  padding-top: 122px;
+  padding-bottom: 122px;
+}
+@media (max-width: 991px) {
+  .policy-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+.policy-section .policy-content .policy-block {
+  border-bottom: 1px solid rgba(20, 20, 20, 0.25);
+  margin-top: 65px;
+}
+@media (max-width: 991px) {
+  .policy-section .policy-content .policy-block {
+    margin-top: 50px;
+  }
+}
+.policy-section .policy-content .policy-block:last-child {
+  border-bottom: none;
+}
+.policy-section .policy-content .policy-block .policy-title {
+  font-size: 30px;
+  line-height: 60px;
+  color: #141414;
+}
+@media (max-width: 991px) {
+  .policy-section .policy-content .policy-block .policy-title {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+}
+.policy-section .policy-content .policy-block .policy-des {
+  font-size: 16px;
+  line-height: 28px;
+  color: #818181;
+  margin-bottom: 26px;
+}
+@media (max-width: 991px) {
+  .policy-section .policy-content .policy-block .policy-des {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.policy-section .policy-content .policy-block .policy-des:last-child {
+  margin-bottom: 80px;
+}
+@media (max-width: 991px) {
+  .policy-section .policy-content .policy-block .policy-des:last-child {
+    margin-bottom: 50px;
+  }
+}
+.policy-section .policy-content .policy-block .policy-list {
+  font-size: 16px;
+  line-height: 28px;
+  color: #818181;
+  margin-bottom: 13px;
+}/*# sourceMappingURL=main.css.map */

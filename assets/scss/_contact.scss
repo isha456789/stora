@@ -3,12 +3,20 @@
   .contact-info {
     .contact-content {
       padding-bottom: 50px;
+      @media #{$md}{
+      padding-bottom: 30px;
+
+      }
       .contact-title {
         font-size: 50px;
         line-height: 60px;
         text-transform: uppercase;
         color: $text-141414;
         margin-bottom: 8px;
+         @media #{$md}{
+           font-size: 30px;
+        line-height: 30px;
+         }
       }
       .contact-des {
         font-size: 18px;
@@ -18,6 +26,10 @@
     }
     .left-content {
       margin-bottom: 37px;
+      @media #{$md}{
+      margin-bottom: 20px;
+
+      }
       .menu-title {
         font-size: 16px;
         line-height: 25px;
@@ -37,9 +49,20 @@
       line-height: 60px;
       color: $text-141414;
       margin-bottom: 50px;
+      @media #{$md}{
+        font-size: 25px;
+      line-height: 40px;
+      margin-bottom: 30px;
+      margin-top: 20px;
+
+      }
     }
     .form-group {
       margin-bottom: 30px;
+      @media #{$md}{
+      margin-bottom: 20px;
+
+      }
 
       label {
         display: block;

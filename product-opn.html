@@ -469,71 +469,75 @@
                             </div>
                         </div>
 
-                        <div class="faq-list">
+                        <div class="style-hub-faq-list">
                             <div class="faq-heading">
                                 MORE INFO
                             </div>
-
-                            <div class="faq-item active">
-                                <div class="faq-question d-flex justify-content-between">
-                                    <div>Key Features</div>
+                            <!-- ITEM -->
+                            <div class="style-hub-faq-card active">
+                                <div class="style-hub-faq-header d-flex justify-content-between">
+                                    <div class="Poppins-Regular">
+                                       Key Features
+                                    </div>
                                     <div class="down-arrow">
                                         <img src="assets/images/down-arrow.svg" class="h-100" alt="" />
                                     </div>
                                 </div>
-
-                                <div class="faq-answer">
-                                    <div>
-                                        Premium quality fabric with soft touch finish.
-                                        Lightweight, comfortable and perfect for daily wear.
+                                <div class="style-hub-faq-body ">
+                                    <div class="hub-ans Poppins-Regular">
+                                        Yes, our collection is designed for comfort, style and daily wear.
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="faq-item">
-                                <div class="faq-question d-flex justify-content-between">
-                                    <div>Design & Style</div>
+                            <!-- ITEM -->
+                            <div class="style-hub-faq-card">
+                                <div class="style-hub-faq-header d-flex justify-content-between">
+                                    <div class="Poppins-Regular">
+                                       Design & Style
+                                    </div>
                                     <div class="down-arrow">
                                         <img src="assets/images/down-arrow.svg" class="h-100" alt="" />
                                     </div>
                                 </div>
-
-                                <div class="faq-answer">
-                                    <div>
-                                        Minimal modern design with clean stitching and stylish fit.
+                                <div class="style-hub-faq-body">
+                                    <div class="hub-ans Poppins-Regular">
+                                        We use premium quality breathable fabrics for maximum comfort.
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="faq-item">
-                                <div class="faq-question d-flex justify-content-between">
-                                    <div>Why You’ll Love It</div>
+                            <!-- ITEM -->
+                            <div class="style-hub-faq-card">
+                                <div class="style-hub-faq-header d-flex justify-content-between">
+                                    <div class="Poppins-Regular Poppins-Regular">
+                                       Why You’ll Love It
+                                    </div>
                                     <div class="down-arrow">
                                         <img src="assets/images/down-arrow.svg" class="h-100" alt="" />
                                     </div>
                                 </div>
-
-                                <div class="faq-answer">
-                                    <div>
-                                        Easy to style with any outfit and suitable for every season.
+                                <div class="style-hub-faq-body">
+                                    <div class="hub-ans Poppins-Regular">
+                                        Our fabrics are made to maintain color quality for long-lasting wear.
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="faq-item">
-                                <div class="faq-question d-flex justify-content-between">
-                                    <div>Care Instructions</div>
+                            <!-- ITEM -->
+                            <div class="style-hub-faq-card">
+                                <div class="style-hub-faq-header  d-flex justify-content-between">
+                                    <div class="Poppins-Regular Poppins-Regular">
+                                      Care Instructions
+                                    </div>
                                     <div class="down-arrow">
                                         <img src="assets/images/down-arrow.svg" class="h-100" alt="" />
                                     </div>
                                 </div>
-
-                                <div class="faq-answer">
-                                    <div>
-                                        Machine wash cold. Do not bleach. Iron on low temperature.
+                                <div class="style-hub-faq-body Poppins-Regular">
+                                    <div class="hub-ans">
+                                        Yes, we provide a wide range of sizes for better fitting options.
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
 
 
@@ -1057,58 +1061,10 @@
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/accordion.js"></script>
     <script src="assets/js/slider.js"></script>
 </body>
 
-<script>
 
-    $(document).ready(function () {
-
-        $(".style-hub-faq-header").click(function () {
-
-            let currentItem = $(this).closest(".style-hub-faq-card");
-
-            $(".style-hub-faq-card")
-                .not(currentItem)
-                .removeClass("active")
-                .find(".style-hub-faq-body")
-                .slideUp(400);
-
-            currentItem.toggleClass("active");
-
-            currentItem
-                .find(".style-hub-faq-body")
-                .stop(true, true)
-                .slideToggle(400);
-
-        });
-
-    });
-
-
-    $(document).ready(function () {
-
-        $(".faq-question").click(function () {
-
-            $(this)
-                .parent(".faq-item")
-                .toggleClass("active")
-                .find(".faq-answer")
-                .stop(true, true)
-                .slideToggle(400);
-
-            $(".faq-question")
-                .not(this)
-                .parent(".faq-item")
-                .removeClass("active")
-                .find(".faq-answer")
-                .stop(true, true)
-                .slideUp(400);
-
-        });
-
-    });
-
-</script>
 
 </html>

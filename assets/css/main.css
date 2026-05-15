@@ -578,6 +578,96 @@
   background: #c91024;
 }
 
+.style-hub-content {
+  padding-right: 40px;
+}
+.style-hub-content .style-hub-subtitle {
+  font-size: 18px;
+  line-height: 27px;
+  color: #141414;
+}
+.style-hub-content .style-hub-heading {
+  font-size: 50px;
+  line-height: 50px;
+  color: #141414;
+}
+@media (max-width: 991px) {
+  .style-hub-content .style-hub-heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+.style-hub-content .style-hub-description {
+  font-size: 16px;
+  line-height: 28px;
+  color: #141414;
+}
+@media (max-width: 991px) {
+  .style-hub-content .style-hub-description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.faq-heading {
+  font-size: 25px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+/* RIGHT SIDE */
+.style-hub-faq-card {
+  border-top: 1px solid rgba(20, 20, 20, 0.2509803922);
+}
+.style-hub-faq-card:last-child {
+  border-bottom: 1px solid rgba(20, 20, 20, 0.2509803922);
+}
+.style-hub-faq-card .style-hub-faq-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+  cursor: pointer;
+  font-size: 20px;
+  color: #141414;
+  margin-bottom: 0px;
+}
+.style-hub-faq-card .down-arrow {
+  height: 23px;
+  transition: 0.3s ease;
+}
+.style-hub-faq-card .style-hub-faq-body {
+  display: none;
+}
+.style-hub-faq-card .style-hub-faq-body .hub-ans {
+  padding-bottom: 30px;
+  font-size: 16px;
+  line-height: 27px;
+  color: #818181;
+  max-width: 700px;
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .style-hub-faq-card .style-hub-faq-body .hub-ans {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.style-hub-faq-card .hub-title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #141414;
+}
+@media (max-width: 991px) {
+  .style-hub-faq-card .hub-title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.style-hub-faq-card.active .down-arrow {
+  transform: rotate(180deg);
+}
+
 .btnA {
   height: 55px;
   padding-left: 20px;
@@ -2325,6 +2415,13 @@
   font-size: 18px;
   color: #141414;
   text-decoration: underline;
+}
+
+.offcanvas-backdrop.show {
+  opacity: 1 !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
 }
 
 .contact-section {

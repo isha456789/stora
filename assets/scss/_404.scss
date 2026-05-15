@@ -1,0 +1,41 @@
+.page-found-section {
+    padding-top: 100px;
+
+    .found-title {
+        font-size: 400px;
+        line-height: 500px;
+        color: $color-D61E2A;
+
+        @media #{$md} {
+            font-size: 178px;
+            line-height: 200px;
+        }
+    }
+
+    .found-des {
+        font-size: 65px;
+        line-height: 84px;
+        color: $color-D61E2A;
+
+        @media #{$md} {
+            font-size: 27px;
+            line-height: 40px;
+        }
+
+    }
+
+    .found-bg-img {
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        height: 250px;
+        width: 170px;
+        overflow: hidden;
+        border-radius: 40%;
+
+        @media #{$md} {
+            height: 120px;
+            width: 80px;
+        }
+    }
+}

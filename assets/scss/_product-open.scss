@@ -347,62 +347,7 @@
         }
       }
 
-      .faq-list {
-        margin-bottom: 20px;
-
-        .faq-heading {
-          font-size: 25px;
-          text-transform: uppercase;
-          margin-bottom: 30px;
-        }
-
-        .faq-item {
-          border-top: 1px solid #bdbdbd;
-        }
-
-        .faq-item:last-child {
-          border-bottom: 1px solid #bdbdbd;
-        }
-
-        .faq-question {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 30px 0;
-          cursor: pointer;
-        }
-
-        .faq-question {
-          font-size: 20px;
-          line-height: 26px;
-          color: $text-141414;
-        }
-
-        .down-arrow {
-          height: 23px;
-          transition: 0.3s ease;
-        }
-
-        .faq-answer {
-          max-height: 0;
-          overflow: hidden;
-          transition: 0.4s ease;
-        }
-
-        .faq-answer {
-          font-size: 14px;
-          line-height: 30px;
-          color: $text-818181;
-        }
-
-        .faq-item.active .faq-answer {
-          max-height: 300px;
-        }
-
-        .faq-item.active .down-arrow {
-          transform: rotate(180deg);
-        }
-      }
+      
     }
   }
 }
@@ -487,72 +432,7 @@
   padding-bottom: 140px;
 
   /* LEFT SIDE */
-  .style-hub-content {
-    padding-right: 40px;
 
-    .style-hub-subtitle {
-      font-size: 18px;
-      line-height: 27px;
-      color: $text-141414;
-    }
-
-    .style-hub-heading {
-      font-size: 50px;
-      line-height: 50px;
-      color: $text-141414;
-    }
-
-    .style-hub-description {
-      font-size: 16px;
-      line-height: 28px;
-      color: $text-141414;
-    }
-  }
-
-  /* RIGHT SIDE */
-  .style-hub-faq-card {
-    border-top: 1px solid #14141440;
-  }
-
-  .style-hub-faq-card:last-child {
-    border-bottom: 1px solid #14141440;
-  }
-
-  .style-hub-faq-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px 0;
-    cursor: pointer;
-  }
-
-  .style-hub-faq-header {
-    font-size: 20px;
-    color: $text-141414;
-    margin-bottom: 0px;
-  }
-
-  .down-arrow {
-    height: 23px;
-    transition: 0.3s ease;
-  }
-
-  .style-hub-faq-body {
-    display: none;
-
-    .hub-ans {
-      padding-bottom: 30px;
-      font-size: 16px;
-      line-height: 27px;
-      color: $text-818181;
-      max-width: 700px;
-      margin-bottom: 0;
-    }
-  }
-
-  .style-hub-faq-card.active .down-arrow {
-    transform: rotate(180deg);
-  }
 }
 
 .cart-offcanvas {
@@ -665,4 +545,10 @@
       }
     }
   }
+}
+.offcanvas-backdrop.show {
+ opacity: 1 !important;
+ background-color: rgba(0, 0, 0, 0.1) !important;
+ backdrop-filter: blur(8px) !important;
+ -webkit-backdrop-filter: blur(8px) !important;
 }

@@ -1,61 +1,26 @@
-$(document).ready(function () {
-  // $(".closet-header").first().addClass("active").next(".closet-content").slideDown();
 
-  $(".closet-header").click(function () {
-    $(this).toggleClass("active").next(".closet-content").slideToggle();
-    $(".closet-header")
-      .not(this)
-      .removeClass("active")
-      .next(".closet-content")
-      .slideUp();
-  });
-});
 
-// accordion.js
+    $(document).ready(function () {
 
-// const faqItems = document.querySelectorAll(".faq-item");
+        $(".style-hub-faq-header").click(function () {
 
-// faqItems.forEach((item) => {
-//     const question = item.querySelector(".faq-question");
-//     question.addEventListener("click", () => {
-//         faqItems.forEach((faq) => {
-//             if (faq !== item) {
-//                 faq.classList.remove("active");
-//             }
-//         });
-//         item.classList.toggle("active");
-//     });
+            let currentItem = $(this).closest(".style-hub-faq-card");
 
-// });
+            $(".style-hub-faq-card")
+                .not(currentItem)
+                .removeClass("active")
+                .find(".style-hub-faq-body")
+                .slideUp(400);
 
-$(document).ready(function () {
+            currentItem.toggleClass("active");
 
-  $(".faq-question").click(function () {
+            currentItem
+                .find(".style-hub-faq-body")
+                .stop(true, true)
+                .slideToggle(400);
 
-    $(this)
-      .parent(".faq-item")
-      .toggleClass("active")
-      .find(".faq-answer")
-      .stop(true, true)
-      .slideToggle(400);
-
-    $(".faq-question")
-      .not(this)
-      .parent(".faq-item")
-      .removeClass("active")
-      .find(".faq-answer")
-      .stop(true, true)
-      .slideUp(400);
-
-  });
-
-});
-$(document).ready(function () {
-
-    $(".style-hub-faq-header").click(function () {
-
-        alert("clicked");
+        });
 
     });
 
-});
+

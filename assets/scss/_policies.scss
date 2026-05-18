@@ -1,105 +1,100 @@
 .policy-link-section {
-    background-color: $color-D61E2A;
+  background-color: $color-D61E2A;
 
-    .sticky-content {
-        overflow: auto;
+  .sticky-content {
+    overflow: auto;
 
-        &::-webkit-scrollbar {
-            display: none;
-        }
-
-        .policy-menu {
-            padding-top: 28px;
-            padding-bottom: 28px;
-            overflow: visible;
-
-            &::-webkit-scrollbar {
-                display: none;
-            }
-
-            li {
-                list-style-type: none;
-                margin-right: 20px;
-
-                a {
-                    color: $color-FFF8F4;
-                    opacity: 50%;
-                    white-space: nowrap;
-                }
-
-                &.active {
-                    a {
-                        color: $color-FFF8F4;
-                        opacity: 100%;
-                        text-decoration: underline !important;
-                    }
-                }
-            }
-        }
+    &::-webkit-scrollbar {
+      display: none;
     }
+
+    .policy-menu {
+      padding-top: 28px;
+      padding-bottom: 28px;
+      overflow: visible;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      li {
+        list-style-type: none;
+        margin-right: 20px;
+
+        a {
+          color: $color-FFF8F4;
+          opacity: 50%;
+          white-space: nowrap;
+        }
+
+        &.active {
+          a {
+            color: $color-FFF8F4;
+            opacity: 100%;
+            text-decoration: underline !important;
+          }
+        }
+      }
+    }
+  }
 }
 
 .policy-section {
-    padding-top: 122px;
-    padding-bottom: 122px;
-    @media #{$md}{
-        padding-top:160px;
+  padding-top: 122px;
+  padding-bottom: 122px;
+  @media #{$md} {
+    padding-top: 160px;
     padding-bottom: 90px;
-    }
+  }
 
+  .policy-content {
+    .policy-block {
+      border-bottom: 1px solid rgba(20, 20, 20, 0.25);
+      margin-top: 65px;
+      @media #{$md} {
+        margin-top: 50px;
+      }
 
-    .policy-content {
-        .policy-block {
-            border-bottom: 1px solid rgba(20, 20, 20, 0.25);
-            margin-top: 65px;
-             @media #{$md}{
-            margin-top: 50px;
+      &:last-child {
+        border-bottom: none;
+      }
 
-             }
-
-            &:last-child {
-                border-bottom: none;
-            }
-
-
-            .policy-title {
-                font-size: 30px;
-                line-height: 60px;
-                color: $color-141414;
-                 @media #{$md}{
-                    font-size: 25px;
-                line-height: 40px;
-                margin-bottom: 10px;
-                 }
-            }
-
-            .policy-des {
-                font-size: 16px;
-                line-height: 28px;
-                color: $text-818181;
-                margin-bottom: 26px;
-                @media #{$md}{
-                    font-size: 14px;
-                line-height: 24px;
-                 }
-
-                // border-bottom: 1px solid black;
-                &:last-child {
-                    margin-bottom: 80px;
-                     @media #{$md}{
-                    margin-bottom: 50px;
-
-                     }
-                }
-            }
-
-            .policy-list {
-
-                font-size: 16px;
-                line-height: 28px;
-                color: $text-818181;
-                margin-bottom: 13px;
-            }
+      .policy-title {
+        font-size: 30px;
+        line-height: 60px;
+        color: $color-141414;
+        @media #{$md} {
+          font-size: 25px;
+          line-height: 40px;
+          margin-bottom: 10px;
         }
+      }
+
+      .policy-des {
+        font-size: 16px;
+        line-height: 28px;
+        color: $text-818181;
+        margin-bottom: 26px;
+        @media #{$md} {
+          font-size: 14px;
+          line-height: 24px;
+        }
+
+        // border-bottom: 1px solid black;
+        &:last-child {
+          margin-bottom: 80px;
+          @media #{$md} {
+            margin-bottom: 50px;
+          }
+        }
+      }
+
+      .policy-list {
+        font-size: 16px;
+        line-height: 28px;
+        color: $text-818181;
+        margin-bottom: 13px;
+      }
     }
+  }
 }

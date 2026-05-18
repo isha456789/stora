@@ -1,5 +1,6 @@
 .header-main {
   z-index: 99;
+  overflow: hidden;
   ul {
     list-style: none !important;
   }
@@ -8,6 +9,11 @@
     font-size: 16px;
     line-height: 25px;
     color: $text-FAFAFA;
+
+    @media #{$md}{
+      font-size: 12px;
+      line-height: 18px;
+    }
   }
   .header-bottom {
     background-color: $color-FFF8F4;

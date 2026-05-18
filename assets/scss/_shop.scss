@@ -1,14 +1,25 @@
 .winter-collection-section {
   margin-bottom: 180px;
+  @media #{$md} {
+    margin-bottom: 90px;
+  }
   .winter-title {
     color: $text-141414;
     font-size: 50px;
     line-height: 50px;
+    @media #{$md} {
+      font-size: 30px;
+      line-height: 35px;
+    }
   }
   .winter-desc {
     color: $text-818181;
     font-size: 16px;
     line-height: 28px;
+      @media #{$md} {
+      font-size: 13px;
+      line-height: 20px;
+    }
   }
   .toggle-box {
     display: flex;
@@ -19,6 +30,9 @@
     border-radius: 30px;
     width: max-content;
     margin-bottom: 100px;
+       @media #{$md} {
+        margin-bottom: 30px;
+    }
     .show-filter {
       font-size: 18px;
       line-height: 27px;
@@ -78,6 +92,9 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    @media #{$md} {
+      padding-top: 20px;
+    }
     a {
       text-decoration: none;
     }
@@ -100,6 +117,13 @@
       line-height: 25px;
       font-family: "Poppins-Regular";
       transition: 0.3s;
+      @media #{$md} {
+        height: 30px;
+        min-width: 30px;
+        padding: 10px 15px;
+        font-size: 12px;
+        line-height: 20px;
+      }
     }
 
     /* Number Circle */
@@ -131,6 +155,12 @@
     flex-wrap: wrap;
     .product-card {
       padding-inline: 14px;
+      width: 25%;
+
+      @media #{$md} {
+        padding-inline: 5px;
+        width: 50%;
+      }
       padding-bottom: 70px;
 
       .product-image {
@@ -139,6 +169,10 @@
         overflow: hidden;
         border-radius: 18px;
         cursor: pointer;
+
+        @media #{$md} {
+          height: 200px;
+        }
 
         .product-img {
           position: absolute;
@@ -231,6 +265,10 @@
         font-size: 18px;
         line-height: 24px;
         color: $text-141414;
+        @media #{$md} {
+          font-size: 14px;
+          line-height: 20px;
+        }
       }
 
       .product-discount {
@@ -238,6 +276,10 @@
         line-height: 13px;
         border-radius: 6px;
         background-color: $text-141414;
+        @media #{$md} {
+          font-size: 10px;
+          line-height: 12px;
+        }
       }
 
       .product-price {

@@ -6,12 +6,20 @@
     color: $text-141414;
     font-size: 18px;
     line-height: 27px;
+    @media #{$md} {
+      font-size: 11px;
+      line-height: 20px;
+    }
   }
 
   .winter-sub-title {
     color: $text-818181;
     font-size: 18px;
     line-height: 27px;
+    @media #{$md} {
+      font-size: 11px;
+      line-height: 20px;
+    }
   }
 
   .red-btn {
@@ -22,17 +30,25 @@
     font-size: 16px;
     line-height: 24px;
     color: $color-D61E2A;
+    @media #{$md} {
+      font-size: 12px;
+      line-height: 20px;
+    }
   }
 
   .winter-cards {
     padding-top: 62px;
-
+    @media #{$md} {
+      padding-top: 30px;
+    }
     .winter-products {
       .winter-image {
         height: 358px;
-        width: 345px;
         overflow: hidden;
         border-radius: 22px;
+        @media #{$md} {
+          height: 200px;
+        }
       }
     }
 
@@ -43,28 +59,47 @@
         padding: 15px 20px;
         background-color: $text-F7F7F7;
         color: $text-141414;
+        @media #{$md} {
+          font-size: 10px;
+          line-height: 14px;
+        }
       }
 
       .wishlist {
         height: 22px;
+        @media #{$md} {
+          height: 18px;
+        }
       }
 
       .right-title {
         font-size: 50px;
         line-height: 65px;
         color: $text-141414;
+        @media #{$md} {
+          font-size: 32px;
+          line-height: 44px;
+        }
       }
 
       .red-tag {
         font-size: 26px;
         line-height: 39px;
         color: $color-D61E2A;
+        @media #{$md} {
+          font-size: 22px;
+          line-height: 25px;
+        }
       }
 
       .line-tag {
         font-size: 18px;
         line-height: 27px;
         color: $text-818181;
+        @media #{$md} {
+          font-size: 14px;
+          line-height: 22px;
+        }
       }
 
       .black-tag {
@@ -74,12 +109,21 @@
         line-height: 13px;
         padding: 08px 10px;
         border-radius: 10px;
+        @media #{$md} {
+          font-size: 11px;
+          line-height: 20px;
+          padding: 05px 8px;
+        }
       }
 
       .right-desc {
         font-size: 16px;
         line-height: 28px;
         color: $text-818181;
+        @media #{$md} {
+          font-size: 14px;
+          line-height: 22px;
+        }
       }
 
       .product-top {
@@ -94,7 +138,6 @@
         }
 
         .size-guide-content {
-
           .size-guide-top {
             margin-bottom: 30px;
 
@@ -119,8 +162,6 @@
             overflow: hidden;
             margin-bottom: 30px;
             height: 400px;
-
-
           }
 
           .size-guide-desc {
@@ -139,7 +180,6 @@
             }
 
             tbody {
-
               tr {
                 border-bottom: 1px solid #e3e3e3;
 
@@ -166,9 +206,6 @@
             }
           }
         }
-
-
-
 
         /* LEFT SIDE */
         .colors-item .list-color {
@@ -198,6 +235,10 @@
           width: 50px;
           height: 50px;
           border-radius: 50%;
+           @media #{$md} {
+            width: 45px;
+            height: 45px;
+          }
         }
 
         .green-bg {
@@ -205,6 +246,10 @@
           width: 50px;
           height: 50px;
           border-radius: 50%;
+           @media #{$md} {
+            width: 45px;
+            height: 45px;
+          }
         }
 
         .blue-bg {
@@ -212,6 +257,10 @@
           width: 50px;
           height: 50px;
           border-radius: 50%;
+          @media #{$md} {
+            width: 45px;
+            height: 45px;
+          }
         }
 
         /* RIGHT SIDE */
@@ -255,6 +304,12 @@
               background-color: transparent;
               border: 0px;
 
+              @media #{$md} {
+                font-size: 10px;
+                line-height: 20px;
+                padding: 6px 14px;
+              }
+
               &.active {
                 background-color: $color-D61E2A !important;
                 color: $white;
@@ -274,6 +329,12 @@
           padding: 10px 40px;
           background-color: #fff;
           gap: 30px;
+
+            @media #{$md} {
+               padding: 08px 25px;
+               height: 42px;
+              }
+
 
           .qty-btn {
             border: none;
@@ -346,8 +407,6 @@
           }
         }
       }
-
-      
     }
   }
 }
@@ -432,7 +491,6 @@
   padding-bottom: 140px;
 
   /* LEFT SIDE */
-
 }
 
 .cart-offcanvas {
@@ -473,7 +531,6 @@
           color: $color-141414;
           opacity: 80%;
           margin-bottom: 6px;
-
         }
 
         .canvas-product-price {
@@ -482,8 +539,6 @@
           color: $color-D61E2A;
         }
       }
-
-
     }
 
     .cart-footer {
@@ -499,12 +554,11 @@
           font-size: 28px;
           line-height: 37px;
           color: $color-141414;
-
         }
       }
 
       .shipping-note {
-        background-color: #F0F0F0;
+        background-color: #f0f0f0;
         font-size: 14px;
         line-height: 28px;
         color: $text-818181;
@@ -513,7 +567,7 @@
         padding-left: 10px;
         padding-right: 10px;
         border-radius: 10px;
-       margin-bottom: 30px;
+        margin-bottom: 30px;
       }
 
       .checkout-btn {
@@ -540,15 +594,15 @@
         display: block;
         text-align: center;
         font-size: 18px;
-        color:$color-141414;
+        color: $color-141414;
         text-decoration: underline;
       }
     }
   }
 }
 .offcanvas-backdrop.show {
- opacity: 1 !important;
- background-color: rgba(0, 0, 0, 0.1) !important;
- backdrop-filter: blur(8px) !important;
- -webkit-backdrop-filter: blur(8px) !important;
+  opacity: 1 !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
 }

@@ -10,6 +10,11 @@
     font-size: 18px;
     line-height: 27px;
 
+       @media #{$md} {
+        font-size: 14px;
+        line-height: 18px;
+      }
+
     &:hover {
       background-color: $color-FFF8F4;
       color: $text-141414;
@@ -19,11 +24,6 @@
         filter: invert(1);
       }
     }
-
-    // .btn-icon,
-    // .cart-icon {
-    //   filter: invert(1);
-    // }
   }
 
   .btn-icon {

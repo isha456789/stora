@@ -791,10 +791,11 @@
       color: $text-818181;
       max-width: 700px;
       margin-bottom: 0;
-       @media #{$md}{
-      font-size: 14px;
-    line-height: 20px;
-     }
+
+      @media #{$md} {
+        font-size: 14px;
+        line-height: 20px;
+      }
     }
 
   }
@@ -803,10 +804,11 @@
     font-size: 20px;
     line-height: 30px;
     color: $color-141414;
-    @media #{$md}{
+
+    @media #{$md} {
       font-size: 14px;
-    line-height: 20px;
-     }
+      line-height: 20px;
+    }
   }
 
   &.active {
@@ -814,4 +816,10 @@
       transform: rotate(180deg);
     }
   }
+}
+
+.cart-border {
+  border-bottom: 1px solid rgba(20, 20, 20, 0.25);
+  margin-top: 22px;
+  margin-bottom: 22px;
 }

@@ -5,6 +5,7 @@
   .basket-title {
     font-size: 30px;
     line-height: 60px;
+    color: $color-141414;
   }
 
   .item-img {
@@ -23,6 +24,8 @@
   .cart-table-header {
     font-size: 14px;
     line-height: 19px;
+    color: $color-141414;
+
   }
 
   .qty-selector {
@@ -59,10 +62,22 @@
     color: $color-D61E2A;
   }
 
+  .price {
+    font-size: 16px;
+    line-height: 21px;
+    color: $color-D61E2A;
+  }
+
   .tax-note {
     background-color: #F0F0F0;
     // opacity: 100%;
     font-size: 14px;
     line-height: 28px;
+  }
+
+  .meta {
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(20, 20, 20, 0.5);
   }
 }

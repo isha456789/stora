@@ -13,7 +13,7 @@
 
 <body>
 
-    <header class="header-main position-fixed top-0 w-100">
+    <header class="header-main position-fixed top-0 w-100 d-none">
         <div class="header-top py-2">
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
@@ -83,108 +83,123 @@
     </header>
 
     <main>
-        <section class="cart-section">
+        <!-- basket-section start -->
+        <section class="basket-section">
             <div class="container">
-                <div class="row align-items-end justify-content-between">
-                    <div class="col-7 cart-left">
-                        <div class="cart-title">YOUR BAG (2)</div>
-                        <div class="cart-head d-flex">
-                            <div class="head-product col-6">PRODUCT</div>
-                            <div class="head-qty col-3">QUANTITY</div>
-                            <div class="head-total col-2">TOTAL</div>
+
+                <h2 class="basket-title nunito text-uppercase mb-5">Your Bag (2)</h2>
+
+                <div class="row justify-content-between align-items-start">
+
+                    <!-- LEFT COLUMN -->
+                    <div class="col-lg-8 pe-lg-5">
+
+                        <div class="row pb-4 border-bottom mx-0 d-md-flex">
+                            <div class="cart-table-header col-md-6 px-0 nunito-medium text-darkgray text-uppercase">
+                                Products</div>
+                            <div
+                                class="cart-table-header col-md-2 px-0 nunito-medium text-darkgray text-uppercase text-center d-none d-md-block">
+                                Quantity</div>
+                            <div
+                                class="cart-table-header col-md-2 px-0 nunito-medium text-darkgray text-uppercase text-end ps-5 d-none d-md-block">
+                                Total</div>
                         </div>
-                        <div class="cart-border"></div>
-                        <div class="cart-item d-flex align-items-center">
-                            <!-- PRODUCT -->
-                            <div class="cart-product col-6 d-flex align-items-center">
-                                <div class="cart-image">
-                                    <img src="assets/images/product-12.png" alt="" class="h-100 w-100 object-fit-cover">
+
+                        <div class="cart-item row align-items-center py-4 border-bottom mx-0">
+
+                            <div class="col-12 col-md-6 d-flex align-items-center px-0">
+                                <div class="item-img rounded overflow-hidden flex-shrink-0">
+                                    <img src="assets/images/product-12.png" alt="Onyx Ring"
+                                        class="w-100 h-100 object-cover">
                                 </div>
-                                <div class="product-info">
-                                    <div class="product-info-title dmsans-regular">Wool Touchscreen Gloves</div>
-                                    <div class="product-info-desc Poppins-Regular">Size: L</div>
+
+                                <div class="item-details ms-3 flex-grow-1">
+                                    <div class="title nunito-medium text-darkgray mb-1 fs-6">Onyx Oval Statement Ring
+                                    </div>
+                                    <div class="meta inst-regular text-darkgray small mb-2 mb-md-0">Colour: Gold</div>
+
+                                    <div class="d-flex d-md-none align-items-center justify-content-between pe-1">
+                                        <div class="item-details qty-selector d-flex align-items-center gap-3">
+                                            <button
+                                                class="bg-transparent border-0 p-0 nunito-medium text-darkgray fs-5 transition">-</button>
+                                            <span class="inst-medium text-darkgray">1</span>
+                                            <button
+                                                class="bg-transparent border-0 p-0 nunito-medium text-darkgray fs-5 transition">+</button>
+                                        </div>
+                                        <div class="price nunito-medium text-darkgray">€ 129.00</div>
+                                        <button
+                                            class="btn-remove d-flex align-items-center justify-content-center bg-transparent border-0 p-0 transition">
+                                            <img src="assets/images/close-btn-basket.svg" alt="remove"
+                                                class="object-fit-cover h-100">
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- QUANTITY -->
-                            <div class="quantity-box col-3 d-flex align-items-center ">
-                                <div class="quality-icon">-</div>
-                                <div class="d-inline-flex quality-icon">1</div>
-                                <div class="quality-icon">+</div>
+
+
+                            <div class="d-none d-md-flex col-md-2 justify-content-center px-0">
+                                <div class="item-details qty-selector d-flex align-items-center gap-3">
+                                    <button
+                                        class="btn-qty nunito-medium bg-transparent border-0 p-0 text-darkgray fs-5 transition">-</button>
+                                    <span class="qty-num nunito-medium text-darkgray">1</span>
+                                    <button
+                                        class="btn-qty nunito-medium bg-transparent border-0 p-0 text-darkgray fs-5 transition">+</button>
+                                </div>
                             </div>
 
-                            <!-- PRICE -->
 
-                            <div class=" text-nowrap col-2  align-items-center">
-                                <div class="cart-price">€ 129.00</div>
-
+                            <div
+                                class="item-details d-none d-md-flex col-md-2 justify-content-end align-items-center gap-4 pe-0">
+                                <div class="price nunito-medium text-darkgraytext-nowrap">€ 129.00</div>
                             </div>
-
-                            <!-- REMOVE -->
-                            <button class="col-1 remove-btn align-items-center d-flex">
-                                <img src="assets/images/close-btn-basket.svg" class="h-100  object-fit-cover" alt="">
-                            </button>
-
+                            <div
+                                class="item-details d-none d-md-flex col-md-2 justify-content-end align-items-center gap-4 pe-0">
+                                <button
+                                    class="btn-remove d-flex align-items-center justify-content-center bg-transparent border-0 p-0 transition">
+                                    <img src="assets/images/close-btn-basket.svg" alt="remove"
+                                        class=" h-100 object-fit-cover">
+                                </button>
+                            </div>
 
                         </div>
-                        <div class="cart-border"></div>
-                        <div class="cart-item d-flex align-items-center">
-                            <!-- PRODUCT -->
-                            <div class="cart-product col-6 d-flex align-items-center">
-                                <div class="cart-image">
-                                    <img src="assets/images/product-12.png" alt="" class="h-100 w-100 object-fit-cover">
-                                </div>
-                                <div class="product-info">
-                                    <div class="product-info-title dmsans-regular">Wool Touchscreen Gloves</div>
-                                    <div class="product-info-desc Poppins-Regular">Size: L</div>
-                                </div>
-                            </div>
-                            <!-- QUANTITY -->
-                            <div class="quantity-box col-3 d-flex align-items-center ">
-                                <div class="quality-icon">-</div>
-                                <div class="d-inline-flex quality-icon">1</div>
-                                <div class="quality-icon">+</div>
-                            </div>
-
-                            <!-- PRICE -->
-
-                            <div class=" text-nowrap col-2  align-items-center">
-                                <div class="cart-price">€ 129.00</div>
-
-                            </div>
-
-                            <!-- REMOVE -->
-                            <button class="col-1 remove-btn align-items-center d-flex">
-                                <img src="assets/images/close-btn-basket.svg" class="h-100  object-fit-cover" alt="">
-                            </button>
-
-
-                        </div>
-                        <div class="cart-border"></div>
-
 
                     </div>
-                    <div class="col-4 cart-summary">
 
-                        <div class="summary-top align-items-center border-top">
-                            <div class="d-flex justify-content-between mt-5">
-                                <div class="summary-title">SUBTOTAL</div>
-                                <div class="summary-price">€ 248.00</div>
+                    <!-- RIGHT COLUMN -->
+                    <div class="col-lg-4 ps-4">
+                        <div class="cart-summary pt-5 border-top">
+
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                <div class="subtotal-text  text-uppercase">Subtotal</div>
+                                <div class="subtotal-price ">€ 248.00</div>
                             </div>
-                        </div>
-                        <div class="shipping-text text-nowrap d-flex align-items-center justify-content-center">
-                            Tax included and shipping calculated at checkout
-                        </div>
-                        <div class="d-flex align-items-center col-12 justify-content-center">
-                            <a href="#"
-                                class="btnA bg-D61E2A-btn checkout-btn justify-content-center w-100 text-nowrap  d-inline-flex align-items-center text-decoration-none rounded-pill transition">
-                                View Collection
-                            </a>
+
+                            <div class="tax-note inst-regular px-3 py-2 text-center text-gray">
+                                Tax included and shipping calculated at checkout
+                            </div>
+
+                            <div class="text-center mt-5">
+                                <a href="#"
+                                    class="btnA bg-D61E2A-btn d-flex w-100 justify-content-center align-items-center text-decoration-none rounded-pill transition">
+
+                                    <div class="d-inline-flex">CHECKOUT
+                                    </div>
+                                </a>
+                            </div>
+
                         </div>
                     </div>
+
                 </div>
             </div>
-
         </section>
+        <!-- basket-section end -->
+
+
+
+
+
+
 
 
         <section class="marquee-strip py-4">
@@ -251,7 +266,7 @@
 
         <section class="seller-section">
             <div class="container">
-                <div class="d-flex align-items-center justify-content-between pb-5">
+                <div class="d-lg-flex align-items-center justify-content-between pb-5">
                     <div class="">
                         <div class="seller-title  dmsans-regular pb-2">
                             BEST SELLERS
@@ -270,9 +285,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="product-cards d-flex align-items-center justify-content-between ">
+                <div class="product-cards d-lg-flex align-items-center justify-content-between ">
                     <!-- card-1 -->
-                    <div class="product-card col-lg-3">
+                    <div class="product-card col-lg-3 col-12">
                         <div class="product-image">
                             <div class="product-tag Poppins-Regular text-141414 bg-white px-3 py-2">NEW IN</div>
                             <div class="wishlist">
@@ -312,7 +327,7 @@
                     </div>
 
                     <!-- card-2 -->
-                    <div class="product-card col-lg-3">
+                    <div class="product-card col-lg-3 col-12">
                         <div class="product-image">
                             <div class="product-tag Poppins-Regular text-141414 bg-white px-3 py-2">NEW IN</div>
                             <div class="wishlist">
@@ -351,7 +366,7 @@
                     </div>
 
                     <!-- card-3 -->
-                    <div class="product-card col-lg-3">
+                    <div class="product-card col-lg-3 col-12">
                         <div class="product-image">
                             <div class="product-tag Poppins-Regular text-141414 bg-white px-3 py-2">NEW IN</div>
                             <div class="wishlist">
@@ -390,7 +405,7 @@
                     </div>
 
                     <!-- card-4 -->
-                    <div class="product-card col-lg-3">
+                    <div class="product-card col-lg-3 col-12">
                         <div class="product-image">
                             <div class="product-tag Poppins-Regular text-141414 bg-white px-3 py-2">NEW IN</div>
                             <div class="wishlist">
@@ -457,7 +472,7 @@
         </section>
     </main>
 
-    <footer class="footer-main p-5">
+    <footer class="footer-main p-5 d-none">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 pe-5">

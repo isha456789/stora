@@ -2,6 +2,10 @@
   padding-top: 210px;
   padding-bottom: 135px;
 
+      @media #{$md} {
+     padding-bottom: 95px;
+    }
+
   .winter-title {
     color: $text-141414;
     font-size: 18px;
@@ -235,7 +239,7 @@
           width: 50px;
           height: 50px;
           border-radius: 50%;
-           @media #{$md} {
+          @media #{$md} {
             width: 45px;
             height: 45px;
           }
@@ -246,7 +250,7 @@
           width: 50px;
           height: 50px;
           border-radius: 50%;
-           @media #{$md} {
+          @media #{$md} {
             width: 45px;
             height: 45px;
           }
@@ -287,6 +291,10 @@
         .size-list {
           padding-bottom: 80px;
 
+          @media #{$md} {
+            padding-bottom: 45px;
+          }
+
           .size-wrapper {
             border: 1px solid #707070;
             border-radius: 20px;
@@ -322,6 +330,10 @@
       .card-item {
         padding-bottom: 85px;
 
+        @media #{$md} {
+          padding-bottom: 45px;
+        }
+
         .quantity-box {
           height: 50px;
           border: 1px solid $text-141414;
@@ -330,11 +342,10 @@
           background-color: #fff;
           gap: 30px;
 
-            @media #{$md} {
-               padding: 08px 25px;
-               height: 42px;
-              }
-
+          @media #{$md} {
+            padding: 08px 20px;
+            height: 42px;
+          }
 
           .qty-btn {
             border: none;
@@ -359,9 +370,16 @@
           font-size: 14px;
           cursor: pointer;
           padding: 12px 220px;
+          @media #{$md} {
+            padding: 08px 100px;
+            height: 42px;
+          }
 
           .card-icon {
             height: 24px;
+            @media #{$md} {
+              height: 18px;
+            }
           }
 
           //   &:hover{
@@ -377,10 +395,19 @@
           color: $text-141414;
           font-size: 25px;
           line-height: 50px;
+
+          @media #{$md} {
+            font-size: 20px;
+            line-height: 28px;
+          }
         }
 
         .look-list {
           margin-bottom: 100px;
+
+          @media #{$md} {
+            margin-bottom: 40px;
+          }
 
           .look-img {
             height: 80px;

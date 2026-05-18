@@ -2285,6 +2285,11 @@
   padding-top: 210px;
   padding-bottom: 135px;
 }
+@media (max-width: 991px) {
+  .winter-product-section {
+    padding-bottom: 95px;
+  }
+}
 .winter-product-section .winter-title {
   color: #141414;
   font-size: 18px;
@@ -2562,6 +2567,11 @@
 .winter-product-section .winter-cards .right-content .size-item .size-list {
   padding-bottom: 80px;
 }
+@media (max-width: 991px) {
+  .winter-product-section .winter-cards .right-content .size-item .size-list {
+    padding-bottom: 45px;
+  }
+}
 .winter-product-section .winter-cards .right-content .size-item .size-list .size-wrapper {
   border: 1px solid #707070;
   border-radius: 20px;
@@ -2592,6 +2602,11 @@
 .winter-product-section .winter-cards .right-content .card-item {
   padding-bottom: 85px;
 }
+@media (max-width: 991px) {
+  .winter-product-section .winter-cards .right-content .card-item {
+    padding-bottom: 45px;
+  }
+}
 .winter-product-section .winter-cards .right-content .card-item .quantity-box {
   height: 50px;
   border: 1px solid #141414;
@@ -2602,7 +2617,7 @@
 }
 @media (max-width: 991px) {
   .winter-product-section .winter-cards .right-content .card-item .quantity-box {
-    padding: 8px 25px;
+    padding: 8px 20px;
     height: 42px;
   }
 }
@@ -2627,16 +2642,38 @@
   cursor: pointer;
   padding: 12px 220px;
 }
+@media (max-width: 991px) {
+  .winter-product-section .winter-cards .right-content .card-item .cart-btn {
+    padding: 8px 100px;
+    height: 42px;
+  }
+}
 .winter-product-section .winter-cards .right-content .card-item .cart-btn .card-icon {
   height: 24px;
+}
+@media (max-width: 991px) {
+  .winter-product-section .winter-cards .right-content .card-item .cart-btn .card-icon {
+    height: 18px;
+  }
 }
 .winter-product-section .winter-cards .right-content .look-item .look-title {
   color: #141414;
   font-size: 25px;
   line-height: 50px;
 }
+@media (max-width: 991px) {
+  .winter-product-section .winter-cards .right-content .look-item .look-title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
 .winter-product-section .winter-cards .right-content .look-item .look-list {
   margin-bottom: 100px;
+}
+@media (max-width: 991px) {
+  .winter-product-section .winter-cards .right-content .look-item .look-list {
+    margin-bottom: 40px;
+  }
 }
 .winter-product-section .winter-cards .right-content .look-item .look-list .look-img {
   height: 80px;
@@ -3314,4 +3351,6 @@
 
 .faq-page-main .style-hub-section {
   padding-top: 200px !important;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

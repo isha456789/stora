@@ -2154,52 +2154,6 @@
   line-height: 18px;
   color: #D61E2A;
 }
-.winter-product-section .winter-cards .right-content .faq-list {
-  margin-bottom: 20px;
-}
-.winter-product-section .winter-cards .right-content .faq-list .faq-heading {
-  font-size: 25px;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-}
-.winter-product-section .winter-cards .right-content .faq-list .faq-item {
-  border-top: 1px solid #bdbdbd;
-}
-.winter-product-section .winter-cards .right-content .faq-list .faq-item:last-child {
-  border-bottom: 1px solid #bdbdbd;
-}
-.winter-product-section .winter-cards .right-content .faq-list .faq-question {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 0;
-  cursor: pointer;
-}
-.winter-product-section .winter-cards .right-content .faq-list .faq-question {
-  font-size: 20px;
-  line-height: 26px;
-  color: #141414;
-}
-.winter-product-section .winter-cards .right-content .faq-list .down-arrow {
-  height: 23px;
-  transition: 0.3s ease;
-}
-.winter-product-section .winter-cards .right-content .faq-list .faq-answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: 0.4s ease;
-}
-.winter-product-section .winter-cards .right-content .faq-list .faq-answer {
-  font-size: 14px;
-  line-height: 30px;
-  color: #818181;
-}
-.winter-product-section .winter-cards .right-content .faq-list .faq-item.active .faq-answer {
-  max-height: 300px;
-}
-.winter-product-section .winter-cards .right-content .faq-list .faq-item.active .down-arrow {
-  transform: rotate(180deg);
-}
 
 .fashion-arrival-section {
   padding: 20px;
@@ -2267,63 +2221,6 @@
 .style-hub-section {
   padding-bottom: 140px;
   /* LEFT SIDE */
-}
-.style-hub-section .style-hub-content {
-  padding-right: 40px;
-}
-.style-hub-section .style-hub-content .style-hub-subtitle {
-  font-size: 18px;
-  line-height: 27px;
-  color: #141414;
-}
-.style-hub-section .style-hub-content .style-hub-heading {
-  font-size: 50px;
-  line-height: 50px;
-  color: #141414;
-}
-.style-hub-section .style-hub-content .style-hub-description {
-  font-size: 16px;
-  line-height: 28px;
-  color: #141414;
-}
-.style-hub-section {
-  /* RIGHT SIDE */
-}
-.style-hub-section .style-hub-faq-card {
-  border-top: 1px solid rgba(20, 20, 20, 0.2509803922);
-}
-.style-hub-section .style-hub-faq-card:last-child {
-  border-bottom: 1px solid rgba(20, 20, 20, 0.2509803922);
-}
-.style-hub-section .style-hub-faq-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 25px 0;
-  cursor: pointer;
-}
-.style-hub-section .style-hub-faq-header {
-  font-size: 20px;
-  color: #141414;
-  margin-bottom: 0px;
-}
-.style-hub-section .down-arrow {
-  height: 23px;
-  transition: 0.3s ease;
-}
-.style-hub-section .style-hub-faq-body {
-  display: none;
-}
-.style-hub-section .style-hub-faq-body .hub-ans {
-  padding-bottom: 30px;
-  font-size: 16px;
-  line-height: 27px;
-  color: #818181;
-  max-width: 700px;
-  margin-bottom: 0;
-}
-.style-hub-section .style-hub-faq-card.active .down-arrow {
-  transform: rotate(180deg);
 }
 
 .cart-offcanvas {
@@ -2841,16 +2738,35 @@
 
 /* DOUBLE IMAGE */
 .cart-section {
-  padding: 225px 0;
+  padding-top: 225px;
+  padding-bottom: 100px;
+}
+@media (max-width: 991px) {
+  .cart-section {
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
 }
 .cart-section .cart-left {
   flex: 1;
+}
+@media (max-width: 991px) {
+  .cart-section .cart-left {
+    width: 100%;
+  }
 }
 .cart-section .cart-title {
   font-size: 30px;
   line-height: 60px;
   color: #141414;
   margin-bottom: 42px;
+}
+@media (max-width: 991px) {
+  .cart-section .cart-title {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 25px;
+  }
 }
 .cart-section .cart-head {
   display: flex;
@@ -2860,8 +2776,13 @@
   line-height: 18px;
   color: #141414;
 }
+@media (max-width: 991px) {
+  .cart-section .cart-head {
+    display: none;
+  }
+}
 .cart-section .cart-head .head-product {
-  width: 55%;
+  width: 50%;
 }
 .cart-section .cart-head .head-qty {
   width: 20%;
@@ -2875,16 +2796,41 @@
   padding: 25px 0;
   border-bottom: 1px solid #ddd;
 }
+@media (max-width: 991px) {
+  .cart-section .cart-item {
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+}
 .cart-section .cart-item .cart-product {
   display: flex;
   align-items: center;
 }
+@media (max-width: 991px) {
+  .cart-section .cart-item .cart-product {
+    width: 100%;
+    align-items: flex-start;
+  }
+}
 .cart-section .cart-item .cart-product .cart-image {
   height: 80px;
 }
+@media (max-width: 991px) {
+  .cart-section .cart-item .cart-product .cart-image {
+    height: 100px;
+  }
+}
 .cart-section .cart-item .cart-product .product-info {
   margin-left: 20px;
-  width: 55%;
+  width: 50%;
+}
+@media (max-width: 991px) {
+  .cart-section .cart-item .cart-product .product-info {
+    margin-left: 15px;
+    width: 100%;
+  }
 }
 .cart-section .cart-item .cart-product .product-info .product-info-title {
   font-size: 16px;
@@ -2928,37 +2874,39 @@
   padding-left: 170px;
 }
 .cart-section .cart-summary {
-  width: 360px;
+  width: 365px;
   border-top: 1px solid #ccc;
   padding-top: 30px;
+  margin-top: 121px;
 }
-
-.summary-top {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 25px;
+.cart-section .summary-top {
+  margin-bottom: 34px;
 }
-
-.summary-top h3 {
+.cart-section .summary-top .summary-title {
+  color: #141414;
+  font-size: 18px;
+  line-height: 24px;
+}
+.cart-section .summary-top .summary-price {
   color: red;
-  font-size: 40px;
+  font-size: 28px;
+  line-height: 42px;
 }
-
-.shipping-text {
+.cart-section .shipping-text {
   background: #eee;
-  padding: 15px;
+  padding: 10px;
   border-radius: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
+  font-size: 14px;
+  line-height: 28px;
+}
+.cart-section .checkout-btn {
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
-.checkout-btn {
-  width: 100%;
-  height: 60px;
-  border: none;
-  border-radius: 40px;
-  background: red;
-  color: #fff;
-  cursor: pointer;
+.faq-page-main .style-hub-section {
+  padding-top: 200px !important;
 }
 
 /*# sourceMappingURL=main.css.map */

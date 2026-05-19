@@ -1,6 +1,10 @@
 .page-found-section {
     padding-top: 100px;
 
+       @media #{$md} {
+          padding-top: 240px;
+        }
+
     .found-title {
         font-size: 400px;
         line-height: 500px;

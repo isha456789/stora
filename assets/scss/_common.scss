@@ -471,7 +471,7 @@
   margin-bottom: 120px;
 
   @media #{$md} {
-    margin-bottom: 70px;
+    margin-bottom: 40px;
   }
   .news-title {
     font-size: 50px;
@@ -563,12 +563,6 @@
 .left-right-image-section {
   padding-top: 230px;
   padding-bottom: 122px;
-
-  @media #{$md} {
-    padding-bottom: 80px;
-    padding-top: 100px;
-  }
-
   .left-right-content {
     .ourstory-title {
       font-size: 18px;
@@ -743,6 +737,10 @@
   font-size: 25px;
   line-height: 50px;
   margin-bottom: 30px;
+    @media #{$md} {
+      font-size: 20px;
+      line-height: 27px;
+    }
 }
 
 /* RIGHT SIDE */

@@ -860,7 +860,7 @@
   overflow: visible;
 }
 .header-main ul {
-  list-style: none !important;
+  list-style: none;
   padding-left: 0;
   margin-bottom: 0;
 }
@@ -2121,7 +2121,7 @@
   overflow: visible;
 }
 .header-main ul {
-  list-style: none !important;
+  list-style: none;
   padding-left: 0;
   margin-bottom: 0;
 }
@@ -3673,15 +3673,6 @@
   margin-bottom: 13px;
 }
 
-.policy-section .policy-content .policy-block {
-  scroll-margin-top: 180px;
-}
-@media (max-width: 991px) {
-  .policy-section .policy-content .policy-block {
-    scroll-margin-top: 220px;
-  }
-}
-
 .red-btn {
   height: 32px !important;
 }
@@ -4112,4 +4103,4 @@
   padding-top: 200px !important;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css3.map */

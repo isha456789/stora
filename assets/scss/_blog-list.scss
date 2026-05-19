@@ -15,6 +15,11 @@
     flex-wrap: wrap;
     padding-bottom: 90px;
 
+    @media #{$md} {
+      gap: 10px;
+      padding-bottom: 45px;
+    }
+
     .category-btn {
       padding: 12px 26px;
       border: 1px solid $text-141414;
@@ -24,6 +29,13 @@
       font-size: 16px;
       cursor: pointer;
       transition: 0.3s ease;
+
+      @media #{$md} {
+        padding: 8px 16px;
+        font-size: 12px;
+        line-height: 18px;
+        border-radius: 30px;
+      }
     }
 
     /* Active Button */
@@ -41,5 +53,3 @@
     }
   }
 }
-
-

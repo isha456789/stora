@@ -422,11 +422,24 @@
 .news-category-section {
   margin-bottom: 120px;
 }
+@media (max-width: 991px) {
+  .news_insights-section,
+  .news-category-section {
+    margin-bottom: 70px;
+  }
+}
 .news_insights-section .news-title,
 .news-category-section .news-title {
   font-size: 50px;
   line-height: 50px;
   color: #141414;
+}
+@media (max-width: 991px) {
+  .news_insights-section .news-title,
+  .news-category-section .news-title {
+    font-size: 22px;
+    line-height: 35px;
+  }
 }
 .news_insights-section .news-sub-title,
 .news-category-section .news-sub-title {
@@ -434,27 +447,49 @@
   line-height: 28px;
   color: #141414;
 }
-.news_insights-section .product-cards .product-card,
-.news-category-section .product-cards .product-card {
-  padding-inline: 14px;
+@media (max-width: 991px) {
+  .news_insights-section .news-sub-title,
+  .news-category-section .news-sub-title {
+    font-size: 13px;
+    line-height: 18px;
+  }
 }
-.news_insights-section .product-cards .product-card .product-image,
-.news-category-section .product-cards .product-card .product-image {
+.news_insights-section .news-slider,
+.news-category-section .news-slider {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -14px;
+}
+.news_insights-section .news-slider .slick-slide,
+.news-category-section .news-slider .slick-slide {
+  padding: 0 14px;
+}
+.news_insights-section .news-slider .news-card,
+.news-category-section .news-slider .news-card {
+  width: 25%;
+  padding: 0 14px;
+  margin-bottom: 30px;
+}
+@media (max-width: 991px) {
+  .news_insights-section .news-slider .news-card,
+  .news-category-section .news-slider .news-card {
+    width: 50%;
+  }
+}
+.news_insights-section .news-slider .news-card .news-image,
+.news-category-section .news-slider .news-card .news-image {
   position: relative;
   border-radius: 18px;
   overflow: hidden;
   height: 358px;
 }
-.news_insights-section .product-cards .product-card .product-img,
-.news-category-section .product-cards .product-card .product-img {
+.news_insights-section .news-slider .news-card .product-img,
+.news-category-section .news-slider .news-card .product-img {
   position: absolute;
   inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
-.news_insights-section .product-cards .product-card .product-tag,
-.news-category-section .product-cards .product-card .product-tag {
+.news_insights-section .news-slider .news-card .product-tag,
+.news-category-section .news-slider .news-card .product-tag {
   position: absolute;
   top: 14px;
   left: 14px;
@@ -463,24 +498,30 @@
   z-index: 2;
   color: #141414;
 }
-.news_insights-section .product-cards .product-card .news-content .news-text,
-.news-category-section .product-cards .product-card .news-content .news-text {
+@media (max-width: 991px) {
+  .news_insights-section .news-slider .news-card .product-tag,
+  .news-category-section .news-slider .news-card .product-tag {
+    left: 12px;
+  }
+}
+.news_insights-section .news-slider .news-card .news-content .news-text,
+.news-category-section .news-slider .news-card .news-content .news-text {
   font-size: 16px;
   line-height: 25px;
   color: #141414;
 }
-.news_insights-section .product-cards .product-card .news-content .news-desc,
-.news-category-section .product-cards .product-card .news-content .news-desc {
+.news_insights-section .news-slider .news-card .news-content .news-desc,
+.news-category-section .news-slider .news-card .news-content .news-desc {
   font-size: 13px;
   line-height: 24px;
   color: #818181;
 }
-.news_insights-section .product-cards .product-card .news-content .red-btn,
-.news-category-section .product-cards .product-card .news-content .red-btn {
+.news_insights-section .news-slider .news-card .news-content .red-btn,
+.news-category-section .news-slider .news-card .news-content .red-btn {
   height: 32px;
 }
-.news_insights-section .product-cards .product-card .news-content .news-read,
-.news-category-section .product-cards .product-card .news-content .news-read {
+.news_insights-section .news-slider .news-card .news-content .news-read,
+.news-category-section .news-slider .news-card .news-content .news-read {
   font-size: 16px;
   line-height: 24px;
   color: #D61E2A;
@@ -517,18 +558,18 @@
   color: #141414;
   text-transform: uppercase;
 }
-@media (max-width: 991px) {
-  .left-right-image-section .left-right-content .aboutus-title {
-    font-size: 30px;
-    line-height: 30px;
-    margin-bottom: 19px;
-  }
-}
 .left-right-image-section .left-right-content .aboutus-content .abt-content-title {
   font-size: 16px;
   line-height: 25px;
   color: #141414;
   margin-bottom: 7px;
+}
+@media (max-width: 991px) {
+  .left-right-image-section .left-right-content .aboutus-content .abt-content-title {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 19px;
+  }
 }
 .left-right-image-section .left-right-content .aboutus-content .aboutus-des {
   font-size: 18px;
@@ -545,6 +586,12 @@
 .left-right-image-section .left-right-content .aboutus-content .aboutus-foral {
   font-size: 50px;
   line-height: 65px;
+}
+@media (max-width: 991px) {
+  .left-right-image-section .left-right-content .aboutus-content .aboutus-foral {
+    font-size: 28px;
+    line-height: 40px;
+  }
 }
 .left-right-image-section .left-right-img {
   height: 659px;
@@ -565,6 +612,11 @@
   display: flex;
   align-items: center;
   gap: 12px;
+}
+@media (max-width: 991px) {
+  .pagination {
+    padding-top: 20px;
+  }
 }
 .pagination a {
   text-decoration: none;
@@ -589,6 +641,16 @@
   line-height: 25px;
   font-family: "Poppins-Regular";
   transition: 0.3s;
+}
+@media (max-width: 991px) {
+  .pagination .page-btn,
+  .pagination .page-number {
+    height: 30px;
+    min-width: 30px;
+    padding: 10px 15px;
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
 .pagination {
   /* Number Circle */
@@ -3153,6 +3215,12 @@
   flex-wrap: wrap;
   padding-bottom: 90px;
 }
+@media (max-width: 991px) {
+  .news-category-section .category-wrapper {
+    gap: 10px;
+    padding-bottom: 45px;
+  }
+}
 .news-category-section .category-wrapper .category-btn {
   padding: 12px 26px;
   border: 1px solid #141414;
@@ -3162,6 +3230,14 @@
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s ease;
+}
+@media (max-width: 991px) {
+  .news-category-section .category-wrapper .category-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 30px;
+  }
 }
 .news-category-section .category-wrapper {
   /* Active Button */

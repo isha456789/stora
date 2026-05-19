@@ -1,49 +1,207 @@
 .header-main {
-  z-index: 99;
-  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  overflow: visible;
+
   ul {
-    list-style: none !important;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
   }
+
+  // =========================
+  // HEADER TOP
+  // =========================
+
   .header-top {
     background-color: $color-D61E2A;
     font-size: 16px;
     line-height: 25px;
     color: $text-FAFAFA;
 
-    @media #{$md}{
+    @media #{$md} {
       font-size: 12px;
       line-height: 18px;
     }
   }
+
+  // =========================
+  // HEADER BOTTOM
+  // =========================
+
   .header-bottom {
     background-color: $color-FFF8F4;
+    position: relative;
+
     .header-logo {
       font-size: 38px;
       line-height: 38px;
       color: $text-141414;
     }
-    .list-item {
-        a{
-            color: $text-141414;
+
+    // =========================
+    // LEFT MENU
+    // =========================
+
+    .header-left {
+      .header-link {
+
+        &.list-item {
+          padding-block: 45px;
+
+          &:first-child {
+            margin-left: 0 !important;
+          }
         }
-      &:first-child {
-        margin-left: 0px !important;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        // NAV LINK
+
+        .nav-link {
+          color: $text-141414;
+          text-decoration: none;
+        }
+
+        .list-text {
+          font-size: 16px;
+          line-height: 25px;
+          color: $text-141414;
+          transition: 0.3s ease;
+
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+
+        // =========================
+        // MEGA MENU
+        // =========================
+
+        .mega-menu {
+
+
+          background-color: #FFF8F4;
+
+          padding-top: 57px;
+          padding-bottom: 57px;
+
+          opacity: 0;
+          visibility: hidden;
+          pointer-events: none;
+
+          transition: all 0.4s ease;
+
+          z-index: 999;
+          border-top: 1px solid#70707080;
+
+          @media #{$xs} {
+            position: static;
+            width: 100%;
+            display: none;
+
+            padding-top: 25px;
+            padding-bottom: 25px;
+          }
+
+          .left-menu {
+            .left-border {
+              border-left: 1px solid #70707080;
+            }
+
+            .mega-header {
+              font-size: 16px;
+              line-height: 25px;
+              color: $color-141414;
+            }
+
+            ul {
+              li {
+                margin-bottom: 2px;
+
+                a {
+                  color:$color-141414;
+                  opacity:0.45;
+                  font-size: 16px;
+                  line-height: 28px;
+                  text-decoration: none;
+                  transition: 0.3s ease;
+
+                  &:hover {
+                    opacity: 0.6;
+                  }
+                }
+              }
+            }
+          }
+
+          .hover-img {
+            height: 405px;
+            overflow: hidden;
+            border-radius: 10px;
+
+            img {
+              object-fit: cover;
+              display: block;
+            }
+          }
+        }
+
+        // =========================
+        // DESKTOP HOVER
+        // =========================
+
+        @media (min-width: 1025px) {
+          &:hover {
+            .mega-menu {
+              opacity: 1;
+              visibility: visible;
+              pointer-events: auto;
+            }
+          }
+        }
+
+        // =========================
+        // MOBILE ACTIVE
+        // =========================
+
+        &.res-menu-active {
+          .mega-menu {
+            display: block;
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+          }
+        }
       }
     }
-    .list-text {
+
+    // =========================
+    // RIGHT SIDE
+    // =========================
+
+    .current {
       font-size: 16px;
       line-height: 25px;
       color: $text-141414;
     }
-    .current {
-      font-size: 16px;
-      line-height: 25px;
-    }
+
     .header-icons {
       .header-icon {
-        height: 20px !important;
+        height: 20px;
+
         &:first-child {
-          margin-left: 0px !important;
+          margin-left: 0 !important;
+        }
+
+        img {
+          width: auto;
+          height: 100%;
+          display: block;
         }
       }
     }

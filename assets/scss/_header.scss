@@ -6,7 +6,7 @@
   overflow: visible;
 
   ul {
-    list-style: none;
+    list-style: none !important;
     padding-left: 0;
     margin-bottom: 0;
   }
@@ -18,6 +18,12 @@
     font-size: 16px;
     line-height: 25px;
     color: $text-FAFAFA;
+
+    .header-top-link {
+      a {
+        color: $text-FAFAFA !important;
+      }
+    }
 
     @media #{$md} {
       font-size: 12px;
@@ -108,7 +114,6 @@
           flex-direction: column;
           padding: 25px 0px 50px 0px;
           align-items: flex-start !important;
-
         }
 
         .header-link {
@@ -120,7 +125,7 @@
 
     .header-link {
       padding-block: 45px;
-      
+
       // desktop hover
       &:hover {
         .mega-menu {
@@ -129,14 +134,13 @@
           pointer-events: auto;
         }
       }
-      
-      @media #{$md}{
+
+      @media #{$md} {
         padding-block: 15px;
       }
     }
 
     &.header-link {
-
       @media #{$md} {
         padding-block: 10px;
       }

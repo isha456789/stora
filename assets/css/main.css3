@@ -860,7 +860,7 @@
   overflow: visible;
 }
 .header-main ul {
-  list-style: none !important;
+  list-style: none;
   padding-left: 0;
   margin-bottom: 0;
 }
@@ -2121,7 +2121,7 @@
   overflow: visible;
 }
 .header-main ul {
-  list-style: none !important;
+  list-style: none;
   padding-left: 0;
   margin-bottom: 0;
 }
@@ -4103,4 +4103,4 @@
   padding-top: 200px !important;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css3.map */

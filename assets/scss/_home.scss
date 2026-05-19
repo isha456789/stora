@@ -75,10 +75,17 @@
 
 .category-section {
   margin-top: 0px;
-  margin-bottom: 150px;
+  margin-bottom: 190px;
 
   @media #{$md} {
     margin-bottom: 55px;
+  }
+  &.category-space {
+    padding-top: 210px;
+
+    @media #{$md} {
+     padding-top: 260px;
+    }
   }
 
   &.product-section {
@@ -89,7 +96,7 @@
       height: 205px;
 
       @media #{$md} {
-        height: 235 !important;
+        height: 180px !important;
       }
 
       img {
@@ -420,12 +427,11 @@
     margin-inline: -5px;
     .product-card {
       padding-inline: 14px;
-       width: 25%;
+      width: 25%;
 
       @media #{$md} {
         padding-inline: 5px;
         width: 50%;
-       
       }
       .product-image {
         position: relative;

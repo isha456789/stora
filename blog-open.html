@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 
 <body>
@@ -85,7 +86,7 @@
     <main>
         <section class="blog-detail-section">
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="fade-up">
                     <div class="blog-slides col-lg-5 px-lg-5">
                         <div class="blog-sidebar">
                             <div class="d-flex align-items-center pb-5">
@@ -157,11 +158,11 @@
                         <div class="blog-content">
                             <div class="blog-category Poppins-Regular ">Everyday Wear</div>
                             <div class="blog-title dmsans-regular">
-                                WHY TITANIUM JEWELLERY IS TRENDING
+                                10 ESSENTIAL WINTER WEAR PIECES EVERY MAN NEEDS IN 2026
                             </div>
                             <div class="blog-subtitle Poppins-Regular">
-                                Discover why titanium is becoming the top choice for modern,
-                                skin-friendly jewellery lovers
+                                From premium wool coats to versatile layering basics — build a timeless cold-weather
+                                wardrobe that keeps you warm and sharp.
                             </div>
                             <!-- MAIN IMAGE -->
                             <div class="main-blog-image">
@@ -169,28 +170,26 @@
                             </div>
                             <!-- CONTENT -->
                             <div class="blog-text-block">
-                                <div class="blog-first-title dmsans-regular">PERFECT FOR SENSITIVE SKIN</div>
+                                <div class="blog-first-title dmsans-regular">CASUAL COMFORT</div>
                                 <div class="blog-second-desc Poppins-Regular">
-                                    Titanium is naturally hypoallergenic, making it ideal for people
-                                    with sensitive skin. It doesn't cause irritation or allergic
-                                    reactions, even with prolonged wear.
+                                    Hoodies offer the perfect mix of comfort and street style. Ideal for layering, they
+                                    keep you warm while maintaining a relaxed, modern look.
                                 </div>
                             </div>
 
                             <div class="blog-text-block">
-                                <div class="blog-first-title dmsans-regular">LIGHTWEIGHT FOR EVERYDAY COMFORT</div>
+                                <div class="blog-first-title dmsans-regular">STYLE + FUNCTION</div>
                                 <div class="blog-second-desc Poppins-Regular">
-                                    Unlike heavier metals, titanium feels incredibly light on the skin.
-                                    This makes it perfect for daily wear without any discomfort or pressure.
+                                    Scarves are not just accessories — they protect you from cold winds while enhancing
+                                    your overall outfit.
                                 </div>
                             </div>
 
                             <div class="blog-text-block">
-                                <div class="blog-first-title dmsans-regular">EXCEPTIONAL DURABILITY</div>
+                                <div class="blog-first-title dmsans-regular">BOLD & CLASSIC</div>
                                 <div class="blog-second-desc Poppins-Regular">
-                                    Titanium is highly resistant to scratches, bending, and damage.
-                                    It maintains its shape and finish even with regular use,
-                                    making it a long-lasting choice.
+                                    Leather jackets never go out of style. They provide moderate warmth and give a bold,
+                                    masculine appearance.
                                 </div>
                             </div>
 
@@ -210,24 +209,23 @@
 
                             <div class="blog-text-block">
 
-                                <div class="blog-first-title dmsans-regular">WATERPROOF & SWEAT-RESISTANT</div>
+                                <div class="blog-first-title dmsans-regular">DURABLE & STYLISH</div>
 
                                 <div class="blog-second-desc Poppins-Regular">
-                                    You can wear titanium jewellery anywhere—at the gym,
-                                    in the shower, or outdoors. It resists water, sweat,
-                                    and humidity without tarnishing.
+                                    Good-quality boots are essential for winter. They provide grip, comfort, and
+                                    protection from cold and wet conditions.
                                     </p>
 
                                 </div>
 
                                 <div class="blog-text-block">
 
-                                    <div class="blog-first-title dmsans-regular">MODERN & MINIMAL AESTHETIC</div>
+                                    <div class="blog-first-title dmsans-regular">FINAL THOUGHTS</div>
 
                                     <div class="blog-second-desc Poppins-Regular">
-                                        Titanium offers a sleek, clean look that fits modern style trends.
-                                        Its versatile design pairs well with both casual and formal outfits
-                                        effortlessly.
+                                        Building a strong winter wardrobe in 2026 is all about choosing versatile,
+                                        comfortable, and stylish pieces. With these essentials, you can stay warm while
+                                        looking sharp all season long.
                                         </p>
 
                                     </div>
@@ -244,7 +242,7 @@
 
         <section class="news_insights-section">
             <div class="container">
-                <div class="d-lg-flex align-items-center justify-content-between pb-lg-5 pb-3">
+                <div class="d-lg-flex align-items-center justify-content-between pb-lg-5 pb-3" data-aos="fade-up">
                     <div class="">
                         <div class="news-title  dmsans-regular pb-2">
                             NEWS & INSIGHTS
@@ -264,7 +262,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="news-slider">
+                <div class="news-slider" data-aos="fade-up">
                     <div class="news-card mt-3 mb-0">
                         <div class="news-image ">
                             <div class="product-tag Poppins-Regular  bg-white px-3 py-2">Materials</div>
@@ -386,7 +384,7 @@
             </div>
         </section>
 
-        <section class="storma-section">
+        <section class="storma-section" data-aos="fade-up">
             <div class="container">
                 <div class="stroma-title dmsans-regular mb-lg-5 mb-3 text-center">
                     #STORAMA
@@ -538,6 +536,17 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        window.addEventListener('load', function () {
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100,
+            });
+        });
+    </script>
 </body>
 
 </html>

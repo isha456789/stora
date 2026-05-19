@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 
 <body>
@@ -89,7 +90,7 @@
 
                 <h2 class="basket-title dmsans-regular text-uppercase mb-5">Your Bag (2)</h2>
 
-                <div class="row justify-content-between align-items-start">
+                <div class="row justify-content-between align-items-start" data-aos="fade-up">
 
                     <!-- LEFT COLUMN -->
                     <div class="col-lg-8 pe-lg-5">
@@ -259,7 +260,7 @@
 
         <section class="seller-section">
             <div class="container">
-                <div class="d-lg-flex align-items-center justify-content-between pb-lg-5">
+                <div class="d-lg-flex align-items-center justify-content-between pb-lg-5" data-aos="fade-up">
                     <div class="">
                         <div class="seller-title  dmsans-regular pb-2">
                             BEST SELLERS
@@ -278,7 +279,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="product-cards ">
+                <div class="product-cards " data-aos="fade-up">
                     <!-- card-1 -->
                     <div class="product-card col-lg-3 pt-lg-0 pt-3">
                         <div class="product-image">
@@ -453,7 +454,7 @@
             </div>
         </section>
 
-        <section class="storma-section">
+        <section class="storma-section" data-aos="fade-up">
             <div class="container">
                 <div class="stroma-title dmsans-regular mb-lg-5 mb-3 text-center">
                     #STORAMA
@@ -606,6 +607,17 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        window.addEventListener('load', function () {
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100,
+            });
+        });
+    </script>
 </body>
 
 </html>

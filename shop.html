@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 
 <body>
@@ -85,7 +86,7 @@
 
         <section class="category-section category-space">
             <div class="container">
-                <div class="category-cards row ">
+                <div class="category-cards row " data-aos="fade-up">
                     <div class="category-card col-lg-2 col-6">
                         <div class="category-img pb-lg-3 pb-2">
                             <img src="assets/images/catagory-1.png" alt="" class="w-100 h-100 object-fit-cover">
@@ -158,15 +159,16 @@
 
         <section class="winter-collection-section">
             <div class="container">
-                <div class="winter-title pb-3">
+                <div class="winter-title pb-3" data-aos="fade-up">
                     WINTER ESSENTIALS
                 </div>
-                <div class="col-lg-6 winter-desc pb-4">
+                <div class="col-lg-6 winter-desc pb-4" data-aos="fade-up">
                     Stay warm and stylish with our carefully curated winter collection, designed for comfort,
                     durability, and everyday wear, featuring cozy layers and protective outerwear that keep you
                     covered all season without compromising on style.
                 </div>
-                <div class="d-flex flex-lg-row justify-content-lg-between flex-column align-items-start">
+                <div class="d-flex flex-lg-row justify-content-lg-between flex-column align-items-start"
+                    data-aos="fade-up">
                     <div class="toggle-box col-lg-6">
                         <div class="show-filter Poppins-Regular">Show Filter</div>
                         <label class="switch">
@@ -179,7 +181,7 @@
                         SHORT BY: A TO Z NAME +
                     </div>
                 </div>
-                <div class="product-cards ">
+                <div class="product-cards" data-aos="fade-up">
                     <div class="product-card col-lg-3">
                         <div class="product-image">
                             <div class="product-tag Poppins-Regular text-141414 bg-white px-3 py-2">NEW IN</div>
@@ -959,7 +961,7 @@
             </div>
         </section>
 
-        <section class="storma-section">
+        <section class="storma-section" data-aos="fade-up">
             <div class="container">
                 <div class="stroma-title dmsans-regular mb-lg-5 mb-3 text-center">
                     #STORAMA
@@ -1115,6 +1117,17 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        window.addEventListener('load', function () {
+            AOS.init({
+                duration: 1000,
+                once: true,
+                offset: 100,
+            });
+        });
+    </script>
 </body>
 
 </html>

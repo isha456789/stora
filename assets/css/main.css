@@ -3673,6 +3673,15 @@
   margin-bottom: 13px;
 }
 
+.policy-section .policy-content .policy-block {
+  scroll-margin-top: 180px;
+}
+@media (max-width: 991px) {
+  .policy-section .policy-content .policy-block {
+    scroll-margin-top: 220px;
+  }
+}
+
 .red-btn {
   height: 32px !important;
 }

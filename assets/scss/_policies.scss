@@ -42,6 +42,7 @@
 .policy-section {
   padding-top: 122px;
   padding-bottom: 122px;
+
   @media #{$md} {
     padding-top: 190px;
     padding-bottom: 90px;
@@ -51,6 +52,7 @@
     .policy-block {
       border-bottom: 1px solid rgba(20, 20, 20, 0.25);
       margin-top: 65px;
+
       @media #{$md} {
         margin-top: 50px;
       }
@@ -63,6 +65,7 @@
         font-size: 30px;
         line-height: 60px;
         color: $color-141414;
+
         @media #{$md} {
           font-size: 25px;
           line-height: 40px;
@@ -75,6 +78,7 @@
         line-height: 28px;
         color: $text-818181;
         margin-bottom: 26px;
+
         @media #{$md} {
           font-size: 14px;
           line-height: 24px;
@@ -83,6 +87,7 @@
         // border-bottom: 1px solid black;
         &:last-child {
           margin-bottom: 80px;
+
           @media #{$md} {
             margin-bottom: 50px;
           }
@@ -94,6 +99,18 @@
         line-height: 28px;
         color: $text-818181;
         margin-bottom: 13px;
+      }
+    }
+  }
+}
+
+.policy-section {
+  .policy-content {
+    .policy-block {
+      scroll-margin-top: 180px; // header height + thoda gap
+
+      @media #{$md} {
+        scroll-margin-top: 220px;
       }
     }
   }

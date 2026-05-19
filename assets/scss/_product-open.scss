@@ -139,6 +139,9 @@
 
         .size-guide-offcanvas {
           width: 640px !important;
+          @media #{$md} {
+            width: 100% !important;
+          }
         }
 
         .size-guide-content {
@@ -173,6 +176,14 @@
             line-height: 28px;
             color: $color-141414;
             margin-bottom: 40px;
+
+            padding-left: 20px;
+
+            @media #{$md} {
+              font-size: 16px;
+              line-height: 24px;
+              padding-left: 0px;
+            }
           }
 
           .size-guide-table {
@@ -199,8 +210,13 @@
               text-align: center;
               color: $color-141414;
               font-size: 16px;
-              font-weight: 400;
               font-family: "Poppins-Light";
+
+              @media #{$md} {
+                  padding: 20px 6px;
+                   font-size: 14px;
+
+              }
             }
 
             th:first-child,

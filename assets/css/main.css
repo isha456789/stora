@@ -2700,6 +2700,12 @@
   padding: 20px;
   margin-bottom: 140px;
 }
+@media (max-width: 991px) {
+  .fashion-arrival-section {
+    padding: 12px;
+    margin-bottom: 70px;
+  }
+}
 .fashion-arrival-section .fashion-arrival-wrapper {
   max-width: 1400px;
   margin: auto;
@@ -2708,15 +2714,33 @@
   gap: 16px;
   min-height: 700px;
 }
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}
 .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-card {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
   height: 960px;
 }
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-card {
+    height: 420px;
+    border-radius: 18px;
+  }
+}
 .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-card.fashion-small-banner {
   height: 470px;
   margin-bottom: 16px;
+}
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-card.fashion-small-banner {
+    height: 320px;
+    margin-bottom: 14px;
+  }
 }
 .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-card.fashion-small-banner:last-child {
   margin-bottom: 0px;
@@ -2727,21 +2751,52 @@
   left: 40px;
   z-index: 2;
 }
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-content {
+    top: 20px;
+    left: 20px;
+    right: 20px;
+  }
+}
 .fashion-arrival-section .fashion-arrival-wrapper .fashion-small-title {
   font-size: 18px;
   line-height: 27px;
 }
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper .fashion-small-title {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
 .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-title {
   font-size: 50px;
   line-height: 50px;
+}
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-title {
+    font-size: 30px;
+    line-height: 36px;
+  }
 }
 .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-text {
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 35px;
 }
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-text {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+}
 .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-text.banner-padding {
   padding-bottom: 600px;
+}
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper .fashion-banner-text.banner-padding {
+    padding-bottom: 180px;
+  }
 }
 .fashion-arrival-section .fashion-arrival-wrapper .fashion-right-side {
   display: flex;
@@ -2751,16 +2806,41 @@
   left: auto;
   right: 35px;
 }
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper .fashion-right-side .fashion-content-right .fashion-banner-content {
+    left: 20px;
+    right: 20px;
+  }
+}
 .fashion-arrival-section .fashion-arrival-wrapper .fashion-small-banner .fashion-banner-title {
   font-size: 52px;
+}
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper .fashion-small-banner .fashion-banner-title {
+    font-size: 28px;
+    line-height: 34px;
+  }
 }
 .fashion-arrival-section .fashion-arrival-wrapper .fashion-small-banner .fashion-banner-text {
   font-size: 18px;
   line-height: 28px;
 }
+@media (max-width: 991px) {
+  .fashion-arrival-section .fashion-arrival-wrapper .fashion-small-banner .fashion-banner-text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
 
 .style-hub-section {
   padding-bottom: 140px;
+}
+@media (max-width: 991px) {
+  .style-hub-section {
+    padding-bottom: 70px;
+  }
+}
+.style-hub-section {
   /* LEFT SIDE */
 }
 

@@ -2,9 +2,9 @@
   padding-top: 210px;
   padding-bottom: 135px;
 
-      @media #{$md} {
-     padding-bottom: 95px;
-    }
+  @media #{$md} {
+    padding-bottom: 95px;
+  }
 
   .winter-title {
     color: $text-141414;
@@ -442,6 +442,11 @@
   padding: 20px;
   margin-bottom: 140px;
 
+  @media #{$md} {
+    padding: 12px;
+    margin-bottom: 70px;
+  }
+
   .fashion-arrival-wrapper {
     max-width: 1400px;
     margin: auto;
@@ -450,15 +455,29 @@
     gap: 16px;
     min-height: 700px;
 
+    @media #{$md} {
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+
     .fashion-banner-card {
       position: relative;
       overflow: hidden;
       border-radius: 8px;
       height: 960px;
+      @media #{$md} {
+        height: 420px;
+        border-radius: 18px;
+      }
 
       &.fashion-small-banner {
         height: 470px;
         margin-bottom: 16px;
+
+        @media #{$md} {
+          height: 320px;
+          margin-bottom: 14px;
+        }
 
         &:last-child {
           margin-bottom: 0px;
@@ -471,16 +490,31 @@
       top: 40px;
       left: 40px;
       z-index: 2;
+
+      @media #{$md} {
+        top: 20px;
+        left: 20px;
+        right: 20px;
+      }
     }
 
     .fashion-small-title {
       font-size: 18px;
       line-height: 27px;
+
+      @media #{$md} {
+        font-size: 12px;
+        line-height: 18px;
+      }
     }
 
     .fashion-banner-title {
       font-size: 50px;
       line-height: 50px;
+      @media #{$md} {
+        font-size: 30px;
+        line-height: 36px;
+      }
     }
 
     .fashion-banner-text {
@@ -488,8 +522,18 @@
       line-height: 28px;
       margin-bottom: 35px;
 
+      @media #{$md} {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+      }
+
       &.banner-padding {
         padding-bottom: 600px;
+
+        @media #{$md} {
+          padding-bottom: 180px;
+        }
       }
     }
 
@@ -500,22 +544,40 @@
       .fashion-content-right .fashion-banner-content {
         left: auto;
         right: 35px;
+
+        @media #{$md} {
+          left: 20px;
+          right: 20px;
+        }
       }
     }
 
     .fashion-small-banner .fashion-banner-title {
       font-size: 52px;
+
+      @media #{$md} {
+        font-size: 28px;
+        line-height: 34px;
+      }
     }
 
     .fashion-small-banner .fashion-banner-text {
       font-size: 18px;
       line-height: 28px;
+
+      @media #{$md} {
+        font-size: 14px;
+        line-height: 22px;
+      }
     }
   }
 }
 
 .style-hub-section {
   padding-bottom: 140px;
+  @media #{$md} {
+    padding-bottom: 70px;
+  }
 
   /* LEFT SIDE */
 }

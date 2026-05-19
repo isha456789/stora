@@ -34,14 +34,18 @@
     .header-center {
       @media #{$md} {
         width: 100%;
+        padding-block: 20px;
       }
+
       .header-logo {
         font-size: 38px;
         line-height: 38px;
+
         a {
           color: $text-141414;
         }
       }
+
       .burger-menu {
         height: 35px !important;
         position: relative;
@@ -104,16 +108,19 @@
           flex-direction: column;
           padding: 25px 0px 50px 0px;
           align-items: flex-start !important;
-          
+
         }
 
-        .list-item {
+        .header-link {
           margin-left: 0 !important;
           margin-bottom: 20px;
         }
       }
     }
+
     .header-link {
+      padding-block: 45px;
+      
       // desktop hover
       &:hover {
         .mega-menu {
@@ -122,10 +129,13 @@
           pointer-events: auto;
         }
       }
+      
+      @media #{$md}{
+        padding-block: 15px;
+      }
     }
 
-    &.list-item {
-      padding-block: 45px;
+    &.header-link {
 
       @media #{$md} {
         padding-block: 10px;

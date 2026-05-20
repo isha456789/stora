@@ -563,6 +563,11 @@
 .left-right-image-section {
   padding-top: 230px;
   padding-bottom: 122px;
+   @media #{$md}{
+    padding-top: 160px;
+  padding-bottom:80px;
+
+   }
   .left-right-content {
     .ourstory-title {
       font-size: 18px;
@@ -624,7 +629,7 @@
   }
 
   .left-right-img {
-    height: 659px;
+    // height: 659px;
     overflow: hidden;
     border-radius: 10px;
 
@@ -703,6 +708,8 @@
 
 .style-hub-content {
   padding-right: 40px;
+  padding-bottom: 98px;
+  
 
   .style-hub-subtitle {
     font-size: 18px;

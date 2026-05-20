@@ -531,6 +531,12 @@
   padding-top: 230px;
   padding-bottom: 122px;
 }
+@media (max-width: 991px) {
+  .left-right-image-section {
+    padding-top: 160px;
+    padding-bottom: 80px;
+  }
+}
 .left-right-image-section .left-right-content .ourstory-title {
   font-size: 18px;
   line-height: 27px;
@@ -588,7 +594,6 @@
   }
 }
 .left-right-image-section .left-right-img {
-  height: 659px;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -675,6 +680,7 @@
 
 .style-hub-content {
   padding-right: 40px;
+  padding-bottom: 98px;
 }
 .style-hub-content .style-hub-subtitle {
   font-size: 18px;
@@ -1302,7 +1308,7 @@
   margin-bottom: 50px;
 }
 .preview-card-section .preview-card-wrapper .preview-card {
-  height: 530px;
+  height: 600px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -1815,7 +1821,6 @@
 }
 .seller-section .product-cards .product-card {
   padding-inline: 14px;
-  width: 25%;
 }
 @media (max-width: 991px) {
   .seller-section .product-cards .product-card {
@@ -2865,6 +2870,7 @@
   font-size: 14px;
   line-height: 14px;
   padding: 15px 20px;
+  border-radius: 5px;
   background-color: #F7F7F7;
   color: #141414;
 }
@@ -3520,6 +3526,7 @@
   font-size: 16px;
   line-height: 25px;
   color: #141414;
+  margin-bottom: 17px;
 }
 .contact-section .contact-info .left-content .menu-des {
   font-size: 16px;
@@ -3614,7 +3621,7 @@
 
 .policy-section {
   padding-top: 122px;
-  padding-bottom: 122px;
+  padding-bottom: 236px;
 }
 @media (max-width: 991px) {
   .policy-section {
@@ -3637,6 +3644,7 @@
 .policy-section .policy-content .policy-block .policy-title {
   font-size: 30px;
   line-height: 60px;
+  margin-bottom: 34px;
   color: #141414;
 }
 @media (max-width: 991px) {
@@ -3659,7 +3667,7 @@
   }
 }
 .policy-section .policy-content .policy-block .policy-des:last-child {
-  margin-bottom: 80px;
+  margin-bottom: 65px;
 }
 @media (max-width: 991px) {
   .policy-section .policy-content .policy-block .policy-des:last-child {
@@ -3671,6 +3679,10 @@
   line-height: 28px;
   color: #818181;
   margin-bottom: 13px;
+}
+.policy-section .policy-content .policy-block .policy-list::marker {
+  font-size: 25px;
+  color: #818181;
 }
 
 .policy-section .policy-content .policy-block {
@@ -3741,7 +3753,7 @@
 }
 
 .page-found-section {
-  padding-top: 100px;
+  padding-top: 204px;
 }
 @media (max-width: 991px) {
   .page-found-section {
@@ -4051,10 +4063,10 @@
   width: 78px;
 }
 .basket-section .bottom-border {
-  border-bottom: 1px solid black !important;
+  border-bottom: 1px solid rgba(20, 20, 20, 0.25);
 }
 .basket-section .top-border {
-  border-top: 1px solid black !important;
+  border-top: 1px solid rgba(20, 20, 20, 0.25) !important;
 }
 .basket-section .cart-table-header {
   font-size: 14px;
@@ -4110,6 +4122,4 @@
 
 .faq-page-main .style-hub-section {
   padding-top: 200px !important;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,7 @@
 .footer-main {
   background-color: $text-141414;
+  position: relative;
+  z-index: 3;
   padding-top: 58px;
   .footer-img {
     height: 670px;

@@ -3,8 +3,8 @@
     z-index: 99;
 
     .header-logo {
-      font-size: 50PX;
-      color: $color-FFF8F4;
+        font-size: 50PX;
+        color: $color-FFF8F4;
 
         @media #{$md} {
             width: 190px;
@@ -25,7 +25,7 @@
 .preview-hero-section {
     height: 100vh;
 
-  
+
 
     .hero-content-wrapper {
         .hero-prefix {
@@ -58,7 +58,7 @@
 }
 
 .preview-card-section {
-    background-color: $text-818181;
+    background-color: $text-FAFAFA;
     padding-top: 100px;
     padding-bottom: 50px;
 
@@ -70,6 +70,7 @@
             border-radius: 10px;
             overflow: hidden;
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            background-color: white;
             transition: all 0.3s ease-in-out;
 
             img {
@@ -108,33 +109,50 @@
 }
 
 .theme-tool-section {
-    .service-card-group {
-        &.theme-tool-group {
-            padding: 40px 15px 32px 15px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background: #d21c28;
 
-            .theme-tool-img {
-                height: 75px;
+    .icon-card {
+
+        .service-card-group {
+            border-radius: 10px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.12);
+
+            &:hover {
+                transform: translateY(-3px);
+                box-shadow:
+                    0px 15px 40px rgba(0, 0, 0, 0.18);
             }
 
-            @media #{$md} {
-                padding: 30px 15px 30px 15px;
+
+            &.theme-tool-group {
+                padding: 40px 15px 32px 15px;
 
                 .theme-tool-img {
-                    height: 50px;
+                    height: 75px;
+                }
+
+                @media #{$md} {
+                    padding: 30px 15px 30px 15px;
+
+                    .theme-tool-img {
+                        height: 50px;
+                    }
                 }
             }
-        }
 
-        .theme-title {
-            font-size: 20px;
-            letter-spacing: 0.30px;
-            line-height: 30px;
-            color: $color-141414;
-            text-transform: capitalize;
+            .theme-title {
+                font-size: 20px;
+                letter-spacing: 0.30px;
+                line-height: 30px;
+                color: $color-141414;
+                text-transform: capitalize;
 
 
-            @media #{$md} {
-                font-size: 17px;
+                @media #{$md} {
+                    font-size: 17px;
+                }
             }
         }
     }

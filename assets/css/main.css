@@ -1059,6 +1059,8 @@
 
 .footer-main {
   background-color: #141414;
+  position: relative;
+  z-index: 3;
   padding-top: 58px;
 }
 .footer-main .footer-img {
@@ -1308,7 +1310,7 @@
 }
 
 .preview-card-section {
-  background-color: #818181;
+  background-color: #FAFAFA;
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -1320,6 +1322,7 @@
   border-radius: 10px;
   overflow: hidden;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
   transition: all 0.3s ease-in-out;
 }
 .preview-card-section .preview-card-wrapper .preview-card img {
@@ -1344,21 +1347,34 @@
   line-height: 30px;
 }
 
-.theme-tool-section .service-card-group.theme-tool-group {
+.theme-tool-section {
+  padding-bottom: 150px;
+  padding-top: 150px;
+  background: #d21c28;
+}
+.theme-tool-section .icon-card .service-card-group {
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.12);
+}
+.theme-tool-section .icon-card .service-card-group:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.18);
+}
+.theme-tool-section .icon-card .service-card-group.theme-tool-group {
   padding: 40px 15px 32px 15px;
 }
-.theme-tool-section .service-card-group.theme-tool-group .theme-tool-img {
+.theme-tool-section .icon-card .service-card-group.theme-tool-group .theme-tool-img {
   height: 75px;
 }
 @media (max-width: 991px) {
-  .theme-tool-section .service-card-group.theme-tool-group {
+  .theme-tool-section .icon-card .service-card-group.theme-tool-group {
     padding: 30px 15px 30px 15px;
   }
-  .theme-tool-section .service-card-group.theme-tool-group .theme-tool-img {
+  .theme-tool-section .icon-card .service-card-group.theme-tool-group .theme-tool-img {
     height: 50px;
   }
 }
-.theme-tool-section .service-card-group .theme-title {
+.theme-tool-section .icon-card .service-card-group .theme-title {
   font-size: 20px;
   letter-spacing: 0.3px;
   line-height: 30px;
@@ -1366,7 +1382,7 @@
   text-transform: capitalize;
 }
 @media (max-width: 991px) {
-  .theme-tool-section .service-card-group .theme-title {
+  .theme-tool-section .icon-card .service-card-group .theme-title {
     font-size: 17px;
   }
 }
@@ -4127,6 +4143,4 @@
 
 .faq-page-main .style-hub-section {
   padding-top: 200px !important;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

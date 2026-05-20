@@ -69,6 +69,8 @@
 
   .story-img {
     height: 660px;
+    overflow: hidden;
+    border-radius: 10px;
     @media #{$md} {
       height: 490px;
     }
@@ -203,7 +205,8 @@
     min-width: 470px;
     border-radius: 18px;
     position: relative;
-    border: 1px solid #818181;
+    border: 1px solid rgba($color: #818181, $alpha: 0.4);
+
     transition: 0.4s ease;
     padding: 18px;
     background: white;
@@ -250,12 +253,14 @@
     .quote-icon {
       position: absolute;
       right: 17px;
-      bottom: -40px;
-      font-size: 110px;
-      line-height: 1;
-      color: #d61e2a1a;
-      font-family: serif;
-      pointer-events: none;
+      bottom: 20px;
+      //   font-size: 110px;
+      //   line-height: 1;
+      //   color: #d61e2a1a;
+      //  font-family: "Playfair Display", serif;
+      //   font-weight: bolder;
+      //   pointer-events: none;
+      height: 40px;
     }
   }
 }
@@ -305,8 +310,14 @@
   }
   .storma-img {
     height: 360px;
+    transition: 0.4s ease;
+    overflow: hidden;
+    border-radius: 12px;
+
     img {
       transition: 0.4s ease;
+      overflow: hidden;
+      border-radius: 12px;
     }
 
     &:hover {
@@ -424,13 +435,14 @@
         position: absolute;
         top: 14px;
         right: 14px;
-        height: 16px;
+        height: 21px;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
         z-index: 3;
+        height: 21px;
       }
 
       .product-info {
@@ -473,7 +485,7 @@
   @media #{$md} {
     margin-bottom: 40px;
   }
-  .news-title {
+  ₹ .news-title {
     font-size: 50px;
     line-height: 50px;
     color: $text-141414;
@@ -507,9 +519,9 @@
       width: 25%;
       padding: 0 14px;
       margin-bottom: 30px;
-       @media #{$md} {
-     width: 50%;
-    }
+      @media #{$md} {
+        width: 50%;
+      }
 
       .news-image {
         position: relative;
@@ -563,6 +575,10 @@
 .left-right-image-section {
   padding-top: 230px;
   padding-bottom: 122px;
+
+  &.left-right-space {
+    padding-bottom: 70px;
+  }
   .left-right-content {
     .ourstory-title {
       font-size: 18px;
@@ -660,7 +676,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 20px;
+    padding: 12px 35px;
     border-radius: 50px;
     cursor: pointer;
     font-size: 16px;
@@ -737,10 +753,10 @@
   font-size: 25px;
   line-height: 50px;
   margin-bottom: 30px;
-    @media #{$md} {
-      font-size: 20px;
-      line-height: 27px;
-    }
+  @media #{$md} {
+    font-size: 20px;
+    line-height: 27px;
+  }
 }
 
 /* RIGHT SIDE */

@@ -1,5 +1,5 @@
 .winter-product-section {
-  padding-top: 210px;
+  padding-top: 88px;
   padding-bottom: 135px;
 
   @media #{$md} {
@@ -70,7 +70,7 @@
       }
 
       .wishlist {
-        height: 22px;
+        height: 21px;
         @media #{$md} {
           height: 18px;
         }
@@ -352,7 +352,7 @@
 
         .quantity-box {
           height: 50px;
-          border: 1px solid $text-141414;
+          border: 2px solid $text-141414;
           border-radius: 50px;
           padding: 10px 40px;
           background-color: #fff;
@@ -427,6 +427,8 @@
 
           .look-img {
             height: 80px;
+            border-radius: 6px;
+            overflow: hidden;
           }
 
           .look-tag {

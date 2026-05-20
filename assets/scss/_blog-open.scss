@@ -21,6 +21,8 @@
     }
     .slide-image {
       height: 125px;
+      overflow: hidden;
+      border-radius: 6px;
 
       @media #{$md} {
         width: 90px;

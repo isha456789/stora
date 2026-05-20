@@ -56,7 +56,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: $text-818181;
+      background: $white;
       border-radius: 30px;
       transition: 0.3s;
     }
@@ -66,7 +66,7 @@
       position: absolute;
       width: 24px;
       height: 24px;
-      left: 3px;
+      right: 3px;
       top: 3px;
       background: $color-D61E2A;
       border-radius: 50%;
@@ -80,11 +80,11 @@
 
     /* ON state */
     .switch input:checked + .slider {
-      background: $white;
+      background: $text-818181;
     }
 
     .switch input:checked + .slider:before {
-      transform: translateX(30px);
+      transform: translateX(-30px);
     }
   }
   .pagination {
@@ -110,7 +110,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 12px 20px;
+      padding: 12px 35px;
       border-radius: 50px;
       cursor: pointer;
       font-size: 16px;

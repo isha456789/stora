@@ -1318,7 +1318,6 @@
   margin-bottom: 50px;
 }
 .preview-card-section .preview-card-wrapper .preview-card {
-  height: 600px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -2821,7 +2820,7 @@
 }
 
 .winter-product-section {
-  padding-top: 88px;
+  padding-top: 180px;
   padding-bottom: 135px;
 }
 @media (max-width: 991px) {
@@ -2970,153 +2969,6 @@
   align-items: flex-end;
   width: 100%;
   margin-bottom: 30px;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-offcanvas {
-  width: 640px !important;
-}
-@media (max-width: 991px) {
-  .winter-product-section .winter-cards .right-content .product-top .size-guide-offcanvas {
-    width: 100% !important;
-  }
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-top {
-  margin-bottom: 30px;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-top h2 {
-  font-size: 18px;
-  line-height: 28px;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-top .btn-close-area {
-  border: 0;
-  background: transparent;
-  padding: 0;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-top .btn-close-area img {
-  width: 28px;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-img {
-  border-radius: 12px;
-  overflow: hidden;
-  margin-bottom: 30px;
-  height: 400px;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-desc {
-  font-size: 18px;
-  line-height: 28px;
-  color: #141414;
-  margin-bottom: 40px;
-  padding-left: 20px;
-}
-@media (max-width: 991px) {
-  .winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-desc {
-    font-size: 16px;
-    line-height: 24px;
-    padding-left: 0px;
-  }
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-table thead {
-  border-bottom: 1px solid #d8d8d8;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-table tbody tr {
-  border-bottom: 1px solid #e3e3e3;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-table tbody tr:last-child {
-  border-bottom: 0;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-table th,
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-table td {
-  padding: 25px 0;
-  text-align: center;
-  color: #141414;
-  font-size: 16px;
-  font-family: "Poppins-Light";
-}
-@media (max-width: 991px) {
-  .winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-table th,
-  .winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-table td {
-    padding: 20px 6px;
-    font-size: 14px;
-  }
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-table th:first-child,
-.winter-product-section .winter-cards .right-content .product-top .size-guide-content .size-guide-table td:first-child {
-  text-align: left;
-  width: 160px;
-}
-.winter-product-section .winter-cards .right-content .product-top {
-  /* LEFT SIDE */
-}
-.winter-product-section .winter-cards .right-content .product-top .colors-item .list-color {
-  font-size: 16px;
-  line-height: 25px;
-  color: #141414;
-  margin-bottom: 15px;
-}
-.winter-product-section .winter-cards .right-content .product-top .color-list {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-.winter-product-section .winter-cards .right-content .product-top .bg-wrapper {
-  padding: 2px;
-  border: 1px solid #8c7972;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.winter-product-section .winter-cards .right-content .product-top .brouwn-bg {
-  background-color: #8c7972;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-@media (max-width: 991px) {
-  .winter-product-section .winter-cards .right-content .product-top .brouwn-bg {
-    width: 45px;
-    height: 45px;
-  }
-}
-.winter-product-section .winter-cards .right-content .product-top .green-bg {
-  background-color: #1a5442;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-@media (max-width: 991px) {
-  .winter-product-section .winter-cards .right-content .product-top .green-bg {
-    width: 45px;
-    height: 45px;
-  }
-}
-.winter-product-section .winter-cards .right-content .product-top .blue-bg {
-  background-color: #153e76;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-@media (max-width: 991px) {
-  .winter-product-section .winter-cards .right-content .product-top .blue-bg {
-    width: 45px;
-    height: 45px;
-  }
-}
-.winter-product-section .winter-cards .right-content .product-top {
-  /* RIGHT SIDE */
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide {
-  padding-top: 10px;
-}
-.winter-product-section .winter-cards .right-content .product-top .size-guide a {
-  font-size: 16px;
-  line-height: 25px;
-  color: #141414;
-  text-decoration: underline;
-  font-family: "Poppins-Regular";
 }
 .winter-product-section .winter-cards .right-content .size-item .size-text {
   font-size: 16px;
@@ -3497,10 +3349,162 @@
 }
 
 .offcanvas-backdrop.show {
-  opacity: 1 !important;
   background-color: rgba(0, 0, 0, 0.1) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
+}
+
+.size-guide-offcanvas {
+  width: 640px !important;
+}
+@media (max-width: 991px) {
+  .size-guide-offcanvas {
+    width: 100% !important;
+  }
+}
+
+.size-guide-content .size-guide-top {
+  margin-bottom: 30px;
+}
+.size-guide-content .size-guide-top h2 {
+  font-size: 18px;
+  line-height: 28px;
+}
+.size-guide-content .size-guide-top .btn-close-area {
+  border: 0;
+  background: transparent;
+  padding: 0;
+}
+.size-guide-content .size-guide-top .btn-close-area img {
+  width: 28px;
+}
+.size-guide-content .size-guide-img {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  height: 400px;
+}
+.size-guide-content .size-guide-desc {
+  font-size: 18px;
+  line-height: 28px;
+  color: #141414;
+  margin-bottom: 40px;
+  padding-left: 20px;
+}
+@media (max-width: 991px) {
+  .size-guide-content .size-guide-desc {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 0px;
+  }
+}
+.size-guide-content .size-guide-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.size-guide-content .size-guide-table thead {
+  border-bottom: 1px solid #d8d8d8;
+}
+.size-guide-content .size-guide-table tbody tr {
+  border-bottom: 1px solid #e3e3e3;
+}
+.size-guide-content .size-guide-table tbody tr:last-child {
+  border-bottom: 0;
+}
+.size-guide-content .size-guide-table th,
+.size-guide-content .size-guide-table td {
+  padding: 25px 0;
+  text-align: center;
+  color: #141414;
+  font-size: 16px;
+  font-family: "Poppins-Light";
+}
+@media (max-width: 991px) {
+  .size-guide-content .size-guide-table th,
+  .size-guide-content .size-guide-table td {
+    padding: 20px 6px;
+    font-size: 14px;
+  }
+}
+.size-guide-content .size-guide-table th:first-child,
+.size-guide-content .size-guide-table td:first-child {
+  text-align: left;
+  width: 160px;
+}
+
+/* LEFT SIDE */
+.colors-item .list-color {
+  font-size: 16px;
+  line-height: 25px;
+  color: #141414;
+  margin-bottom: 15px;
+}
+
+.color-list {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.bg-wrapper {
+  padding: 2px;
+  border: 1px solid #8c7972;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brouwn-bg {
+  background-color: #8c7972;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+@media (max-width: 991px) {
+  .brouwn-bg {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+.green-bg {
+  background-color: #1a5442;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+@media (max-width: 991px) {
+  .green-bg {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+.blue-bg {
+  background-color: #153e76;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+@media (max-width: 991px) {
+  .blue-bg {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* RIGHT SIDE */
+.size-guide {
+  padding-top: 10px;
+}
+
+.size-guide a {
+  font-size: 16px;
+  line-height: 25px;
+  color: #141414;
+  text-decoration: underline;
+  font-family: "Poppins-Regular";
 }
 
 .contact-section {

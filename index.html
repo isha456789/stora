@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <!-- on first load open preview page -->
+    <script>
+        if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+            if (!document.referrer.includes(window.location.hostname)) {
+                window.location.href = 'preview.html';
+            }
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>

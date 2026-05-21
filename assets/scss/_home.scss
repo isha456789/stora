@@ -153,15 +153,20 @@
     padding-bottom: 55px;
   }
 
-  .banner {
-    height: 958px;
+  .banner-wrapper  {
+  
     position: relative;
-    border-radius: 10px;
-    overflow: hidden;
+   
 
     @media #{$md} {
       height: 600px;
       padding-bottom: 30px;
+    }
+
+    .banner{
+        height: 958px;
+         border-radius: 10px;
+    overflow: hidden;
     }
 
     .banner-content {

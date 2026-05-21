@@ -15,6 +15,7 @@
     color: $white;
     font-size: 18px;
     line-height: 27px;
+    border: transparent;
 
     @media #{$md} {
       font-size: 13px;
@@ -24,6 +25,7 @@
     &:hover {
       background-color: $color-FFF8F4;
       color: $text-141414;
+      border: 1px solid black;
 
       .btn-icon,
       .cart-icon {

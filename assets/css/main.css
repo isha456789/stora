@@ -800,6 +800,7 @@
   color: #ffffff;
   font-size: 18px;
   line-height: 27px;
+  border: transparent;
 }
 @media (max-width: 991px) {
   .btnA.bg-141414-btn {
@@ -810,6 +811,7 @@
 .btnA.bg-141414-btn:hover {
   background-color: #FFF8F4;
   color: #141414;
+  border: 1px solid black;
 }
 .btnA.bg-141414-btn:hover .btn-icon,
 .btnA.bg-141414-btn:hover .cart-icon {
@@ -4026,6 +4028,10 @@
     flex-direction: column;
   }
 }
+.blog-detail-section .blog-content .double-image-section .double-image {
+  overflow: hidden;
+  border-radius: 10px;
+}
 
 /* SIDEBAR */
 .back-link {
@@ -4148,6 +4154,4 @@
 
 .faq-page-main .style-hub-section {
   padding-top: 200px !important;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

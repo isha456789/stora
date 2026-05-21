@@ -1247,6 +1247,12 @@
     align-items: center;
   }
 }
+.footer-main .footer-bottom .footer-row .text-bottom-1 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #F7F7F7 !important;
+  opacity: 50%;
+}
 .footer-main .footer-bottom .footer-row .text-bottom {
   font-size: 16px;
   line-height: 28px;
@@ -4154,4 +4160,6 @@
 
 .faq-page-main .style-hub-section {
   padding-top: 200px !important;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

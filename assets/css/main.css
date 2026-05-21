@@ -903,8 +903,7 @@
   }
 }
 .header-main .header-bottom .header-center .header-logo {
-  font-size: 38px;
-  line-height: 38px;
+  height: 66px;
 }
 .header-main .header-bottom .header-center .header-logo a {
   color: #141414;
@@ -2172,8 +2171,7 @@
   }
 }
 .header-main .header-bottom .header-center .header-logo {
-  font-size: 38px;
-  line-height: 38px;
+  height: 66px;
 }
 .header-main .header-bottom .header-center .header-logo a {
   color: #141414;
@@ -4147,4 +4145,143 @@
 
 .faq-page-main .style-hub-section {
   padding-top: 200px !important;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: black;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: black;
+  padding: 20px 0;
+}
+header .brand-logo {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.doc-section {
+  padding: 60px 0;
+}
+.doc-section .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: black;
+  border-bottom: 3px solid red;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.content-box {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+.content-box p {
+  color: #444;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.code-box {
+  background: #272822;
+  color: #f8f8f2;
+  padding: 20px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 25px;
+}
+.code-box pre {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+.table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-wrapper table th,
+.table-wrapper table td {
+  padding: 15px 20px;
+  border-bottom: 1px solid #e9ecef;
+  text-align: left;
+}
+.table-wrapper table th {
+  background-color: #f1f3f5;
+  font-weight: 600;
+  color: black;
+}
+.table-wrapper table tr:last-child td {
+  border-bottom: none;
+}
+.table-wrapper table code {
+  background: #fef0f1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #D61E2A;
+  font-weight: 600;
+}
+
+.custom-theme-box .custom-theme-title {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.custom-theme-box .custom-theme-file code {
+  background-color: #e9ecef;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #D61E2A;
+  font-weight: bold;
+}
+.custom-theme-box .theme-color-grid {
+  display: grid;
+  gap: 20px;
+  margin-top: 30px;
+}
+.custom-theme-box .theme-color-item {
+  background: #fdfdfd;
+  border: 1px solid #e9ecef;
+  padding: 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.custom-theme-box .theme-color-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  border-color: #d1d5db;
+}
+.custom-theme-box .theme-color-item h5 {
+  font-size: 16px;
+  color: black;
+}
+.custom-theme-box .theme-color-item p {
+  font-size: 14px;
+}
+.custom-theme-box .custom-theme-note {
+  border-left: 4px solid #D61E2A;
+  border-radius: 0 8px 8px 0;
+}
+
+.note-box {
+  background-color: #e9f5fe;
+  border-left: 4px solid #3b82f6;
+  padding: 15px 20px;
+  border-radius: 0 8px 8px 0;
+  margin-top: 20px;
+}
+.note-box p {
+  margin: 0;
+  color: #1e3a8a;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */

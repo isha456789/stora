@@ -28,6 +28,7 @@
 
 
     .hero-content-wrapper {
+        transform: translate(0%, -50%);
         .hero-prefix {
             font-size: 22px;
             letter-spacing: 1.80px;
@@ -159,7 +160,7 @@
 }
 
 .preview-banner-section {
-    height: 540px;
+    height: 700px;
 
     .preview-content-wrapper {
         .banner-title {

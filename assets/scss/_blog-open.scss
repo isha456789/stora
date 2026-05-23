@@ -4,11 +4,13 @@
   padding-bottom: 210px;
 
   @media #{$md} {
-    padding-top: 120px;
+    padding-top: 170px;
     padding-bottom: 70px;
   }
 
   .blog-sidebar {
+    position: sticky;
+    top: 200px;
     @media #{$md} {
       margin-bottom: 50px;
     }
@@ -45,7 +47,7 @@
         background-color: #f7f7f7;
         padding: 07px 10px;
         display: inline-flex;
-        border-radius: 10px;
+        border-radius: 5px;
         margin-bottom: 19px;
 
         @media #{$md} {
@@ -122,7 +124,7 @@
       background-color: #f7f7f7;
       padding: 09px 12px;
       display: inline-flex;
-      border-radius: 10px;
+      border-radius: 5px;
 
       @media #{$md} {
         font-size: 12px;
@@ -210,6 +212,7 @@
       .double-image {
         overflow: hidden;
         border-radius: 10px;
+        height: 390px;
       }
     }
   }

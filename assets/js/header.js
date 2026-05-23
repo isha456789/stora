@@ -30,15 +30,20 @@ $(document).ready(function () {
       });
 
       $(".main-header").removeClass("hover-active");
+      $("body").removeClass("menu-blur");
     } else {
       $(".header-link").removeClass("res-menu-active");
 
       $(".header-link").on("mouseenter", function () {
-        $(".main-header").addClass("hover-active");
+        if ($(this).children(".mega-menu").length > 0) {
+          $(".main-header").addClass("hover-active");
+          $("body").addClass("menu-blur");
+        }
       });
 
       $(".header-link").on("mouseleave", function () {
         $(".main-header").removeClass("hover-active");
+        $("body").removeClass("menu-blur");
       });
     }
   }
@@ -50,38 +55,18 @@ $(document).ready(function () {
   });
 });
 
-
 const burgerMenu = document.querySelector(".burger-menu");
-
 const headerLeft = document.querySelector(".header-left");
-
-// BURGER MENU
 burgerMenu.addEventListener("click", () => {
-
   burgerMenu.classList.toggle("active");
-
   headerLeft.classList.toggle("active");
-
 });
-
-// MEGA MENU MOBILE
 const headerLinks = document.querySelectorAll(".header-link");
-
 headerLinks.forEach((item) => {
-
   item.addEventListener("click", (e) => {
-
-    // only mobile
     if (window.innerWidth <= 991) {
-
-      // anchor stop
       e.preventDefault();
-
-      // class add remove
       item.classList.toggle("res-menu-active");
-
     }
-
   });
-
 });

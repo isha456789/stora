@@ -3,6 +3,7 @@
   position: relative;
   z-index: 3;
   padding-top: 58px;
+
   .footer-img {
     height: 670px;
     overflow: hidden;
@@ -26,12 +27,10 @@
     .footer-overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0.75),
-        rgba(0, 0, 0, 0.2),
-        rgba(0, 0, 0, 0.1)
-      );
+      background: linear-gradient(to top,
+          rgba(0, 0, 0, 0.75),
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.1));
       z-index: 1;
     }
 
@@ -62,6 +61,7 @@
     .newsletter-text {
       font-size: 14px;
       line-height: 16px;
+
       @media #{$md} {
         font-size: 13px;
         line-height: 20px;
@@ -99,8 +99,10 @@
       }
     }
   }
+
   .footer-top {
     border-bottom: 1px solid rgba($color: #f7f7f7, $alpha: 0.1);
+
     @media #{$md} {
       flex-direction: column;
       padding: 30px 0 !important;
@@ -113,35 +115,50 @@
         color: $text-F7F7F7;
         opacity: 50%;
       }
+
       .contact-call {
         font-size: 16px;
         line-height: 28px;
         color: $text-F7F7F7;
         opacity: 50%;
+
+        a {
+          color: $text-F7F7F7;
+          // opacity: 50%;
+        }
       }
+
       .email-this {
         font-size: 16px;
         line-height: 28px;
         color: $text-F7F7F7;
         opacity: 50%;
+
+        a {
+          color: $text-F7F7F7;
+        }
       }
     }
+
     .location-footer {
       @media #{$md} {
         width: 100%;
       }
+
       .location-this {
         font-size: 16px;
         line-height: 25px;
         color: $text-F7F7F7;
         opacity: 50%;
       }
+
       .adress-for {
         font-size: 16px;
         line-height: 28px;
         color: $text-F7F7F7;
         opacity: 50%;
       }
+
       .location-btn {
         font-size: 16px;
         line-height: 28px;
@@ -150,26 +167,33 @@
       }
     }
   }
+
   .footer-middle {
     border-bottom: 1px solid rgba($color: #f7f7f7, $alpha: 0.1);
+
     ul {
       list-style: none;
+
       a {
         text-decoration: none;
         color: $text-F7F7F7;
         opacity: 50%;
       }
+
       .footer-list {
         font-size: 16px;
         line-height: 28px;
       }
     }
   }
+
   .footer-third {
     border-bottom: 1px solid rgba($color: #f7f7f7, $alpha: 0.1);
+
     @media #{$md} {
       flex-direction: column;
     }
+
     .footer-icon {
       width: 42px;
       height: 42px;
@@ -183,6 +207,7 @@
       &:first-child {
         margin-left: 0px !important;
       }
+
       img {
         width: 18px;
         height: 18px;
@@ -190,22 +215,26 @@
         display: block;
       }
     }
+
     .footer-frem {
       height: 21px;
     }
   }
+
   .footer-bottom {
     .footer-row {
       @media #{$md} {
         flex-direction: column;
         align-items: center;
       }
+
       .text-bottom-1 {
         font-size: 16px;
         line-height: 28px;
         color: $text-F7F7F7 !important;
         opacity: 50%;
       }
+
       .text-bottom {
         font-size: 16px;
         line-height: 28px;
@@ -214,6 +243,7 @@
           font-size: 14px;
           line-height: 20px;
         }
+
         a {
           color: $text-F7F7F7 !important;
           opacity: 50%;

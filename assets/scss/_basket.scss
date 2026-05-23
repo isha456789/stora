@@ -78,8 +78,13 @@
   .tax-note {
     background-color: #F0F0F0;
     // opacity: 100%;
-    font-size: 14px;
+    border-radius: 10px;
+    
+    .note-title{
+font-size: 14px;
     line-height: 28px;
+    color: $text-818181;
+    }
   }
 
   .meta {

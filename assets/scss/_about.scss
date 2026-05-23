@@ -21,8 +21,8 @@
         height: 30px;
         border-radius: 30px;
         border: 1px solid #fff8f4;
-        color: $text-FAFAFA;
-        font-size: 15px;
+        color: #FFF8F4;
+        font-size: 14px;
         @media #{$md} {
           font-size: 13px;
         }
@@ -149,7 +149,13 @@
   @media #{$md} {
     padding-bottom: 80px;
   }
-
+.faq-title{
+  font-size: 20px;
+   @media #{$md} {
+  font-size: 15px;
+    
+  }
+}
   .heading {
     font-size: 50px;
     line-height: 60px;

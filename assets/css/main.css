@@ -842,6 +842,10 @@ body.menu-blur::before {
   line-height: 60px !important;
 }
 
+.offcanvas {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1607843137);
+}
+
 .btnA {
   height: 55px;
   padding-left: 20px;
@@ -1089,6 +1093,17 @@ body.menu-blur::before {
   height: 405px;
   overflow: hidden;
   border-radius: 10px;
+}
+.header-main .header-bottom .mega-menu .mega-header {
+  font-size: 16px;
+  line-height: 26px;
+  color: #141414;
+}
+.header-main .header-bottom .mega-menu .mega-header ul li a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #141414;
+  opacity: 80%;
 }
 @media (max-width: 767px) {
   .header-main .header-bottom .header-link.res-menu-active .mega-menu {
@@ -2327,6 +2342,17 @@ body.menu-blur::before {
   overflow: hidden;
   border-radius: 10px;
 }
+.header-main .header-bottom .mega-menu .mega-header {
+  font-size: 16px;
+  line-height: 26px;
+  color: #141414;
+}
+.header-main .header-bottom .mega-menu .mega-header ul li a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #141414;
+  opacity: 80%;
+}
 @media (max-width: 767px) {
   .header-main .header-bottom .header-link.res-menu-active .mega-menu {
     display: block !important;
@@ -2497,9 +2523,11 @@ body.menu-blur::before {
 
 .faq-section {
   padding-bottom: 170px;
+  padding-top: 150px;
 }
 @media (max-width: 991px) {
   .faq-section {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 }
@@ -3647,6 +3675,8 @@ body.menu-blur::before {
 }
 .contact-section .contact-form-wrapper .form-group input {
   width: 100%;
+  padding: 10px;
+  font-family: "Poppins-Regular";
   border: 1px solid rgba(129, 129, 129, 0.3019607843);
   background: #ffe7e0;
   border-radius: 10px;
@@ -4222,6 +4252,4 @@ body.menu-blur::before {
 
 .faq-page-main .style-hub-section {
   padding-top: 200px !important;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

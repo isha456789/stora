@@ -903,9 +903,14 @@ body.menu-blur::before {
   position: relative;
   z-index: 100;
 }
- .offcanvas-header {
-    .offcanvas-label {
-      font-size: 30px !important;
-      line-height: 60px !important;
-    }
+
+.offcanvas-header {
+  .offcanvas-label {
+    font-size: 30px !important;
+    line-height: 60px !important;
   }
+}
+
+.offcanvas {
+  box-shadow: 0px 2px 4px #00000029;
+}

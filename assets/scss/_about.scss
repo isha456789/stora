@@ -146,7 +146,9 @@
 
 .faq-section {
   padding-bottom: 170px;
+  padding-top: 150px;
   @media #{$md} {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 .faq-title{

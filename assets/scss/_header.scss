@@ -201,6 +201,21 @@
         overflow: hidden;
         border-radius: 10px;
       }
+      .mega-header{
+        font-size: 16px;
+        line-height: 26px;
+        color: $color-141414;
+        ul{
+          li{
+            a{
+               font-size: 16px;
+        line-height: 26px;
+        color: $color-141414;
+        opacity: 80%;
+            }
+          }
+        }
+      }
     }
 
     // MOBILE OPEN

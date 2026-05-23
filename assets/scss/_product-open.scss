@@ -289,6 +289,7 @@
 
           .look-img {
             height: 80px;
+            width: 80px;
             border-radius: 6px;
             overflow: hidden;
           }
@@ -475,6 +476,7 @@
 
         .cart-item-img {
           height: 78px;
+          width: 78px;
           margin-right: 20px;
           overflow: hidden;
           border-radius: 5px;
@@ -483,6 +485,8 @@
 
         .remove-btn {
           height: 15px;
+          width: 15px;
+          padding: 0;
           border: none;
           background: transparent;
         }

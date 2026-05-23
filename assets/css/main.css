@@ -846,6 +846,10 @@ body.menu-blur::before {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1607843137);
 }
 
+.left-border {
+  border-left: 1px solid rgba(112, 112, 112, 0.5);
+}
+
 .btnA {
   height: 55px;
   padding-left: 20px;
@@ -3173,6 +3177,7 @@ body.menu-blur::before {
 }
 .winter-product-section .winter-cards .right-content .look-item .look-list .look-img {
   height: 80px;
+  width: 80px;
   border-radius: 6px;
   overflow: hidden;
 }
@@ -3348,12 +3353,15 @@ body.menu-blur::before {
 }
 .cart-offcanvas .cart-offcanvas-wrapper .cart-wrapper .cart-iteam .cart-item-img {
   height: 78px;
+  width: 78px;
   margin-right: 20px;
   overflow: hidden;
   border-radius: 5px;
 }
 .cart-offcanvas .cart-offcanvas-wrapper .cart-wrapper .cart-iteam .remove-btn {
   height: 15px;
+  width: 15px;
+  padding: 0;
   border: none;
   background: transparent;
 }

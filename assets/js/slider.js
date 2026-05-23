@@ -60,7 +60,7 @@ $(document).ready(function () {
   });
 
   $(".history-slider").slick({
-    autoplay: true,
+    autoplay: false,
     centerMode: false,
     infinite: false,
     arrows: false,

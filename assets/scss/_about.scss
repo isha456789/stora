@@ -54,6 +54,8 @@
 
         .our-history-img {
           height: 358px;
+          border-radius: 10px;
+          overflow: hidden;
 
           @media #{$md} {
             height: 200px;

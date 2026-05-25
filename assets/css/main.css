@@ -4,6 +4,12 @@
   padding-left: 60px;
   padding-right: 60px;
 }
+@media (max-width: 991px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
 .row24 {
   margin-left: -24px;
@@ -2440,6 +2446,8 @@ body.menu-blur::before {
 }
 .history-slider-section .history-slider .history-content .our-history-card .our-history-img {
   height: 358px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 @media (max-width: 991px) {
   .history-slider-section .history-slider .history-content .our-history-card .our-history-img {
@@ -3476,7 +3484,6 @@ body.menu-blur::before {
   line-height: 28px;
   color: #141414;
   margin-bottom: 40px;
-  padding-left: 20px;
 }
 @media (max-width: 991px) {
   .size-guide-content .size-guide-desc {

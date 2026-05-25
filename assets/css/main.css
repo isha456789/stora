@@ -3859,12 +3859,13 @@ body.menu-blur::before {
   }
 }
 .news-category-section .category-wrapper .category-btn {
-  padding: 15px 27px;
+  padding: 13px 27px;
   border: 1px solid #141414;
   border-radius: 40px;
   background: #fff;
   color: #141414;
   font-size: 18px;
+  height: 55px;
   font-family: "Poppins-Regular";
   cursor: pointer;
   transition: 0.3s ease;
@@ -4280,4 +4281,6 @@ body.menu-blur::before {
 
 .faq-page-main .style-hub-section {
   padding-top: 200px !important;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */

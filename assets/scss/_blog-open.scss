@@ -200,19 +200,19 @@
     }
 
     .double-image-section {
-      height: 390px;
       margin-bottom: 50px;
+      
+      .double-image{
+        height: 390px;
+      }
 
       @media #{$md} {
-        height: auto;
         margin-bottom: 35px;
-        flex-direction: column;
       }
 
       .double-image {
         overflow: hidden;
         border-radius: 10px;
-        height: 390px;
       }
     }
   }

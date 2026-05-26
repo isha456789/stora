@@ -189,13 +189,17 @@
 
     .product-card {
       padding-inline: 14px;
-      width: 25%;
       padding-bottom: 70px;
 
       @media #{$md} {
-        padding-inline: 5px;
-        width: 50%;
+        padding-inline: 10px;
         padding-bottom: 40px;
+        margin-bottom: 15px;
+      }
+      
+      @media #{$sm} {
+        margin-bottom: 15px;
+        padding-inline: 3px !important;
 
       }
 

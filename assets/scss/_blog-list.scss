@@ -1,6 +1,7 @@
 .red-btn {
   height: 32px !important;
 }
+
 .news-read {
   font-size: 16px;
   line-height: 24px;
@@ -8,50 +9,58 @@
 }
 
 .news-category-section {
-  .category-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    flex-wrap: wrap;
-    padding-bottom: 90px;
+  .catagery-group {
+    overflow-x: visible;
 
-    @media #{$md} {
-      gap: 10px;
-      padding-bottom: 45px;
-    }
+    .category-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      // flex-wrap: wrap;
+      overflow-x: auto;
 
-    .category-btn {
-      padding: 13px 27px;
-      border: 1px solid $text-141414;
-      border-radius: 40px;
-      background: #fff;
-      color: $text-141414;
-      font-size: 18px;
-      height: 55px;
-      font-family: "Poppins-Regular";
-      cursor: pointer;
-      transition: 0.3s ease;
+      padding-bottom: 90px;
 
       @media #{$md} {
-        padding: 8px 16px;
-        font-size: 12px;
-        line-height: 18px;
-        border-radius: 30px;
+        gap: 10px;
+        padding-bottom: 25px;
       }
-    }
 
-    /* Active Button */
-    .category-btn.active {
-      background: $color-D61E2A;
-      color: #fff;
-      border-color: $color-D61E2A;
-    }
+      .category-btn {
+        padding: 13px 27px;
+        border: 1px solid $text-141414;
+        border-radius: 40px;
+        background: #fff;
+        color: $text-141414;
+        font-size: 18px;
+        height: 55px;
+        font-family: "Poppins-Regular";
+        cursor: pointer;
+        transition: 0.3s ease;
 
-    /* Hover Effect */
-    .category-btn:hover {
-      background: $color-D61E2A;
-      color: #fff;
-      border-color: $color-D61E2A;
+        @media #{$md} {
+          padding: 8px 16px;
+          font-size: 12px;
+          line-height: 18px;
+          border-radius: 30px;
+        height: 37px;
+
+        }
+      }
+
+      /* Active Button */
+      .category-btn.active {
+        background: $color-D61E2A;
+        color: #fff;
+        border-color: $color-D61E2A;
+      }
+
+      /* Hover Effect */
+      .category-btn:hover {
+        background: $color-D61E2A;
+        color: #fff;
+        border-color: $color-D61E2A;
+      }
     }
   }
 }

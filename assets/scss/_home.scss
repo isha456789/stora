@@ -195,8 +195,11 @@
 
       @media #{$md} {
         height: 600px;
-        // padding-bottom: 30px;
       }
+      @media #{$sm} {
+        height: 500px;
+      }
+
     }
 
     .banner-content {
@@ -244,147 +247,6 @@
     }
   }
 
-  // .product-cards {
-  //   display: flex;
-  //   flex-wrap: wrap;
-  //   .product-card {
-  //     width: 50%;
-  //     padding-inline: 14px;
-
-  //     @media #{$md} {
-  //       padding-inline: 7px;
-  //     }
-
-  //     .product-image {
-  //       position: relative;
-  //       border-radius: 18px;
-  //       overflow: hidden;
-  //       height: 320px;
-  //       cursor: pointer;
-
-  //       @media #{$md} {
-  //         height: 180px;
-  //       }
-
-  //       .wishlist {
-  //         height: 25px;
-  //       }
-  //     }
-
-  //     .product-img {
-  //       position: absolute;
-  //       inset: 0;
-  //       width: 100%;
-  //       height: 100%;
-  //       object-fit: cover;
-
-  //       transition:
-  //         opacity 0.6s ease,
-  //         transform 0.8s ease;
-  //     }
-
-  //     .primary-img {
-  //       opacity: 1;
-  //       transform: scale(1);
-  //       z-index: 1;
-  //     }
-
-  //     .secondary-img {
-  //       opacity: 0;
-  //       transform: scale(1.1);
-  //       z-index: 2;
-  //     }
-
-  //     &:hover {
-  //       .primary-img {
-  //         opacity: 0;
-  //         transform: scale(1.1);
-  //       }
-
-  //       .secondary-img {
-  //         opacity: 1;
-  //         transform: scale(1);
-  //       }
-  //     }
-  //     .product-tag {
-  //       position: absolute;
-  //       top: 14px;
-  //       left: 14px;
-  //       font-size: 10px;
-  //       border-radius: 6px;
-  //       z-index: 2;
-  //       color: $text-141414;
-
-  //       @media #{$md} {
-  //         top: 12px;
-  //         left: 12px;
-  //         font-size: 8px;
-  //       }
-  //     }
-  //     .wishlist {
-  //       position: absolute;
-  //       top: 14px;
-  //       right: 14px;
-  //       height: 16px;
-  //       border-radius: 50%;
-  //       display: flex;
-  //       align-items: center;
-  //       justify-content: center;
-  //       cursor: pointer;
-  //       z-index: 2;
-  //       @media #{$md} {
-  //         top: 12px;
-  //         right: 12px;
-  //         height: 13px !important;
-  //       }
-  //     }
-  //     .product-info {
-  //       padding-top: 14px;
-  //     }
-
-  //     .title-row {
-  //       display: flex;
-  //       justify-content: space-between;
-  //       align-items: flex-start;
-  //       margin-bottom: 10px;
-  //     }
-
-  //     .product-title {
-  //       font-size: 16px;
-  //       line-height: 24px;
-  //       color: $text-141414;
-  //       // text-wrap: nowrap;
-  //       @media #{$md} {
-  //         font-size: 12px;
-  //         line-height: 18px;
-  //       }
-  //     }
-
-  //     .product-discount {
-  //       font-size: 13px;
-  //       line-height: 13px;
-  //       border-radius: 6px;
-  //       background-color: $text-141414;
-
-  //       @media #{$md} {
-  //         font-size: 8px;
-  //         line-height: 13px;
-  //       }
-  //     }
-
-  //     .product-price {
-  //       font-size: 16px;
-  //       line-height: 22px;
-  //       color: $color-D61E2A;
-
-  //       @media #{$md} {
-  //         font-size: 12px;
-  //         line-height: 18px;
-  //       }
-  //     }
-  //   }
-  // }
-
   .product-cards {
     display: flex;
     flex-wrap: wrap;
@@ -394,6 +256,14 @@
 
       @media #{$md} {
         margin-bottom: 15px;
+        padding-inline: 14px;
+
+      }
+
+      @media #{$sm} {
+        margin-bottom: 15px;
+        padding-inline: 3px !important;
+
       }
 
       .product-image {
@@ -607,13 +477,19 @@
 
     .product-card {
       padding-inline: 14px;
-      // width: 25%;
+   
 
       @media #{$md} {
-        padding-inline: 5px;
-        width: 50%;
+        margin-bottom: 15px;
+        padding-inline: 14px;
+
       }
 
+      @media #{$sm} {
+        margin-bottom: 15px;
+        padding-inline: 3px !important;
+
+      }
       .product-image {
         position: relative;
         height: 320px;

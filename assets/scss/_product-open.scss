@@ -16,16 +16,17 @@
       font-size: 11px;
       line-height: 20px;
     }
-  }
 
-  .winter-sub-title {
-    color: $text-818181;
-    font-size: 18px;
-    line-height: 27px;
 
-    @media #{$md} {
-      font-size: 11px;
-      line-height: 20px;
+    span {
+      color: $text-818181;
+      font-size: 18px;
+      line-height: 27px;
+
+      @media #{$md} {
+        font-size: 11px;
+        line-height: 20px;
+      }
     }
   }
 
@@ -170,6 +171,9 @@
           .size-wrapper {
             border: 1px solid #707070;
             border-radius: 20px;
+             @media #{$sm} {
+           margin-bottom: 10px;
+          }
 
             &.active {
               border: none;
@@ -323,7 +327,6 @@
   margin-bottom: 140px;
 
   @media #{$md} {
-    padding: 12px;
     margin-bottom: 70px;
   }
 
@@ -461,7 +464,7 @@
   width: 500px !important;
 
   // z-index: 999;
- 
+
 
   .cart-offcanvas-wrapper {
     display: flex;

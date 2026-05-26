@@ -64,7 +64,7 @@ burgerMenu.addEventListener("click", () => {
 const headerLinks = document.querySelectorAll(".header-link");
 headerLinks.forEach((item) => {
   item.addEventListener("click", (e) => {
-    if (window.innerWidth <= 991) {
+    if (window.innerWidth <= 1025) {
       e.preventDefault();
       item.classList.toggle("res-menu-active");
     }

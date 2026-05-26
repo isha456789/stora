@@ -45,9 +45,10 @@
 
       .header-logo {
         height: 66px;
-         @media #{$lg}{
+
+        @media #{$lg} {
           height: 55px;
-         }
+        }
 
 
         a {
@@ -113,10 +114,13 @@
           align-items: flex-start !important;
         }
 
+       
+
         .header-link {
           margin-left: 0 !important;
           margin-bottom: 20px;
         }
+      
       }
     }
 
@@ -182,6 +186,14 @@
       z-index: 999;
       border-top: 1px solid #70707080;
 
+      @media #{$lg} {
+        .mega-container {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
+      }
+
+
       a {
         color: #141414;
         opacity: 80%;
@@ -206,17 +218,19 @@
         overflow: hidden;
         border-radius: 10px;
       }
-      .mega-header{
+
+      .mega-header {
         font-size: 16px;
         line-height: 26px;
         color: $color-141414;
-        ul{
-          li{
-            a{
-               font-size: 16px;
-        line-height: 26px;
-        color: $color-141414;
-        opacity: 80%;
+
+        ul {
+          li {
+            a {
+              font-size: 16px;
+              line-height: 26px;
+              color: $color-141414;
+              opacity: 80%;
             }
           }
         }
